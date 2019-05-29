@@ -16,8 +16,9 @@ Video File: How to import existing projects and assets.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 2
-Video Position: 176
+Scroll Position: 79
+Active Line: 77
+Video Position: 4254
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,66 +27,120 @@ Style: ENG,Noto Sans,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:03.05,0:00:05.45,CHS,,0,0,0,,{\fad(50,50)}本教程中我们将展示如何
+Dialogue: 1,0:00:03.05,0:00:05.45,CHS,,0,0,0,,{\fad(50,50)}本期教程中我们将展示如何
 Dialogue: 2,0:00:03.05,0:00:05.45,ENG,,0,0,0,,{\fad(50,50)}In this lesson we're going to show how to
-Dialogue: 1,0:00:05.84,0:00:10.26,CHS,,0,0,0,,{\fad(50,50)}导入给定素材 特别是粒子
+Dialogue: 1,0:00:05.84,0:00:10.26,CHS,,0,0,0,,{\fad(50,50)}导入给定的粒子样例素材
 Dialogue: 2,0:00:05.84,0:00:10.26,ENG,,0,0,0,,{\fad(50,50)}take the content examples that are given specifically the particle example
-Dialogue: 1,0:00:10.64,0:00:15.62,CHS,,0,0,0,,{\fad(50,50)}
+Dialogue: 1,0:00:10.64,0:00:15.62,CHS,,0,0,0,,{\fad(50,50)}并将其加入已有项目
 Dialogue: 2,0:00:10.64,0:00:15.62,ENG,,0,0,0,,{\fad(50,50)}and maybe add it to a project that basically already exist.
-Dialogue: 1,0:00:15.82,0:00:18.77,CHS,,0,0,0,,{\fad(50,50)}
+Dialogue: 1,0:00:15.82,0:00:18.77,CHS,,0,0,0,,{\fad(50,50)}然后在场景中查看这些粒子
 Dialogue: 2,0:00:15.82,0:00:18.77,ENG,,0,0,0,,{\fad(50,50)}So then we can take the particles and we can view them in the scene.
-Dialogue: 0,0:00:19.42,0:00:25.22,ENG,,0,0,0,,{\fad(50,50)}So to get started, I've already download the Game SDK sample project that shown right here,
-Dialogue: 0,0:00:25.48,0:00:27.76,ENG,,0,0,0,,{\fad(50,50)}and it shows that it's installed.
-Dialogue: 0,0:00:28.20,0:00:34.44,ENG,,0,0,0,,{\fad(50,50)}So the first thing we need to do is actually target this project at where it resides.
-Dialogue: 0,0:00:34.80,0:00:38.62,ENG,,0,0,0,,{\fad(50,50)}So we're gonna reveal in the explorer, if I bring that up, we can see
-Dialogue: 0,0:00:38.84,0:00:41.96,ENG,,0,0,0,,{\fad(50,50)}that this project actually resides in the C root
-Dialogue: 0,0:00:42.20,0:00:45.42,ENG,,0,0,0,,{\fad(50,50)}CRYENGINE Launcher\Crytek\GameSDK_5.0
-Dialogue: 0,0:00:45.56,0:00:48.00,ENG,,0,0,0,,{\fad(50,50)}and then this is your actual game folder.
-Dialogue: 0,0:00:48.38,0:00:50.44,ENG,,0,0,0,,{\fad(50,50)}So to take a previous to project,
-Dialogue: 0,0:00:50.84,0:00:52.52,ENG,,0,0,0,,{\fad(50,50)}what we're gonna do is step back,
-Dialogue: 0,0:00:52.66,0:00:55.46,ENG,,0,0,0,,{\fad(50,50)}and we're going to click Add Existing project.
-Dialogue: 0,0:00:56.04,0:00:58.18,ENG,,0,0,0,,{\fad(50,50)}Once we click this, we'll get a little prompt
-Dialogue: 0,0:00:58.32,0:01:00.42,ENG,,0,0,0,,{\fad(50,50)}and it allows us to browse for the folder.
-Dialogue: 0,0:01:00.64,0:01:03.12,ENG,,0,0,0,,{\fad(50,50)}If you remember we said that it was in the C root,
-Dialogue: 0,0:01:03.44,0:01:09.14,ENG,,0,0,0,,{\fad(50,50)}so if we go in here, we can see that we have CRYENGINE Launcher\Crytek\GameSDK_5.0,
-Dialogue: 0,0:01:09.32,0:01:11.80,ENG,,0,0,0,,{\fad(50,50)}and then GameSDK is what we want to target.
-Dialogue: 0,0:01:12.28,0:01:16.98,ENG,,0,0,0,,{\fad(50,50)}We're gonna click OK, and now we have added an existing project, it's all new.
-Dialogue: 0,0:01:17.50,0:01:22.82,ENG,,0,0,0,,{\fad(50,50)}But say we wanna add another level to an existing project that we got, say in the sample project.
-Dialogue: 0,0:01:23.24,0:01:24.92,ENG,,0,0,0,,{\fad(50,50)}So, to do that,
-Dialogue: 0,0:01:26.06,0:01:27.80,ENG,,0,0,0,,{\fad(50,50)}let's go ahead and close this,
-Dialogue: 0,0:01:28.22,0:01:33.26,ENG,,0,0,0,,{\fad(50,50)}and we're gonna target the GameSDK project specifically in this path,
-Dialogue: 0,0:01:33.90,0:01:35.74,ENG,,0,0,0,,{\fad(50,50)}open the sample content,
-Dialogue: 0,0:01:36.00,0:01:39.48,ENG,,0,0,0,,{\fad(50,50)}if we go to content examples, GameSDK,
-Dialogue: 0,0:01:39.54,0:01:41.56,ENG,,0,0,0,,{\fad(50,50)}we can see that we have Assets,
-Dialogue: 0,0:01:41.84,0:01:43.74,ENG,,0,0,0,,{\fad(50,50)}and then we have Particles and we have Levels.
-Dialogue: 0,0:01:44.26,0:01:47.44,ENG,,0,0,0,,{\fad(50,50)}So let's go inside of here, because I don't wanna load up everything,
-Dialogue: 0,0:01:48.32,0:01:50.72,ENG,,0,0,0,,{\fad(50,50)}and I'm gonna grab the contentExample
-Dialogue: 0,0:01:51.76,0:01:53.26,ENG,,0,0,0,,{\fad(50,50)}and drag that in,
-Dialogue: 0,0:01:54.18,0:01:57.56,ENG,,0,0,0,,{\fad(50,50)}and I'm gonna that the particles and drag that in.
-Dialogue: 0,0:01:58.72,0:02:03.16,ENG,,0,0,0,,{\fad(50,50)}So now we're ready to fire up the launcher, because we've put everything into our project.
-Dialogue: 0,0:02:03.16,0:02:05.16,ENG,,0,0,0,,{\fad(50,50)}If we just click here,
-Dialogue: 0,0:02:07.64,0:02:10.54,ENG,,0,0,0,,{\fad(50,50)}now we have the engine open, and click down here.
-Dialogue: 0,0:02:11.12,0:02:13.68,ENG,,0,0,0,,{\fad(50,50)}Since it's ready, I also I think I click twice,
-Dialogue: 0,0:02:13.84,0:02:16.98,ENG,,0,0,0,,{\fad(50,50)}so we can remove that, doesn't matter if you open another instance thought.
-Dialogue: 0,0:02:17.72,0:02:21.48,ENG,,0,0,0,,{\fad(50,50)}To File->Open->contentExample,
-Dialogue: 0,0:02:21.80,0:02:24.76,ENG,,0,0,0,,{\fad(50,50)}we're gonna look specifically for the PARTICLE_CONTENT_EXAMPLE.
-Dialogue: 0,0:02:25.04,0:02:26.76,ENG,,0,0,0,,{\fad(50,50)}So if I double click this,
-Dialogue: 0,0:02:27.32,0:02:29.36,ENG,,0,0,0,,{\fad(50,50)}it'll load the file with the level.
-Dialogue: 0,0:02:38.06,0:02:43.66,ENG,,0,0,0,,{\fad(50,50)}And then when it happened, we can see that we have all of the particles lined up to be ready to be used,
-Dialogue: 0,0:02:44.24,0:02:51.02,ENG,,0,0,0,,{\fad(50,50)}and they all have a name, say 3d rotation, volume, and pretty much, you can go and explore these
-Dialogue: 0,0:02:51.42,0:02:55.86,ENG,,0,0,0,,{\fad(50,50)}with the PARTICLE_CONTENT_EXAMPLE. To access the actual particle editor,
-Dialogue: 0,0:02:56.08,0:02:59.12,ENG,,0,0,0,,{\fad(50,50)}you wanna go to Tools->Particle Editor,
-Dialogue: 0,0:02:59.24,0:03:02.26,ENG,,0,0,0,,{\fad(50,50)}and it will automatically load the particles over here.
-Dialogue: 0,0:03:02.74,0:03:05.42,ENG,,0,0,0,,{\fad(50,50)}And you can choose anything, like 3d rotation,
-Dialogue: 0,0:03:05.90,0:03:10.08,ENG,,0,0,0,,{\fad(50,50)}just right here, and hit this for a second,
-Dialogue: 0,0:03:12.88,0:03:14.64,ENG,,0,0,0,,{\fad(50,50)}move that over there,
-Dialogue: 0,0:03:16.64,0:03:19.32,ENG,,0,0,0,,{\fad(50,50)}bring this up, scroll up a little bit,
-Dialogue: 0,0:03:19.88,0:03:25.56,ENG,,0,0,0,,{\fad(50,50)}and we can see this is the actual chain, it allows for the 3d rotation to work.
-Dialogue: 0,0:03:26.58,0:03:28.60,ENG,,0,0,0,,{\fad(50,50)}Bring it up a little closer,
-Dialogue: 0,0:03:31.32,0:03:34.64,ENG,,0,0,0,,{\fad(50,50)}and now we can see exactly what it looks like in the editor,
-Dialogue: 0,0:03:34.64,0:03:37.52,ENG,,0,0,0,,{\fad(50,50)}we can see what it looks like in the graphic editor for the particles.
-Dialogue: 0,0:03:37.72,0:03:40.10,ENG,,0,0,0,,{\fad(50,50)}And I hope you can explore this projects and
-Dialogue: 0,0:03:40.24,0:03:42.94,ENG,,0,0,0,,{\fad(50,50)}get them up and running for your own development, because
-Dialogue: 0,0:03:43.10,0:03:50.08,ENG,,0,0,0,,{\fad(50,50)}particle effects 2 for our DX12 branch has been a great boost compare to the old particle system,
-Dialogue: 0,0:03:50.32,0:03:52.04,ENG,,0,0,0,,{\fad(50,50)}and I think everybody's gonna like it.
+Dialogue: 1,0:00:19.42,0:00:25.22,CHS,,0,0,0,,{\fad(50,50)}我已经下载好了GameSDK样例项目
+Dialogue: 2,0:00:19.42,0:00:25.22,ENG,,0,0,0,,{\fad(50,50)}So to get started, I've already download the Game SDK sample project that shown right here,
+Dialogue: 1,0:00:25.48,0:00:27.76,CHS,,0,0,0,,{\fad(50,50)}这里显示已经下好了
+Dialogue: 2,0:00:25.48,0:00:27.76,ENG,,0,0,0,,{\fad(50,50)}and it shows that it's installed.
+Dialogue: 1,0:00:28.20,0:00:34.44,CHS,,0,0,0,,{\fad(50,50)}首先要做的是 进入这个项目的目录
+Dialogue: 2,0:00:28.20,0:00:34.44,ENG,,0,0,0,,{\fad(50,50)}So the first thing we need to do is actually target this project at where it resides.
+Dialogue: 1,0:00:34.80,0:00:38.62,CHS,,0,0,0,,{\fad(50,50)}在文件资源管理器中打开
+Dialogue: 2,0:00:34.80,0:00:38.62,ENG,,0,0,0,,{\fad(50,50)}So we're gonna reveal in the explorer, if I bring that up, we can see
+Dialogue: 1,0:00:38.84,0:00:41.96,CHS,,0,0,0,,{\fad(50,50)}可以看见这个项目存储在C盘
+Dialogue: 2,0:00:38.84,0:00:41.96,ENG,,0,0,0,,{\fad(50,50)}that this project actually resides in the C root
+Dialogue: 1,0:00:42.20,0:00:45.42,CHS,,0,0,0,,{\fad(50,50)}CRYENGINE Launcher\Crytek\GameSDK_5.0
+Dialogue: 2,0:00:42.20,0:00:45.42,ENG,,0,0,0,,{\fad(50,50)}CRYENGINE Launcher\Crytek\GameSDK_5.0
+Dialogue: 1,0:00:45.56,0:00:48.00,CHS,,0,0,0,,{\fad(50,50)}而这个文件夹就是真正的游戏文件夹
+Dialogue: 2,0:00:45.56,0:00:48.00,ENG,,0,0,0,,{\fad(50,50)}and then this is your actual game folder.
+Dialogue: 1,0:00:48.38,0:00:50.44,CHS,,0,0,0,,{\fad(50,50)}要添加现有的项目
+Dialogue: 2,0:00:48.38,0:00:50.44,ENG,,0,0,0,,{\fad(50,50)}So to take a previous to project,
+Dialogue: 1,0:00:50.84,0:00:52.52,CHS,,0,0,0,,{\fad(50,50)}我们要做的是 返回
+Dialogue: 2,0:00:50.84,0:00:52.52,ENG,,0,0,0,,{\fad(50,50)}what we're gonna do is step back,
+Dialogue: 1,0:00:52.66,0:00:55.46,CHS,,0,0,0,,{\fad(50,50)}然后 我们点击Add Existing
+Dialogue: 2,0:00:52.66,0:00:55.46,ENG,,0,0,0,,{\fad(50,50)}and we're going to click Add Existing project.
+Dialogue: 1,0:00:56.04,0:00:58.18,CHS,,0,0,0,,{\fad(50,50)}点击后 会弹出窗口
+Dialogue: 2,0:00:56.04,0:00:58.18,ENG,,0,0,0,,{\fad(50,50)}Once we click this, we'll get a little prompt
+Dialogue: 1,0:00:58.32,0:01:00.42,CHS,,0,0,0,,{\fad(50,50)}在这里可以选择项目文件夹
+Dialogue: 2,0:00:58.32,0:01:00.42,ENG,,0,0,0,,{\fad(50,50)}and it allows us to browse for the folder.
+Dialogue: 1,0:01:00.64,0:01:03.12,CHS,,0,0,0,,{\fad(50,50)}我们曾说过 GameSDK位于C盘
+Dialogue: 2,0:01:00.64,0:01:03.12,ENG,,0,0,0,,{\fad(50,50)}If you remember we said that it was in the C root,
+Dialogue: 1,0:01:03.44,0:01:09.14,CHS,,0,0,0,,{\fad(50,50)}进入C:\CRYENGINE Launcher\Crytek\ 可以看到GameSDK_5.0
+Dialogue: 2,0:01:03.44,0:01:09.14,ENG,,0,0,0,,{\fad(50,50)}so if we go in here, we can see that we have CRYENGINE Launcher\Crytek\GameSDK_5.0,
+Dialogue: 1,0:01:09.32,0:01:11.80,CHS,,0,0,0,,{\fad(50,50)}里面的GameSDK便是我们想要的
+Dialogue: 2,0:01:09.32,0:01:11.80,ENG,,0,0,0,,{\fad(50,50)}and then GameSDK is what we want to target.
+Dialogue: 1,0:01:12.28,0:01:16.98,CHS,,0,0,0,,{\fad(50,50)}点击OK 我们就导入了已有的项目
+Dialogue: 2,0:01:12.28,0:01:16.98,ENG,,0,0,0,,{\fad(50,50)}We're gonna click OK, and now we have added an existing project, it's all new.
+Dialogue: 1,0:01:17.50,0:01:22.82,CHS,,0,0,0,,{\fad(50,50)}假如说 我想添加关卡到已有项目 例如 添加到样例项目
+Dialogue: 2,0:01:17.50,0:01:22.82,ENG,,0,0,0,,{\fad(50,50)}But say we wanna add another level to an existing project that we got, say in the sample project.
+Dialogue: 1,0:01:23.24,0:01:24.92,CHS,,0,0,0,,{\fad(50,50)}要想做到这点
+Dialogue: 2,0:01:23.24,0:01:24.92,ENG,,0,0,0,,{\fad(50,50)}So, to do that,
+Dialogue: 1,0:01:26.06,0:01:27.80,CHS,,0,0,0,,{\fad(50,50)}我们先把这个关掉
+Dialogue: 2,0:01:26.06,0:01:27.80,ENG,,0,0,0,,{\fad(50,50)}let's go ahead and close this,
+Dialogue: 1,0:01:28.22,0:01:33.26,CHS,,0,0,0,,{\fad(50,50)}我们进入GameSDK这个文件夹
+Dialogue: 2,0:01:28.22,0:01:33.26,ENG,,0,0,0,,{\fad(50,50)}and we're gonna target the GameSDK project specifically in this path,
+Dialogue: 1,0:01:33.90,0:01:35.74,CHS,,0,0,0,,{\fad(50,50)}再打开SAMPLE_CONTENT
+Dialogue: 2,0:01:33.90,0:01:35.74,ENG,,0,0,0,,{\fad(50,50)}open the SAMPLE_CONTENT,
+Dialogue: 1,0:01:36.00,0:01:39.48,CHS,,0,0,0,,{\fad(50,50)}再进入到CONTENT_EXAMPLES\GameSDK
+Dialogue: 2,0:01:36.00,0:01:39.48,ENG,,0,0,0,,{\fad(50,50)}if we go to CONTENT_EXAMPLES\GameSDK,
+Dialogue: 1,0:01:39.54,0:01:41.56,CHS,,0,0,0,,{\fad(50,50)}可以看见这里有个Assets文件夹
+Dialogue: 2,0:01:39.54,0:01:41.56,ENG,,0,0,0,,{\fad(50,50)}we can see that we have Assets,
+Dialogue: 1,0:01:41.84,0:01:43.74,CHS,,0,0,0,,{\fad(50,50)}里面有Particles和Levels文件夹
+Dialogue: 2,0:01:41.84,0:01:43.74,ENG,,0,0,0,,{\fad(50,50)}and then we have Particles and we have Levels.
+Dialogue: 1,0:01:44.26,0:01:47.44,CHS,,0,0,0,,{\fad(50,50)}我们先进到Assets 因为我不想都复制到上一级
+Dialogue: 2,0:01:44.26,0:01:47.44,ENG,,0,0,0,,{\fad(50,50)}So let's go inside of here, because I don't wanna load up everything,
+Dialogue: 1,0:01:48.32,0:01:50.72,CHS,,0,0,0,,{\fad(50,50)}我们拖住contentExample
+Dialogue: 2,0:01:48.32,0:01:50.72,ENG,,0,0,0,,{\fad(50,50)}and I'm gonna grab the contentExample
+Dialogue: 1,0:01:51.76,0:01:53.26,CHS,,0,0,0,,{\fad(50,50)}拖到levels里
+Dialogue: 2,0:01:51.76,0:01:53.26,ENG,,0,0,0,,{\fad(50,50)}and drag that in,
+Dialogue: 1,0:01:54.18,0:01:57.56,CHS,,0,0,0,,{\fad(50,50)}然后拖住Particles到这里
+Dialogue: 2,0:01:54.18,0:01:57.56,ENG,,0,0,0,,{\fad(50,50)}and I'm gonna take the particles and drag that in.
+Dialogue: 1,0:01:58.72,0:02:03.16,CHS,,0,0,0,,{\fad(50,50)}现在一切都准备好了 我们可以打开启动器了
+Dialogue: 2,0:01:58.72,0:02:03.16,ENG,,0,0,0,,{\fad(50,50)}So now we're ready to fire up the launcher, because we've put everything into our project.
+Dialogue: 1,0:02:03.16,0:02:05.16,CHS,,0,0,0,,{\fad(50,50)}点击这里
+Dialogue: 2,0:02:03.16,0:02:05.16,ENG,,0,0,0,,{\fad(50,50)}If we just click here,
+Dialogue: 1,0:02:07.64,0:02:10.54,CHS,,0,0,0,,{\fad(50,50)}引擎便打开了
+Dialogue: 2,0:02:07.64,0:02:10.54,ENG,,0,0,0,,{\fad(50,50)}now we have the engine open, and click down here.
+Dialogue: 1,0:02:11.12,0:02:13.68,CHS,,0,0,0,,{\fad(50,50)}不过我好像点了两下
+Dialogue: 2,0:02:11.12,0:02:13.68,ENG,,0,0,0,,{\fad(50,50)}Since it's ready, I also I think I click twice,
+Dialogue: 1,0:02:13.84,0:02:16.98,CHS,,0,0,0,,{\fad(50,50)}那个窗口取消就行 打开多个引擎也没有关系
+Dialogue: 2,0:02:13.84,0:02:16.98,ENG,,0,0,0,,{\fad(50,50)}so we can remove that, doesn't matter if you open another instance thought.
+Dialogue: 1,0:02:17.72,0:02:21.48,CHS,,0,0,0,,{\fad(50,50)}打开File->Open->contentExample
+Dialogue: 2,0:02:17.72,0:02:21.48,ENG,,0,0,0,,{\fad(50,50)}To File->Open->contentExample,
+Dialogue: 1,0:02:21.80,0:02:24.76,CHS,,0,0,0,,{\fad(50,50)}我们好好看看PARTICLE_CONTENT_EXAMPLE
+Dialogue: 2,0:02:21.80,0:02:24.76,ENG,,0,0,0,,{\fad(50,50)}we're gonna look specifically for the PARTICLE_CONTENT_EXAMPLE.
+Dialogue: 1,0:02:25.04,0:02:26.76,CHS,,0,0,0,,{\fad(50,50)}我们双击它
+Dialogue: 2,0:02:25.04,0:02:26.76,ENG,,0,0,0,,{\fad(50,50)}So if I double click this,
+Dialogue: 1,0:02:27.32,0:02:29.36,CHS,,0,0,0,,{\fad(50,50)}引擎便会加载关卡
+Dialogue: 2,0:02:27.32,0:02:29.36,ENG,,0,0,0,,{\fad(50,50)}it'll load the file with the level.
+Dialogue: 1,0:02:38.06,0:02:43.66,CHS,,0,0,0,,{\fad(50,50)}加载后 可以看到所有粒子都排列在这里 准备使用
+Dialogue: 2,0:02:38.06,0:02:43.66,ENG,,0,0,0,,{\fad(50,50)}And then when it happened, we can see that we have all of the particles lined up to be ready to be used,
+Dialogue: 1,0:02:44.24,0:02:53.23,CHS,,0,0,0,,{\fad(50,50)}它们都有名称 我们有3D旋转 体积 都在这个关卡里
+Dialogue: 2,0:02:44.24,0:02:51.02,ENG,,0,0,0,,{\fad(50,50)}and they all have a name, say 3d rotation, volume, and pretty much, you can go and explore these
+Dialogue: 1,0:02:53.24,0:02:55.86,CHS,,0,0,0,,{\fad(50,50)}要访问粒子编辑器
+Dialogue: 2,0:02:51.42,0:02:55.86,ENG,,0,0,0,,{\fad(50,50)}with the PARTICLE_CONTENT_EXAMPLE. To access the actual particle editor,
+Dialogue: 1,0:02:56.08,0:02:59.12,CHS,,0,0,0,,{\fad(50,50)}可以打开Tools->Particle Editor,
+Dialogue: 2,0:02:56.08,0:02:59.12,ENG,,0,0,0,,{\fad(50,50)}you wanna go to Tools->Particle Editor,
+Dialogue: 1,0:02:59.24,0:03:02.26,CHS,,0,0,0,,{\fad(50,50)}它会在这里加载所有粒子
+Dialogue: 2,0:02:59.24,0:03:02.26,ENG,,0,0,0,,{\fad(50,50)}and it will automatically load the particles over here.
+Dialogue: 1,0:03:02.74,0:03:05.42,CHS,,0,0,0,,{\fad(50,50)}你可以选择任何一个 例如 3D旋转
+Dialogue: 2,0:03:02.74,0:03:05.42,ENG,,0,0,0,,{\fad(50,50)}And you can choose anything, like 3d rotation,
+Dialogue: 1,0:03:05.90,0:03:10.08,CHS,,0,0,0,,{\fad(50,50)}拖住编辑器标题栏
+Dialogue: 2,0:03:05.90,0:03:10.08,ENG,,0,0,0,,{\fad(50,50)}just right here, and hit this for a second,
+Dialogue: 1,0:03:12.88,0:03:14.64,CHS,,0,0,0,,{\fad(50,50)}拖到这里 可以合并窗口
+Dialogue: 2,0:03:12.88,0:03:14.64,ENG,,0,0,0,,{\fad(50,50)}move that over there,
+Dialogue: 1,0:03:16.64,0:03:19.32,CHS,,0,0,0,,{\fad(50,50)}往上拉 拉远点
+Dialogue: 2,0:03:16.64,0:03:19.32,ENG,,0,0,0,,{\fad(50,50)}bring this up, scroll up a little bit,
+Dialogue: 1,0:03:19.88,0:03:25.56,CHS,,0,0,0,,{\fad(50,50)}可以看见 这张节点图 能让3D旋转效果运作
+Dialogue: 2,0:03:19.88,0:03:25.56,ENG,,0,0,0,,{\fad(50,50)}and we can see this is the actual chain, it allows for the 3d rotation to work.
+Dialogue: 1,0:03:26.58,0:03:28.60,CHS,,0,0,0,,{\fad(50,50)}把这个往上拉一点
+Dialogue: 2,0:03:26.58,0:03:28.60,ENG,,0,0,0,,{\fad(50,50)}Bring it up a little closer,
+Dialogue: 1,0:03:31.32,0:03:34.64,CHS,,0,0,0,,{\fad(50,50)}现在 可以看见粒子在编辑器里的样子
+Dialogue: 2,0:03:31.32,0:03:34.64,ENG,,0,0,0,,{\fad(50,50)}and now we can see exactly what it looks like in the editor,
+Dialogue: 1,0:03:34.64,0:03:37.52,CHS,,0,0,0,,{\fad(50,50)}以及在图像编辑器里的样子
+Dialogue: 2,0:03:34.64,0:03:37.52,ENG,,0,0,0,,{\fad(50,50)}we can see what it looks like in the graphic editor for the particles.
+Dialogue: 1,0:03:37.72,0:03:40.10,CHS,,0,0,0,,{\fad(50,50)}希望你能阅览这个项目
+Dialogue: 2,0:03:37.72,0:03:40.10,ENG,,0,0,0,,{\fad(50,50)}And I hope you can explore this projects and
+Dialogue: 1,0:03:40.24,0:03:42.36,CHS,,0,0,0,,{\fad(50,50)}并在开发中使用到这些粒子
+Dialogue: 2,0:03:40.24,0:03:42.94,ENG,,0,0,0,,{\fad(50,50)}get them up and running for your own development, because
+Dialogue: 1,0:03:42.37,0:03:50.08,CHS,,0,0,0,,{\fad(50,50)}因为 DX12版的新粒子效果相较于旧版粒子系统有很大提升
+Dialogue: 2,0:03:43.10,0:03:50.08,ENG,,0,0,0,,{\fad(50,50)}particle effects 2 for our DX12 branch has been a great boost compare to the old particle system,
+Dialogue: 1,0:03:50.32,0:03:52.04,CHS,,0,0,0,,{\fad(50,50)}我想大家都会喜欢这个新粒子系统
+Dialogue: 2,0:03:50.32,0:03:52.04,ENG,,0,0,0,,{\fad(50,50)}and I think everybody's gonna like it.
 Dialogue: 3,0:03:52.10,0:03:52.46,CHS,,0,0,0,,{\fad(50,50)} 翻译：他出院了
