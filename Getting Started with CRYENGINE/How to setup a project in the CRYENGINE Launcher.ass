@@ -16,9 +16,9 @@ Video File: How to setup a project in the CRYENGINE Launcher.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.400000
-Scroll Position: 123
-Active Line: 130
-Video Position: 7718
+Scroll Position: 168
+Active Line: 174
+Video Position: 10253
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -201,7 +201,7 @@ Dialogue: 1,0:05:36.34,0:05:38.37,CHS,,0,0,0,,{\fad(50,50)}我先拖进来一个
 Dialogue: 2,0:05:36.34,0:05:38.37,ENG,,0,0,0,,{\fad(50,50)}So if I drag in my barrel,
 Dialogue: 1,0:05:39.49,0:05:41.54,CHS,,0,0,0,,{\fad(50,50)}按G键来放大
 Dialogue: 2,0:05:39.49,0:05:41.54,ENG,,0,0,0,,{\fad(50,50)}and I press the G key to frame up.
-Dialogue: 1,0:05:41.76,0:05:43.75,CHS,,0,0,0,,{\fad(50,50)}可以看见屏幕上有个木桶
+Dialogue: 1,0:05:41.76,0:05:43.75,CHS,,0,0,0,,{\fad(50,50)}可以看见场景里有个木桶
 Dialogue: 2,0:05:41.76,0:05:43.75,ENG,,0,0,0,,{\fad(50,50)}We can see that we have a barrel on the scene.
 Dialogue: 1,0:05:45.25,0:05:49.93,CHS,,0,0,0,,{\fad(50,50)}直切重点 先进入环境编辑器
 Dialogue: 2,0:05:45.25,0:05:49.93,ENG,,0,0,0,,{\fad(50,50)}To quickly illustrate the point, let's go into the environment editor, maybe not make it.
