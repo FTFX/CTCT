@@ -16,9 +16,8 @@ Video File: How to import existing projects and assets.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 79
-Active Line: 77
-Video Position: 4254
+Active Line: 86
+Video Position: 5198
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -115,7 +114,7 @@ Dialogue: 1,0:02:44.24,0:02:53.23,CHS,,0,0,0,,{\fad(50,50)}它们都有名称 �
 Dialogue: 2,0:02:44.24,0:02:51.02,ENG,,0,0,0,,{\fad(50,50)}and they all have a name, say 3d rotation, volume, and pretty much, you can go and explore these
 Dialogue: 1,0:02:53.24,0:02:55.86,CHS,,0,0,0,,{\fad(50,50)}要访问粒子编辑器
 Dialogue: 2,0:02:51.42,0:02:55.86,ENG,,0,0,0,,{\fad(50,50)}with the PARTICLE_CONTENT_EXAMPLE. To access the actual particle editor,
-Dialogue: 1,0:02:56.08,0:02:59.12,CHS,,0,0,0,,{\fad(50,50)}可以打开Tools->Particle Editor,
+Dialogue: 1,0:02:56.08,0:02:59.12,CHS,,0,0,0,,{\fad(50,50)}可以打开Tools->Particle Editor
 Dialogue: 2,0:02:56.08,0:02:59.12,ENG,,0,0,0,,{\fad(50,50)}you wanna go to Tools->Particle Editor,
 Dialogue: 1,0:02:59.24,0:03:02.26,CHS,,0,0,0,,{\fad(50,50)}它会在这里加载所有粒子
 Dialogue: 2,0:02:59.24,0:03:02.26,ENG,,0,0,0,,{\fad(50,50)}and it will automatically load the particles over here.
