@@ -14,9 +14,9 @@ Audio File: How to create a level, terrain and terrain texture.mp4
 Video File: How to create a level, terrain and terrain texture.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.600000
-Active Line: 216
-Video Position: 23470
+Video Zoom Percent: 0.500000
+Active Line: 6
+Video Position: 327
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,220 +26,432 @@ Style: ENG,Noto Sans,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 2,0:00:01.60,0:00:04.64,ENG,,0,0,0,,
-Dialogue: 2,0:00:05.22,0:00:07.32,ENG,,0,0,0,,
-Dialogue: 2,0:00:07.32,0:00:10.42,ENG,,0,0,0,,
-Dialogue: 2,0:00:10.88,0:00:14.72,ENG,,0,0,0,,
-Dialogue: 2,0:00:14.84,0:00:18.70,ENG,,0,0,0,,
-Dialogue: 2,0:00:19.08,0:00:22.14,ENG,,0,0,0,,
-Dialogue: 2,0:00:23.08,0:00:25.24,ENG,,0,0,0,,
-Dialogue: 2,0:00:25.44,0:00:33.60,ENG,,0,0,0,,
-Dialogue: 2,0:00:34.18,0:00:38.58,ENG,,0,0,0,,
-Dialogue: 2,0:00:38.86,0:00:43.56,ENG,,0,0,0,,
-Dialogue: 2,0:00:44.34,0:00:47.36,ENG,,0,0,0,,
-Dialogue: 2,0:00:47.58,0:00:51.00,ENG,,0,0,0,,
-Dialogue: 2,0:00:51.28,0:00:53.22,ENG,,0,0,0,,
-Dialogue: 2,0:00:53.86,0:00:55.22,ENG,,0,0,0,,
-Dialogue: 2,0:01:00.00,0:01:04.08,ENG,,0,0,0,,
-Dialogue: 2,0:01:04.68,0:01:06.78,ENG,,0,0,0,,
-Dialogue: 2,0:01:07.30,0:01:12.54,ENG,,0,0,0,,
-Dialogue: 2,0:01:13.14,0:01:19.04,ENG,,0,0,0,,
-Dialogue: 2,0:01:19.78,0:01:24.36,ENG,,0,0,0,,
-Dialogue: 2,0:01:25.56,0:01:30.46,ENG,,0,0,0,,
-Dialogue: 2,0:01:31.42,0:01:37.15,ENG,,0,0,0,,
-Dialogue: 2,0:01:37.15,0:01:39.15,ENG,,0,0,0,,
-Dialogue: 2,0:01:39.42,0:01:41.18,ENG,,0,0,0,,
-Dialogue: 2,0:01:41.39,0:01:42.44,ENG,,0,0,0,,
-Dialogue: 2,0:01:42.97,0:01:45.74,ENG,,0,0,0,,
-Dialogue: 2,0:01:47.31,0:01:52.25,ENG,,0,0,0,,
-Dialogue: 2,0:01:52.59,0:01:55.63,ENG,,0,0,0,,
-Dialogue: 2,0:01:56.41,0:01:58.86,ENG,,0,0,0,,
-Dialogue: 2,0:01:59.90,0:02:02.48,ENG,,0,0,0,,
-Dialogue: 2,0:02:03.82,0:02:06.86,ENG,,0,0,0,,
-Dialogue: 2,0:02:09.76,0:02:15.12,ENG,,0,0,0,,
-Dialogue: 2,0:02:16.03,0:02:20.00,ENG,,0,0,0,,
-Dialogue: 2,0:02:20.00,0:02:24.44,ENG,,0,0,0,,
-Dialogue: 2,0:02:24.78,0:02:28.11,ENG,,0,0,0,,
-Dialogue: 2,0:02:29.93,0:02:34.09,ENG,,0,0,0,,
-Dialogue: 2,0:02:34.75,0:02:38.94,ENG,,0,0,0,,
-Dialogue: 2,0:02:39.63,0:02:41.68,ENG,,0,0,0,,
-Dialogue: 2,0:02:42.06,0:02:44.27,ENG,,0,0,0,,
-Dialogue: 2,0:02:45.05,0:02:49.58,ENG,,0,0,0,,
-Dialogue: 2,0:02:50.20,0:02:52.12,ENG,,0,0,0,,
-Dialogue: 2,0:02:52.46,0:02:57.05,ENG,,0,0,0,,
-Dialogue: 2,0:02:57.36,0:03:01.44,ENG,,0,0,0,,
-Dialogue: 2,0:03:01.96,0:03:06.72,ENG,,0,0,0,,
-Dialogue: 2,0:03:07.60,0:03:10.28,ENG,,0,0,0,,
-Dialogue: 2,0:03:10.56,0:03:14.41,ENG,,0,0,0,,
-Dialogue: 2,0:03:14.96,0:03:17.45,ENG,,0,0,0,,
-Dialogue: 2,0:03:19.50,0:03:22.12,ENG,,0,0,0,,
-Dialogue: 2,0:03:22.54,0:03:25.12,ENG,,0,0,0,,
-Dialogue: 2,0:03:25.23,0:03:27.79,ENG,,0,0,0,,
-Dialogue: 2,0:03:28.00,0:03:33.64,ENG,,0,0,0,,
-Dialogue: 2,0:03:33.88,0:03:37.04,ENG,,0,0,0,,
-Dialogue: 2,0:03:37.10,0:03:42.51,ENG,,0,0,0,,
-Dialogue: 2,0:03:43.05,0:03:46.76,ENG,,0,0,0,,
-Dialogue: 2,0:03:46.76,0:03:50.09,ENG,,0,0,0,,
-Dialogue: 2,0:03:50.38,0:03:52.68,ENG,,0,0,0,,
-Dialogue: 2,0:03:53.31,0:03:57.04,ENG,,0,0,0,,
-Dialogue: 2,0:03:57.04,0:04:02.78,ENG,,0,0,0,,
-Dialogue: 2,0:04:03.02,0:04:09.36,ENG,,0,0,0,,
-Dialogue: 2,0:04:09.38,0:04:11.84,ENG,,0,0,0,,
-Dialogue: 2,0:04:12.38,0:04:14.48,ENG,,0,0,0,,
-Dialogue: 2,0:04:15.30,0:04:19.80,ENG,,0,0,0,,
-Dialogue: 2,0:04:21.42,0:04:24.44,ENG,,0,0,0,,
-Dialogue: 2,0:04:24.44,0:04:29.60,ENG,,0,0,0,,
-Dialogue: 2,0:04:29.60,0:04:31.68,ENG,,0,0,0,,
-Dialogue: 2,0:04:32.29,0:04:35.85,ENG,,0,0,0,,
-Dialogue: 2,0:04:36.48,0:04:37.89,ENG,,0,0,0,,
-Dialogue: 2,0:04:38.14,0:04:40.13,ENG,,0,0,0,,
-Dialogue: 2,0:04:40.22,0:04:43.62,ENG,,0,0,0,,
-Dialogue: 2,0:04:43.86,0:04:47.50,ENG,,0,0,0,,
-Dialogue: 2,0:04:47.72,0:04:50.25,ENG,,0,0,0,,
-Dialogue: 2,0:04:50.78,0:04:52.25,ENG,,0,0,0,,
-Dialogue: 2,0:04:52.54,0:04:56.89,ENG,,0,0,0,,
-Dialogue: 2,0:04:56.98,0:05:01.94,ENG,,0,0,0,,
-Dialogue: 2,0:05:02.18,0:05:03.48,ENG,,0,0,0,,
-Dialogue: 2,0:05:04.04,0:05:06.73,ENG,,0,0,0,,
-Dialogue: 2,0:05:06.82,0:05:08.73,ENG,,0,0,0,,
-Dialogue: 2,0:05:10.82,0:05:17.48,ENG,,0,0,0,,
-Dialogue: 2,0:05:19.64,0:05:22.08,ENG,,0,0,0,,
-Dialogue: 2,0:05:22.84,0:05:25.65,ENG,,0,0,0,,
-Dialogue: 2,0:05:25.96,0:05:27.89,ENG,,0,0,0,,
-Dialogue: 2,0:05:28.84,0:05:31.34,ENG,,0,0,0,,
-Dialogue: 2,0:05:32.09,0:05:36.61,ENG,,0,0,0,,
-Dialogue: 2,0:05:36.77,0:05:39.40,ENG,,0,0,0,,
-Dialogue: 2,0:05:40.25,0:05:42.01,ENG,,0,0,0,,
-Dialogue: 2,0:05:42.76,0:05:44.42,ENG,,0,0,0,,
-Dialogue: 2,0:05:45.16,0:05:46.64,ENG,,0,0,0,,
-Dialogue: 2,0:05:46.64,0:05:49.84,ENG,,0,0,0,,
-Dialogue: 2,0:05:51.14,0:05:54.72,ENG,,0,0,0,,
-Dialogue: 2,0:05:55.22,0:06:00.74,ENG,,0,0,0,,
-Dialogue: 2,0:06:01.40,0:06:05.88,ENG,,0,0,0,,
-Dialogue: 2,0:06:09.02,0:06:11.16,ENG,,0,0,0,,
-Dialogue: 2,0:06:11.64,0:06:13.29,ENG,,0,0,0,,
-Dialogue: 2,0:06:13.73,0:06:16.88,ENG,,0,0,0,,
-Dialogue: 2,0:06:17.34,0:06:20.44,ENG,,0,0,0,,
-Dialogue: 2,0:06:20.76,0:06:22.61,ENG,,0,0,0,,
-Dialogue: 2,0:06:23.25,0:06:25.78,ENG,,0,0,0,,
-Dialogue: 2,0:06:26.12,0:06:31.94,ENG,,0,0,0,,
-Dialogue: 2,0:06:31.94,0:06:35.54,ENG,,0,0,0,,
-Dialogue: 2,0:06:35.64,0:06:38.45,ENG,,0,0,0,,
-Dialogue: 2,0:06:38.77,0:06:41.20,ENG,,0,0,0,,
-Dialogue: 2,0:06:41.25,0:06:43.96,ENG,,0,0,0,,
-Dialogue: 2,0:06:45.93,0:06:47.46,ENG,,0,0,0,,
-Dialogue: 2,0:06:47.61,0:06:51.13,ENG,,0,0,0,,
-Dialogue: 2,0:06:52.48,0:06:55.32,ENG,,0,0,0,,
-Dialogue: 2,0:06:55.32,0:06:57.32,ENG,,0,0,0,,
-Dialogue: 2,0:06:57.62,0:07:00.24,ENG,,0,0,0,,
-Dialogue: 2,0:07:01.49,0:07:04.64,ENG,,0,0,0,,
-Dialogue: 2,0:07:05.26,0:07:08.32,ENG,,0,0,0,,
-Dialogue: 2,0:07:08.57,0:07:10.52,ENG,,0,0,0,,
-Dialogue: 2,0:07:11.01,0:07:14.13,ENG,,0,0,0,,
-Dialogue: 2,0:07:14.24,0:07:17.68,ENG,,0,0,0,,
-Dialogue: 2,0:07:18.26,0:07:19.54,ENG,,0,0,0,,
-Dialogue: 2,0:07:20.29,0:07:21.86,ENG,,0,0,0,,
-Dialogue: 2,0:07:22.42,0:07:25.76,ENG,,0,0,0,,
-Dialogue: 2,0:07:26.50,0:07:29.00,ENG,,0,0,0,,
-Dialogue: 2,0:07:29.44,0:07:32.37,ENG,,0,0,0,,
-Dialogue: 2,0:07:32.56,0:07:35.92,ENG,,0,0,0,,
-Dialogue: 2,0:07:37.48,0:07:40.20,ENG,,0,0,0,,
-Dialogue: 2,0:07:40.20,0:07:42.89,ENG,,0,0,0,,
-Dialogue: 2,0:07:43.44,0:07:45.32,ENG,,0,0,0,,
-Dialogue: 2,0:07:45.32,0:07:48.72,ENG,,0,0,0,,
-Dialogue: 2,0:07:49.76,0:07:54.65,ENG,,0,0,0,,
-Dialogue: 2,0:07:54.94,0:07:56.69,ENG,,0,0,0,,
-Dialogue: 2,0:07:57.12,0:07:59.94,ENG,,0,0,0,,
-Dialogue: 2,0:08:01.48,0:08:06.60,ENG,,0,0,0,,
-Dialogue: 2,0:08:06.76,0:08:10.80,ENG,,0,0,0,,
-Dialogue: 2,0:08:10.82,0:08:13.38,ENG,,0,0,0,,
-Dialogue: 2,0:08:13.38,0:08:15.03,ENG,,0,0,0,,
-Dialogue: 2,0:08:15.19,0:08:17.60,ENG,,0,0,0,,
-Dialogue: 2,0:08:18.15,0:08:21.24,ENG,,0,0,0,,
-Dialogue: 2,0:08:21.24,0:08:22.82,ENG,,0,0,0,,
-Dialogue: 2,0:08:22.82,0:08:26.78,ENG,,0,0,0,,
-Dialogue: 2,0:08:26.78,0:08:30.01,ENG,,0,0,0,,
-Dialogue: 2,0:08:30.78,0:08:34.86,ENG,,0,0,0,,
-Dialogue: 2,0:08:35.73,0:08:38.08,ENG,,0,0,0,,
-Dialogue: 2,0:08:38.56,0:08:41.95,ENG,,0,0,0,,
-Dialogue: 2,0:08:43.52,0:08:45.48,ENG,,0,0,0,,
-Dialogue: 2,0:08:45.60,0:08:50.41,ENG,,0,0,0,,
-Dialogue: 2,0:08:50.41,0:08:51.45,ENG,,0,0,0,,
-Dialogue: 2,0:08:52.72,0:08:54.50,ENG,,0,0,0,,
-Dialogue: 2,0:08:55.13,0:08:58.63,ENG,,0,0,0,,
-Dialogue: 2,0:08:58.72,0:09:01.74,ENG,,0,0,0,,
-Dialogue: 2,0:09:02.02,0:09:04.40,ENG,,0,0,0,,
-Dialogue: 2,0:09:04.56,0:09:06.73,ENG,,0,0,0,,
-Dialogue: 2,0:09:07.36,0:09:10.43,ENG,,0,0,0,,
-Dialogue: 2,0:09:10.96,0:09:12.57,ENG,,0,0,0,,
-Dialogue: 2,0:09:12.57,0:09:15.55,ENG,,0,0,0,,
-Dialogue: 2,0:09:16.31,0:09:18.46,ENG,,0,0,0,,
-Dialogue: 2,0:09:18.46,0:09:21.29,ENG,,0,0,0,,
-Dialogue: 2,0:09:21.56,0:09:25.40,ENG,,0,0,0,,
-Dialogue: 2,0:09:25.82,0:09:27.32,ENG,,0,0,0,,
-Dialogue: 2,0:09:27.45,0:09:29.36,ENG,,0,0,0,,
-Dialogue: 2,0:09:30.05,0:09:33.68,ENG,,0,0,0,,
-Dialogue: 2,0:09:35.39,0:09:37.68,ENG,,0,0,0,,
-Dialogue: 2,0:09:38.93,0:09:41.63,ENG,,0,0,0,,
-Dialogue: 2,0:09:41.82,0:09:43.75,ENG,,0,0,0,,
-Dialogue: 2,0:09:44.05,0:09:45.63,ENG,,0,0,0,,
-Dialogue: 2,0:09:46.06,0:09:47.74,ENG,,0,0,0,,
-Dialogue: 2,0:09:48.54,0:09:53.52,ENG,,0,0,0,,
-Dialogue: 2,0:09:53.53,0:09:55.45,ENG,,0,0,0,,
-Dialogue: 2,0:09:55.86,0:09:58.93,ENG,,0,0,0,,
-Dialogue: 2,0:09:59.12,0:10:02.78,ENG,,0,0,0,,
-Dialogue: 2,0:10:02.78,0:10:06.56,ENG,,0,0,0,,
-Dialogue: 2,0:10:07.08,0:10:10.21,ENG,,0,0,0,,
-Dialogue: 2,0:10:11.01,0:10:15.94,ENG,,0,0,0,,
-Dialogue: 2,0:10:15.94,0:10:19.84,ENG,,0,0,0,,
-Dialogue: 2,0:10:21.24,0:10:24.10,ENG,,0,0,0,,
-Dialogue: 2,0:10:24.20,0:10:26.10,ENG,,0,0,0,,
-Dialogue: 2,0:10:26.63,0:10:29.00,ENG,,0,0,0,,
-Dialogue: 2,0:10:29.00,0:10:31.61,ENG,,0,0,0,,
-Dialogue: 2,0:10:31.61,0:10:33.61,ENG,,0,0,0,,
-Dialogue: 2,0:10:34.05,0:10:37.91,ENG,,0,0,0,,
-Dialogue: 2,0:10:38.36,0:10:41.12,ENG,,0,0,0,,
-Dialogue: 2,0:10:43.32,0:10:45.43,ENG,,0,0,0,,
-Dialogue: 2,0:10:45.55,0:10:47.58,ENG,,0,0,0,,
-Dialogue: 2,0:10:48.08,0:10:50.24,ENG,,0,0,0,,
-Dialogue: 2,0:10:53.06,0:10:55.26,ENG,,0,0,0,,
-Dialogue: 2,0:10:55.38,0:10:56.94,ENG,,0,0,0,,
-Dialogue: 2,0:10:59.66,0:11:00.29,ENG,,0,0,0,,
-Dialogue: 2,0:11:01.28,0:11:06.24,ENG,,0,0,0,,
-Dialogue: 2,0:11:06.45,0:11:08.75,ENG,,0,0,0,,
-Dialogue: 2,0:11:09.12,0:11:13.54,ENG,,0,0,0,,
-Dialogue: 2,0:11:13.76,0:11:16.92,ENG,,0,0,0,,
-Dialogue: 2,0:11:18.56,0:11:21.78,ENG,,0,0,0,,
-Dialogue: 2,0:11:22.13,0:11:24.97,ENG,,0,0,0,,
-Dialogue: 2,0:11:24.97,0:11:26.94,ENG,,0,0,0,,
-Dialogue: 2,0:11:27.18,0:11:29.07,ENG,,0,0,0,,
-Dialogue: 2,0:11:30.08,0:11:32.88,ENG,,0,0,0,,
-Dialogue: 2,0:11:33.35,0:11:35.12,ENG,,0,0,0,,
-Dialogue: 2,0:11:35.43,0:11:35.95,ENG,,0,0,0,,
-Dialogue: 2,0:11:36.82,0:11:39.41,ENG,,0,0,0,,
-Dialogue: 2,0:11:40.08,0:11:43.81,ENG,,0,0,0,,
-Dialogue: 2,0:11:44.23,0:11:46.81,ENG,,0,0,0,,
-Dialogue: 2,0:11:47.12,0:11:51.21,ENG,,0,0,0,,
-Dialogue: 2,0:11:51.25,0:11:53.35,ENG,,0,0,0,,
-Dialogue: 2,0:11:53.95,0:11:54.92,ENG,,0,0,0,,
-Dialogue: 2,0:11:56.27,0:11:58.51,ENG,,0,0,0,,
-Dialogue: 2,0:11:58.98,0:12:00.54,ENG,,0,0,0,,
-Dialogue: 2,0:12:02.18,0:12:05.75,ENG,,0,0,0,,
-Dialogue: 2,0:12:06.10,0:12:08.16,ENG,,0,0,0,,
-Dialogue: 2,0:12:09.76,0:12:12.32,ENG,,0,0,0,,
-Dialogue: 2,0:12:12.71,0:12:15.55,ENG,,0,0,0,,
-Dialogue: 2,0:12:16.73,0:12:18.54,ENG,,0,0,0,,
-Dialogue: 2,0:12:20.26,0:12:23.27,ENG,,0,0,0,,
-Dialogue: 2,0:12:28.45,0:12:30.80,ENG,,0,0,0,,
-Dialogue: 2,0:12:31.44,0:12:33.87,ENG,,0,0,0,,
-Dialogue: 2,0:12:34.42,0:12:37.04,ENG,,0,0,0,,
-Dialogue: 2,0:12:37.04,0:12:39.04,ENG,,0,0,0,,
-Dialogue: 2,0:12:39.60,0:12:44.16,ENG,,0,0,0,,
-Dialogue: 2,0:12:44.44,0:12:47.56,ENG,,0,0,0,,
-Dialogue: 2,0:12:47.73,0:12:48.59,ENG,,0,0,0,,
-Dialogue: 2,0:12:48.96,0:12:51.62,ENG,,0,0,0,,
-Dialogue: 2,0:12:51.89,0:12:54.23,ENG,,0,0,0,,
-Dialogue: 2,0:12:54.23,0:12:56.79,ENG,,0,0,0,,
-Dialogue: 2,0:12:56.79,0:13:00.54,ENG,,0,0,0,,
-Dialogue: 2,0:13:00.59,0:13:02.10,ENG,,0,0,0,,
+Dialogue: 1,0:00:01.60,0:00:04.64,CHS,,0,0,0,,{\fad(50,50)}For this video, which is going to be a few different sections
+Dialogue: 2,0:00:01.60,0:00:04.64,ENG,,0,0,0,,{\fad(50,50)}For this video, which is going to be a few different sections
+Dialogue: 1,0:00:05.22,0:00:07.32,CHS,,0,0,0,,{\fad(50,50)}will be about creating your first level,
+Dialogue: 2,0:00:05.22,0:00:07.32,ENG,,0,0,0,,{\fad(50,50)}will be about creating your first level,
+Dialogue: 1,0:00:07.32,0:00:10.42,CHS,,0,0,0,,{\fad(50,50)}in this case, with the first one, we're going to create the level,
+Dialogue: 2,0:00:07.32,0:00:10.42,ENG,,0,0,0,,{\fad(50,50)}in this case, with the first one, we're going to create the level,
+Dialogue: 1,0:00:10.88,0:00:14.72,CHS,,0,0,0,,{\fad(50,50)}we're going to create the terrain, we're going to paint the terrain,
+Dialogue: 2,0:00:10.88,0:00:14.72,ENG,,0,0,0,,{\fad(50,50)}we're going to create the terrain, we're going to paint the terrain,
+Dialogue: 1,0:00:14.84,0:00:18.70,CHS,,0,0,0,,{\fad(50,50)}and then we're going to apply vegetation, all within this one video.
+Dialogue: 2,0:00:14.84,0:00:18.70,ENG,,0,0,0,,{\fad(50,50)}and then we're going to apply vegetation, all within this one video.
+Dialogue: 1,0:00:19.08,0:00:22.14,CHS,,0,0,0,,{\fad(50,50)}So, it's only take about 10 minutes, and let's get to it.
+Dialogue: 2,0:00:19.08,0:00:22.14,ENG,,0,0,0,,{\fad(50,50)}So, it's only take about 10 minutes, and let's get to it.
+Dialogue: 1,0:00:23.08,0:00:25.24,CHS,,0,0,0,,{\fad(50,50)}To start, we'll go to File->New,
+Dialogue: 2,0:00:23.08,0:00:25.24,ENG,,0,0,0,,{\fad(50,50)}To start, we'll go to File->New,
+Dialogue: 1,0:00:25.44,0:00:33.60,CHS,,0,0,0,,{\fad(50,50)}and we'll call this one training_FirstLVL,
+Dialogue: 2,0:00:25.44,0:00:33.60,ENG,,0,0,0,,{\fad(50,50)}and we'll call this one training_FirstLVL,
+Dialogue: 1,0:00:34.18,0:00:38.58,CHS,,0,0,0,,{\fad(50,50)}and we'll keep in the levels folder, then we're gonna choose a small heightmap resolution,
+Dialogue: 2,0:00:34.18,0:00:38.58,ENG,,0,0,0,,{\fad(50,50)}and we'll keep in the levels folder, then we're gonna choose a small heightmap resolution,
+Dialogue: 1,0:00:38.86,0:00:43.56,CHS,,0,0,0,,{\fad(50,50)}which means the terrain size will be 128 meters in all directions.
+Dialogue: 2,0:00:38.86,0:00:43.56,ENG,,0,0,0,,{\fad(50,50)}which means the terrain size will be 128 meters in all directions.
+Dialogue: 1,0:00:44.34,0:00:47.36,CHS,,0,0,0,,{\fad(50,50)}We're going to keep the texture dimensions at 4k,
+Dialogue: 2,0:00:44.34,0:00:47.36,ENG,,0,0,0,,{\fad(50,50)}We're going to keep the texture dimensions at 4k,
+Dialogue: 1,0:00:47.58,0:00:51.00,CHS,,0,0,0,,{\fad(50,50)}and not worry about the other settings, because they have to do with compression,
+Dialogue: 2,0:00:47.58,0:00:51.00,ENG,,0,0,0,,{\fad(50,50)}and not worry about the other settings, because they have to do with compression,
+Dialogue: 1,0:00:51.28,0:00:53.22,CHS,,0,0,0,,{\fad(50,50)}and are out of this scope of this video.
+Dialogue: 2,0:00:51.28,0:00:53.22,ENG,,0,0,0,,{\fad(50,50)}and are out of this scope of this video.
+Dialogue: 1,0:00:53.86,0:00:55.22,CHS,,0,0,0,,{\fad(50,50)}We're gonna click ok,
+Dialogue: 2,0:00:53.86,0:00:55.22,ENG,,0,0,0,,{\fad(50,50)}We're gonna click ok,
+Dialogue: 1,0:01:00.00,0:01:04.08,CHS,,0,0,0,,{\fad(50,50)}and now we're basically have our level which is 128,
+Dialogue: 2,0:01:00.00,0:01:04.08,ENG,,0,0,0,,{\fad(50,50)}and now we're basically have our level which is 128,
+Dialogue: 1,0:01:04.68,0:01:06.78,CHS,,0,0,0,,{\fad(50,50)}and if we come down here, we have our ocean.
+Dialogue: 2,0:01:04.68,0:01:06.78,ENG,,0,0,0,,{\fad(50,50)}and if we come down here, we have our ocean.
+Dialogue: 1,0:01:07.30,0:01:12.54,CHS,,0,0,0,,{\fad(50,50)}So, what we need to do is we need to define the height of this terrain, so it matches the height of the ocean.
+Dialogue: 2,0:01:07.30,0:01:12.54,ENG,,0,0,0,,{\fad(50,50)}So, what we need to do is we need to define the height of this terrain, so it matches the height of the ocean.
+Dialogue: 1,0:01:13.14,0:01:19.04,CHS,,0,0,0,,{\fad(50,50)}Let's go into Edit->Set Terrain inside of the Terrain Editor box,
+Dialogue: 2,0:01:13.14,0:01:19.04,ENG,,0,0,0,,{\fad(50,50)}Let's go into Edit->Set Terrain inside of the Terrain Editor box,
+Dialogue: 1,0:01:19.78,0:01:24.36,CHS,,0,0,0,,{\fad(50,50)}and we're gonna go to setting the terrain to something about 50 meters high.
+Dialogue: 2,0:01:19.78,0:01:24.36,ENG,,0,0,0,,{\fad(50,50)}and we're gonna go to setting the terrain to something about 50 meters high.
+Dialogue: 1,0:01:25.56,0:01:30.46,CHS,,0,0,0,,{\fad(50,50)}We'll notice that nothing happened, and this is because we need to actually generate the terrain again.
+Dialogue: 2,0:01:25.56,0:01:30.46,ENG,,0,0,0,,{\fad(50,50)}We'll notice that nothing happened, and this is because we need to actually generate the terrain again.
+Dialogue: 1,0:01:31.42,0:01:37.15,CHS,,0,0,0,,{\fad(50,50)}So let's bring the feature size down to about... 3.6 is fine,
+Dialogue: 2,0:01:31.42,0:01:37.15,ENG,,0,0,0,,{\fad(50,50)}So let's bring the feature size down to about... 3.6 is fine,
+Dialogue: 1,0:01:37.15,0:01:39.15,CHS,,0,0,0,,{\fad(50,50)}we can lower the bumpiness all the way,
+Dialogue: 2,0:01:37.15,0:01:39.15,ENG,,0,0,0,,{\fad(50,50)}we can lower the bumpiness all the way,
+Dialogue: 1,0:01:39.42,0:01:41.18,CHS,,0,0,0,,{\fad(50,50)}and everything else will keep at basic.
+Dialogue: 2,0:01:39.42,0:01:41.18,ENG,,0,0,0,,{\fad(50,50)}and everything else will keep at basic.
+Dialogue: 1,0:01:41.39,0:01:42.44,CHS,,0,0,0,,{\fad(50,50)}So if I click ok,
+Dialogue: 2,0:01:41.39,0:01:42.44,ENG,,0,0,0,,{\fad(50,50)}So if I click ok,
+Dialogue: 1,0:01:42.97,0:01:45.74,CHS,,0,0,0,,{\fad(50,50)}we now have a nice little terrain.
+Dialogue: 2,0:01:42.97,0:01:45.74,ENG,,0,0,0,,{\fad(50,50)}we now have a nice little terrain.
+Dialogue: 1,0:01:47.31,0:01:52.25,CHS,,0,0,0,,{\fad(50,50)}I think I can actually get something a little better, so you can always go back and generate more,
+Dialogue: 2,0:01:47.31,0:01:52.25,ENG,,0,0,0,,{\fad(50,50)}I think I can actually get something a little better, so you can always go back and generate more,
+Dialogue: 1,0:01:52.59,0:01:55.63,CHS,,0,0,0,,{\fad(50,50)}over and over again that if you wanna see the variation that you can create.
+Dialogue: 2,0:01:52.59,0:01:55.63,ENG,,0,0,0,,{\fad(50,50)}over and over again that if you wanna see the variation that you can create.
+Dialogue: 1,0:01:56.41,0:01:58.86,CHS,,0,0,0,,{\fad(50,50)}So let's go ahead and see what we can get again.
+Dialogue: 2,0:01:56.41,0:01:58.86,ENG,,0,0,0,,{\fad(50,50)}So let's go ahead and see what we can get again.
+Dialogue: 1,0:01:59.90,0:02:02.48,CHS,,0,0,0,,{\fad(50,50)}So we keep getting blobs and blobs,
+Dialogue: 2,0:01:59.90,0:02:02.48,ENG,,0,0,0,,{\fad(50,50)}So we keep getting blobs and blobs,
+Dialogue: 1,0:02:03.82,0:02:06.86,CHS,,0,0,0,,{\fad(50,50)}eventually, I want them will be about what I'm looking for.
+Dialogue: 2,0:02:03.82,0:02:06.86,ENG,,0,0,0,,{\fad(50,50)}eventually, I want them will be about what I'm looking for.
+Dialogue: 1,0:02:09.76,0:02:15.12,CHS,,0,0,0,,{\fad(50,50)}And, this will do. I kinda just want a more than just one, and kind of relatively small.
+Dialogue: 2,0:02:09.76,0:02:15.12,ENG,,0,0,0,,{\fad(50,50)}And, this will do. I kinda just want a more than just one, and kind of relatively small.
+Dialogue: 1,0:02:16.03,0:02:20.00,CHS,,0,0,0,,{\fad(50,50)}So now we have our ocean, and we have our island,
+Dialogue: 2,0:02:16.03,0:02:20.00,ENG,,0,0,0,,{\fad(50,50)}So now we have our ocean, and we have our island,
+Dialogue: 1,0:02:20.00,0:02:24.44,CHS,,0,0,0,,{\fad(50,50)}because that's what we're gonna do, is create a desert island, it's the easiest thing that you can do
+Dialogue: 2,0:02:20.00,0:02:24.44,ENG,,0,0,0,,{\fad(50,50)}because that's what we're gonna do, is create a desert island, it's the easiest thing that you can do
+Dialogue: 1,0:02:24.78,0:02:28.11,CHS,,0,0,0,,{\fad(50,50)}with the most aesthetically pleasing results quickly.
+Dialogue: 2,0:02:24.78,0:02:28.11,ENG,,0,0,0,,{\fad(50,50)}with the most aesthetically pleasing results quickly.
+Dialogue: 1,0:02:29.93,0:02:34.09,CHS,,0,0,0,,{\fad(50,50)}What I need to do now is get rid of some of these humps, they're just too big.
+Dialogue: 2,0:02:29.93,0:02:34.09,ENG,,0,0,0,,{\fad(50,50)}What I need to do now is get rid of some of these humps, they're just too big.
+Dialogue: 1,0:02:34.75,0:02:38.94,CHS,,0,0,0,,{\fad(50,50)}So, inside of the terrain editor, I can go to sculpt, and then we're choose Flantten,
+Dialogue: 2,0:02:34.75,0:02:38.94,ENG,,0,0,0,,{\fad(50,50)}So, inside of the terrain editor, I can go to sculpt, and then we're choose Flantten,
+Dialogue: 1,0:02:39.63,0:02:41.68,CHS,,0,0,0,,{\fad(50,50)}and if I were to just start painting,
+Dialogue: 2,0:02:39.63,0:02:41.68,ENG,,0,0,0,,{\fad(50,50)}and if I were to just start painting,
+Dialogue: 1,0:02:42.06,0:02:44.27,CHS,,0,0,0,,{\fad(50,50)}it would be kind of random and that's not what we want.
+Dialogue: 2,0:02:42.06,0:02:44.27,ENG,,0,0,0,,{\fad(50,50)}it would be kind of random and that's not what we want.
+Dialogue: 1,0:02:45.05,0:02:49.58,CHS,,0,0,0,,{\fad(50,50)}We're going to do is lower this down to 10 on the radius, and you'll see down here in the height,
+Dialogue: 2,0:02:45.05,0:02:49.58,ENG,,0,0,0,,{\fad(50,50)}We're going to do is lower this down to 10 on the radius, and you'll see down here in the height,
+Dialogue: 1,0:02:50.20,0:02:52.12,CHS,,0,0,0,,{\fad(50,50)}we can actually have the option to pick.
+Dialogue: 2,0:02:50.20,0:02:52.12,ENG,,0,0,0,,{\fad(50,50)}we can actually have the option to pick.
+Dialogue: 1,0:02:52.46,0:02:57.05,CHS,,0,0,0,,{\fad(50,50)}What we're actually going to do is to pick it dynamically by holding down the Ctrl key.
+Dialogue: 2,0:02:52.46,0:02:57.05,ENG,,0,0,0,,{\fad(50,50)}What we're actually going to do is to pick it dynamically by holding down the Ctrl key.
+Dialogue: 1,0:02:57.36,0:03:01.44,CHS,,0,0,0,,{\fad(50,50)}So if we keep our eyes peeled on this, so we click down here on the edge.
+Dialogue: 2,0:02:57.36,0:03:01.44,ENG,,0,0,0,,{\fad(50,50)}So if we keep our eyes peeled on this, so we click down here on the edge.
+Dialogue: 1,0:03:01.96,0:03:06.72,CHS,,0,0,0,,{\fad(50,50)}Maybe right there, we can see that it's switching based on where we click.
+Dialogue: 2,0:03:01.96,0:03:06.72,ENG,,0,0,0,,{\fad(50,50)}Maybe right there, we can see that it's switching based on where we click.
+Dialogue: 1,0:03:07.60,0:03:10.28,CHS,,0,0,0,,{\fad(50,50)}So let's keep that up about 18.6,
+Dialogue: 2,0:03:07.60,0:03:10.28,ENG,,0,0,0,,{\fad(50,50)}So let's keep that up about 18.6,
+Dialogue: 1,0:03:10.56,0:03:14.41,CHS,,0,0,0,,{\fad(50,50)}what we can do now is we can come in here and know that wherever we sculpt,
+Dialogue: 2,0:03:10.56,0:03:14.41,ENG,,0,0,0,,{\fad(50,50)}what we can do now is we can come in here and know that wherever we sculpt,
+Dialogue: 1,0:03:14.96,0:03:17.45,CHS,,0,0,0,,{\fad(50,50)}it's not gonna be below that level.
+Dialogue: 2,0:03:14.96,0:03:17.45,ENG,,0,0,0,,{\fad(50,50)}it's not gonna be below that level.
+Dialogue: 1,0:03:19.50,0:03:22.12,CHS,,0,0,0,,{\fad(50,50)}So we keep that, maybe do some over here,
+Dialogue: 2,0:03:19.50,0:03:22.12,ENG,,0,0,0,,{\fad(50,50)}So we keep that, maybe do some over here,
+Dialogue: 1,0:03:22.54,0:03:25.12,CHS,,0,0,0,,{\fad(50,50)}but now what if we want to actually smooth this out.
+Dialogue: 2,0:03:22.54,0:03:25.12,ENG,,0,0,0,,{\fad(50,50)}but now what if we want to actually smooth this out.
+Dialogue: 1,0:03:25.23,0:03:27.79,CHS,,0,0,0,,{\fad(50,50)}So we can press the Shift key,
+Dialogue: 2,0:03:25.23,0:03:27.79,ENG,,0,0,0,,{\fad(50,50)}So we can press the Shift key,
+Dialogue: 1,0:03:28.00,0:03:33.64,CHS,,0,0,0,,{\fad(50,50)}we now have the ability to smooth it out on everything we just sculpted.
+Dialogue: 2,0:03:28.00,0:03:33.64,ENG,,0,0,0,,{\fad(50,50)}we now have the ability to smooth it out on everything we just sculpted.
+Dialogue: 1,0:03:33.88,0:03:37.04,CHS,,0,0,0,,{\fad(50,50)}So maybe we wanna smooth everything down,
+Dialogue: 2,0:03:33.88,0:03:37.04,ENG,,0,0,0,,{\fad(50,50)}So maybe we wanna smooth everything down,
+Dialogue: 1,0:03:37.10,0:03:42.51,CHS,,0,0,0,,{\fad(50,50)}we can kinda have something that's a little bit better flattened that way we have a better beach.
+Dialogue: 2,0:03:37.10,0:03:42.51,ENG,,0,0,0,,{\fad(50,50)}we can kinda have something that's a little bit better flattened that way we have a better beach.
+Dialogue: 1,0:03:43.05,0:03:46.76,CHS,,0,0,0,,{\fad(50,50)}So now that we have basically our landmass declared,
+Dialogue: 2,0:03:43.05,0:03:46.76,ENG,,0,0,0,,{\fad(50,50)}So now that we have basically our landmass declared,
+Dialogue: 1,0:03:46.76,0:03:50.09,CHS,,0,0,0,,{\fad(50,50)}we need to create a terrain texture to cover it, because right now
+Dialogue: 2,0:03:46.76,0:03:50.09,ENG,,0,0,0,,{\fad(50,50)}we need to create a terrain texture to cover it, because right now
+Dialogue: 1,0:03:50.38,0:03:52.68,CHS,,0,0,0,,{\fad(50,50)}the checkerboard look just isn't working.
+Dialogue: 2,0:03:50.38,0:03:52.68,ENG,,0,0,0,,{\fad(50,50)}the checkerboard look just isn't working.
+Dialogue: 1,0:03:53.31,0:03:57.04,CHS,,0,0,0,,{\fad(50,50)}So we go to paint, and I right click and create a layer,
+Dialogue: 2,0:03:53.31,0:03:57.04,ENG,,0,0,0,,{\fad(50,50)}So we go to paint, and I right click and create a layer,
+Dialogue: 1,0:03:57.04,0:04:02.78,CHS,,0,0,0,,{\fad(50,50)}let's call this one sandDry.
+Dialogue: 2,0:03:57.04,0:04:02.78,ENG,,0,0,0,,{\fad(50,50)}let's call this one sandDry.
+Dialogue: 1,0:04:03.02,0:04:09.36,CHS,,0,0,0,,{\fad(50,50)}And we're gonna choose the texture to be Textures/defaults, so we're just gonna choose white,
+Dialogue: 2,0:04:03.02,0:04:09.36,ENG,,0,0,0,,{\fad(50,50)}And we're gonna choose the texture to be Textures/defaults, so we're just gonna choose white,
+Dialogue: 1,0:04:09.38,0:04:11.84,CHS,,0,0,0,,{\fad(50,50)}because we want to paint the actual texture of sand.
+Dialogue: 2,0:04:09.38,0:04:11.84,ENG,,0,0,0,,{\fad(50,50)}because we want to paint the actual texture of sand.
+Dialogue: 1,0:04:12.38,0:04:14.48,CHS,,0,0,0,,{\fad(50,50)}So we need to choose a material now,
+Dialogue: 2,0:04:12.38,0:04:14.48,ENG,,0,0,0,,{\fad(50,50)}So we need to choose a material now,
+Dialogue: 1,0:04:15.30,0:04:19.80,CHS,,0,0,0,,{\fad(50,50)}and what we're gonna do is go to materials/terrain and choose beach_white_sand.
+Dialogue: 2,0:04:15.30,0:04:19.80,ENG,,0,0,0,,{\fad(50,50)}and what we're gonna do is go to materials/terrain and choose beach_white_sand.
+Dialogue: 1,0:04:21.42,0:04:24.44,CHS,,0,0,0,,{\fad(50,50)}And what we can do is we can paint this in if we want,
+Dialogue: 2,0:04:21.42,0:04:24.44,ENG,,0,0,0,,{\fad(50,50)}And what we can do is we can paint this in if we want,
+Dialogue: 1,0:04:24.44,0:04:29.60,CHS,,0,0,0,,{\fad(50,50)}so if we start painting, you'll notice right away, we get a lot of sand everywhere,
+Dialogue: 2,0:04:24.44,0:04:29.60,ENG,,0,0,0,,{\fad(50,50)}so if we start painting, you'll notice right away, we get a lot of sand everywhere,
+Dialogue: 1,0:04:29.60,0:04:31.68,CHS,,0,0,0,,{\fad(50,50)}and we can actually even change the color of it,
+Dialogue: 2,0:04:29.60,0:04:31.68,ENG,,0,0,0,,{\fad(50,50)}and we can actually even change the color of it,
+Dialogue: 1,0:04:32.29,0:04:35.85,CHS,,0,0,0,,{\fad(50,50)}drop it down and just grayscale, and you'll notice it's darker,
+Dialogue: 2,0:04:32.29,0:04:35.85,ENG,,0,0,0,,{\fad(50,50)}drop it down and just grayscale, and you'll notice it's darker,
+Dialogue: 1,0:04:36.48,0:04:37.89,CHS,,0,0,0,,{\fad(50,50)}so maybe that's what we want.
+Dialogue: 2,0:04:36.48,0:04:37.89,ENG,,0,0,0,,{\fad(50,50)}so maybe that's what we want.
+Dialogue: 1,0:04:38.14,0:04:40.13,CHS,,0,0,0,,{\fad(50,50)}And this doesn't look bad actually.
+Dialogue: 2,0:04:38.14,0:04:40.13,ENG,,0,0,0,,{\fad(50,50)}And this doesn't look bad actually.
+Dialogue: 1,0:04:40.22,0:04:43.62,CHS,,0,0,0,,{\fad(50,50)}So, instead of painting everything, we can actually cheat.
+Dialogue: 2,0:04:40.22,0:04:43.62,ENG,,0,0,0,,{\fad(50,50)}So, instead of painting everything, we can actually cheat.
+Dialogue: 1,0:04:43.86,0:04:47.50,CHS,,0,0,0,,{\fad(50,50)}We can right click this layer, and say Flood Layer,
+Dialogue: 2,0:04:43.86,0:04:47.50,ENG,,0,0,0,,{\fad(50,50)}We can right click this layer, and say Flood Layer,
+Dialogue: 1,0:04:47.72,0:04:50.25,CHS,,0,0,0,,{\fad(50,50)}and then automatically we have sand everywhere
+Dialogue: 2,0:04:47.72,0:04:50.25,ENG,,0,0,0,,{\fad(50,50)}and then automatically we have sand everywhere
+Dialogue: 1,0:04:50.78,0:04:52.25,CHS,,0,0,0,,{\fad(50,50)}which works pretty well.
+Dialogue: 2,0:04:50.78,0:04:52.25,ENG,,0,0,0,,{\fad(50,50)}which works pretty well.
+Dialogue: 1,0:04:52.54,0:04:56.89,CHS,,0,0,0,,{\fad(50,50)}The one thing that I don't have is, I want to have a wet sand.
+Dialogue: 2,0:04:52.54,0:04:56.89,ENG,,0,0,0,,{\fad(50,50)}The one thing that I don't have is, I want to have a wet sand.
+Dialogue: 1,0:04:56.98,0:04:59.94,CHS,,0,0,0,,{\fad(50,50)}It doesn't look exactly right when we see some shadowing
+Dialogue: 2,0:04:56.98,0:04:59.94,ENG,,0,0,0,,{\fad(50,50)}It doesn't look exactly right when we see some shadowing
+Dialogue: 1,0:04:59.95,0:05:03.48,CHS,,0,0,0,,{\fad(50,50)}but we don't see any change in how the sand kind of washes away.
+Dialogue: 2,0:04:59.95,0:05:03.48,ENG,,0,0,0,,{\fad(50,50)}but we don't see any change in how the sand kind of washes away.
+Dialogue: 1,0:05:04.04,0:05:06.73,CHS,,0,0,0,,{\fad(50,50)}So what we can do is create another layer,
+Dialogue: 2,0:05:04.04,0:05:06.73,ENG,,0,0,0,,{\fad(50,50)}So what we can do is create another layer,
+Dialogue: 1,0:05:06.82,0:05:08.73,CHS,,0,0,0,,{\fad(50,50)}and call this one sandWet.
+Dialogue: 2,0:05:06.82,0:05:08.73,ENG,,0,0,0,,{\fad(50,50)}and call this one sandWet.
+Dialogue: 1,0:05:10.82,0:05:17.48,CHS,,0,0,0,,{\fad(50,50)}And we can change the texture again, to be Textures/defaults/white again.
+Dialogue: 2,0:05:10.82,0:05:17.48,ENG,,0,0,0,,{\fad(50,50)}And we can change the texture again, to be Textures/defaults/white again.
+Dialogue: 1,0:05:19.64,0:05:22.08,CHS,,0,0,0,,{\fad(50,50)}And then this time we're gonna choose a different material.
+Dialogue: 2,0:05:19.64,0:05:22.08,ENG,,0,0,0,,{\fad(50,50)}And then this time we're gonna choose a different material.
+Dialogue: 1,0:05:22.84,0:05:25.65,CHS,,0,0,0,,{\fad(50,50)}So we go to materials/terrain
+Dialogue: 2,0:05:22.84,0:05:25.65,ENG,,0,0,0,,{\fad(50,50)}So we go to materials/terrain
+Dialogue: 1,0:05:25.96,0:05:27.89,CHS,,0,0,0,,{\fad(50,50)}and choose beach_white_sand_wet.
+Dialogue: 2,0:05:25.96,0:05:27.89,ENG,,0,0,0,,{\fad(50,50)}and choose beach_white_sand_wet.
+Dialogue: 1,0:05:28.84,0:05:31.34,CHS,,0,0,0,,{\fad(50,50)}We can go ahead and start painting this.
+Dialogue: 2,0:05:28.84,0:05:31.34,ENG,,0,0,0,,{\fad(50,50)}We can go ahead and start painting this.
+Dialogue: 1,0:05:32.09,0:05:36.61,CHS,,0,0,0,,{\fad(50,50)}So what I'ma do is I'm going to paint it in so we can see what we have,
+Dialogue: 2,0:05:32.09,0:05:36.61,ENG,,0,0,0,,{\fad(50,50)}So what I'ma do is I'm going to paint it in so we can see what we have,
+Dialogue: 1,0:05:36.77,0:05:39.40,CHS,,0,0,0,,{\fad(50,50)}it's a little bright, so if I can control it back,
+Dialogue: 2,0:05:36.77,0:05:39.40,ENG,,0,0,0,,{\fad(50,50)}it's a little bright, so if I can control it back,
+Dialogue: 1,0:05:40.25,0:05:42.01,CHS,,0,0,0,,{\fad(50,50)}drop it like we did to the other,
+Dialogue: 2,0:05:40.25,0:05:42.01,ENG,,0,0,0,,{\fad(50,50)}drop it like we did to the other,
+Dialogue: 1,0:05:42.76,0:05:44.42,CHS,,0,0,0,,{\fad(50,50)}and that'll work.
+Dialogue: 2,0:05:42.76,0:05:44.42,ENG,,0,0,0,,{\fad(50,50)}and that'll work.
+Dialogue: 1,0:05:45.16,0:05:46.64,CHS,,0,0,0,,{\fad(50,50)}So all I did was calibrate it,
+Dialogue: 2,0:05:45.16,0:05:46.64,ENG,,0,0,0,,{\fad(50,50)}So all I did was calibrate it,
+Dialogue: 1,0:05:46.64,0:05:49.84,CHS,,0,0,0,,{\fad(50,50)}because we're actually going to do a constraints procedurally painted.
+Dialogue: 2,0:05:46.64,0:05:49.84,ENG,,0,0,0,,{\fad(50,50)}because we're actually going to do a constraints procedurally painted.
+Dialogue: 1,0:05:51.14,0:05:54.72,CHS,,0,0,0,,{\fad(50,50)}Like before, with the sculpt, we can go back and we can flatten,
+Dialogue: 2,0:05:51.14,0:05:54.72,ENG,,0,0,0,,{\fad(50,50)}Like before, with the sculpt, we can go back and we can flatten,
+Dialogue: 1,0:05:55.22,0:06:00.74,CHS,,0,0,0,,{\fad(50,50)}but the key thing understand this is we're actually going to pick the height of how far it influences.
+Dialogue: 2,0:05:55.22,0:06:00.74,ENG,,0,0,0,,{\fad(50,50)}but the key thing understand this is we're actually going to pick the height of how far it influences.
+Dialogue: 1,0:06:01.40,0:06:05.88,CHS,,0,0,0,,{\fad(50,50)}So the water is here, let's say we influence up to this point here.
+Dialogue: 2,0:06:01.40,0:06:05.88,ENG,,0,0,0,,{\fad(50,50)}So the water is here, let's say we influence up to this point here.
+Dialogue: 1,0:06:09.02,0:06:11.16,CHS,,0,0,0,,{\fad(50,50)}So let's try 16.5,
+Dialogue: 2,0:06:09.02,0:06:11.16,ENG,,0,0,0,,{\fad(50,50)}So let's try 16.5,
+Dialogue: 1,0:06:11.64,0:06:13.29,CHS,,0,0,0,,{\fad(50,50)}so going back to sandWet,
+Dialogue: 2,0:06:11.64,0:06:13.29,ENG,,0,0,0,,{\fad(50,50)}so going back to sandWet,
+Dialogue: 1,0:06:13.73,0:06:16.88,CHS,,0,0,0,,{\fad(50,50)}we can set the minimum height with the maximum height.
+Dialogue: 2,0:06:13.73,0:06:16.88,ENG,,0,0,0,,{\fad(50,50)}we can set the minimum height with the maximum height.
+Dialogue: 1,0:06:17.34,0:06:20.44,CHS,,0,0,0,,{\fad(50,50)}Let's go ahead and put this to 16.5 at the maximum height,
+Dialogue: 2,0:06:17.34,0:06:20.44,ENG,,0,0,0,,{\fad(50,50)}Let's go ahead and put this to 16.5 at the maximum height,
+Dialogue: 1,0:06:20.76,0:06:22.61,CHS,,0,0,0,,{\fad(50,50)}and we leave the min height at zero.
+Dialogue: 2,0:06:20.76,0:06:22.61,ENG,,0,0,0,,{\fad(50,50)}and we leave the min height at zero.
+Dialogue: 1,0:06:23.25,0:06:25.78,CHS,,0,0,0,,{\fad(50,50)}So if I right click this now and flood layer,
+Dialogue: 2,0:06:23.25,0:06:25.78,ENG,,0,0,0,,{\fad(50,50)}So if I right click this now and flood layer,
+Dialogue: 1,0:06:26.12,0:06:31.94,CHS,,0,0,0,,{\fad(50,50)}you'll notice that it's painted all around the edge of the actual ocean.
+Dialogue: 2,0:06:26.12,0:06:31.94,ENG,,0,0,0,,{\fad(50,50)}you'll notice that it's painted all around the edge of the actual ocean.
+Dialogue: 1,0:06:31.94,0:06:35.54,CHS,,0,0,0,,{\fad(50,50)}Alright, I mean, you couldn't get any better because we're
+Dialogue: 2,0:06:31.94,0:06:35.54,ENG,,0,0,0,,{\fad(50,50)}Alright, I mean, you couldn't get any better because we're
+Dialogue: 1,0:06:35.64,0:06:38.45,CHS,,0,0,0,,{\fad(50,50)}able to paint whatever we what along the edges
+Dialogue: 2,0:06:35.64,0:06:38.45,ENG,,0,0,0,,{\fad(50,50)}able to paint whatever we what along the edges
+Dialogue: 1,0:06:38.77,0:06:41.20,CHS,,0,0,0,,{\fad(50,50)}and not have to worry about whether or not it works,
+Dialogue: 2,0:06:38.77,0:06:41.20,ENG,,0,0,0,,{\fad(50,50)}and not have to worry about whether or not it works,
+Dialogue: 1,0:06:41.25,0:06:43.96,CHS,,0,0,0,,{\fad(50,50)}because we procedurally generated it based on a height.
+Dialogue: 2,0:06:41.25,0:06:43.96,ENG,,0,0,0,,{\fad(50,50)}because we procedurally generated it based on a height.
+Dialogue: 1,0:06:45.93,0:06:47.46,CHS,,0,0,0,,{\fad(50,50)}So now we've done that,
+Dialogue: 2,0:06:45.93,0:06:47.46,ENG,,0,0,0,,{\fad(50,50)}So now we've done that,
+Dialogue: 1,0:06:47.61,0:06:51.13,CHS,,0,0,0,,{\fad(50,50)}we're ready go in and create some vegetation like we said.
+Dialogue: 2,0:06:47.61,0:06:51.13,ENG,,0,0,0,,{\fad(50,50)}we're ready go in and create some vegetation like we said.
+Dialogue: 1,0:06:52.48,0:06:55.32,CHS,,0,0,0,,{\fad(50,50)}So this right here is gonna require us to go to tools,
+Dialogue: 2,0:06:52.48,0:06:55.32,ENG,,0,0,0,,{\fad(50,50)}So this right here is gonna require us to go to tools,
+Dialogue: 1,0:06:55.32,0:06:57.32,CHS,,0,0,0,,{\fad(50,50)}and we'll go to the vegetation editor,
+Dialogue: 2,0:06:55.32,0:06:57.32,ENG,,0,0,0,,{\fad(50,50)}and we'll go to the vegetation editor,
+Dialogue: 1,0:06:57.62,0:07:00.24,CHS,,0,0,0,,{\fad(50,50)}and let's snap this over the other editor,
+Dialogue: 2,0:06:57.62,0:07:00.24,ENG,,0,0,0,,{\fad(50,50)}and let's snap this over the other editor,
+Dialogue: 1,0:07:01.49,0:07:04.64,CHS,,0,0,0,,{\fad(50,50)}so I'm gonna bring this out a little bit, we're gonna create some groups.
+Dialogue: 2,0:07:01.49,0:07:04.64,ENG,,0,0,0,,{\fad(50,50)}so I'm gonna bring this out a little bit, we're gonna create some groups.
+Dialogue: 1,0:07:05.26,0:07:08.32,CHS,,0,0,0,,{\fad(50,50)}The first group I'm gonna do is I'm gonna add the trees group.
+Dialogue: 2,0:07:05.26,0:07:08.32,ENG,,0,0,0,,{\fad(50,50)}The first group I'm gonna do is I'm gonna add the trees group.
+Dialogue: 1,0:07:08.57,0:07:10.52,CHS,,0,0,0,,{\fad(50,50)}This is gonna be the easiest one to do,
+Dialogue: 2,0:07:08.57,0:07:10.52,ENG,,0,0,0,,{\fad(50,50)}This is gonna be the easiest one to do,
+Dialogue: 1,0:07:11.01,0:07:14.13,CHS,,0,0,0,,{\fad(50,50)}and probably the most densely populated one,
+Dialogue: 2,0:07:11.01,0:07:14.13,ENG,,0,0,0,,{\fad(50,50)}and probably the most densely populated one,
+Dialogue: 1,0:07:14.24,0:07:17.68,CHS,,0,0,0,,{\fad(50,50)}and then we're gonna do another group called bushes,
+Dialogue: 2,0:07:14.24,0:07:17.68,ENG,,0,0,0,,{\fad(50,50)}and then we're gonna do another group called bushes,
+Dialogue: 1,0:07:18.26,0:07:19.54,CHS,,0,0,0,,{\fad(50,50)}and that'll be the lower.
+Dialogue: 2,0:07:18.26,0:07:19.54,ENG,,0,0,0,,{\fad(50,50)}and that'll be the lower.
+Dialogue: 1,0:07:20.29,0:07:21.86,CHS,,0,0,0,,{\fad(50,50)}So if we go into this trees,
+Dialogue: 2,0:07:20.29,0:07:21.86,ENG,,0,0,0,,{\fad(50,50)}So if we go into this trees,
+Dialogue: 1,0:07:22.42,0:07:25.76,CHS,,0,0,0,,{\fad(50,50)}we're gonna actually click up here, these are the same icons that we had before,
+Dialogue: 2,0:07:22.42,0:07:25.76,ENG,,0,0,0,,{\fad(50,50)}we're gonna actually click up here, these are the same icons that we had before,
+Dialogue: 1,0:07:26.50,0:07:29.00,CHS,,0,0,0,,{\fad(50,50)}and we can click and add the actual trees we want.
+Dialogue: 2,0:07:26.50,0:07:29.00,ENG,,0,0,0,,{\fad(50,50)}and we can click and add the actual trees we want.
+Dialogue: 1,0:07:29.44,0:07:32.37,CHS,,0,0,0,,{\fad(50,50)}So what I want is I wanna have a palm tree,
+Dialogue: 2,0:07:29.44,0:07:32.37,ENG,,0,0,0,,{\fad(50,50)}So what I want is I wanna have a palm tree,
+Dialogue: 1,0:07:32.56,0:07:35.92,CHS,,0,0,0,,{\fad(50,50)}and I'm gonna select all the palm trees in this group.
+Dialogue: 2,0:07:32.56,0:07:35.92,ENG,,0,0,0,,{\fad(50,50)}and I'm gonna select all the palm trees in this group.
+Dialogue: 1,0:07:37.48,0:07:40.20,CHS,,0,0,0,,{\fad(50,50)}And if I scroll this open, we can see all of them,
+Dialogue: 2,0:07:37.48,0:07:40.20,ENG,,0,0,0,,{\fad(50,50)}And if I scroll this open, we can see all of them,
+Dialogue: 1,0:07:40.20,0:07:42.89,CHS,,0,0,0,,{\fad(50,50)}and you would have the same selections on all the trees,
+Dialogue: 2,0:07:40.20,0:07:42.89,ENG,,0,0,0,,{\fad(50,50)}and you would have the same selections on all the trees,
+Dialogue: 1,0:07:43.44,0:07:45.32,CHS,,0,0,0,,{\fad(50,50)}but this time I'm actually gonna select the group,
+Dialogue: 2,0:07:43.44,0:07:45.32,ENG,,0,0,0,,{\fad(50,50)}but this time I'm actually gonna select the group,
+Dialogue: 1,0:07:45.32,0:07:48.72,CHS,,0,0,0,,{\fad(50,50)}and you can influence all the children of the parent group.
+Dialogue: 2,0:07:45.32,0:07:48.72,ENG,,0,0,0,,{\fad(50,50)}and you can influence all the children of the parent group.
+Dialogue: 1,0:07:49.76,0:07:54.65,CHS,,0,0,0,,{\fad(50,50)}I'm going to change the size variation to be about point seven pass the size,
+Dialogue: 2,0:07:49.76,0:07:54.65,ENG,,0,0,0,,{\fad(50,50)}I'm going to change the size variation to be about point seven pass the size,
+Dialogue: 1,0:07:54.94,0:07:56.69,CHS,,0,0,0,,{\fad(50,50)}we'll do random rotation,
+Dialogue: 2,0:07:54.94,0:07:56.69,ENG,,0,0,0,,{\fad(50,50)}we'll do random rotation,
+Dialogue: 1,0:07:57.12,0:07:59.94,CHS,,0,0,0,,{\fad(50,50)}and then in the bending, we're just gonna set that to 1,
+Dialogue: 2,0:07:57.12,0:07:59.94,ENG,,0,0,0,,{\fad(50,50)}and then in the bending, we're just gonna set that to 1,
+Dialogue: 1,0:08:01.48,0:08:06.60,CHS,,0,0,0,,{\fad(50,50)}we're gonna come down to the density and we're gonna change this to about 7 or so.
+Dialogue: 2,0:08:01.48,0:08:06.60,ENG,,0,0,0,,{\fad(50,50)}we're gonna come down to the density and we're gonna change this to about 7 or so.
+Dialogue: 1,0:08:06.76,0:08:10.80,CHS,,0,0,0,,{\fad(50,50)}Keep in mind this is the density between the actual instances,
+Dialogue: 2,0:08:06.76,0:08:10.80,ENG,,0,0,0,,{\fad(50,50)}Keep in mind this is the density between the actual instances,
+Dialogue: 1,0:08:10.82,0:08:13.38,CHS,,0,0,0,,{\fad(50,50)}so the lower of the actual level,
+Dialogue: 2,0:08:10.82,0:08:13.38,ENG,,0,0,0,,{\fad(50,50)}so the lower of the actual level,
+Dialogue: 1,0:08:13.38,0:08:15.03,CHS,,0,0,0,,{\fad(50,50)}it's counterintuitive, you would think,
+Dialogue: 2,0:08:13.38,0:08:15.03,ENG,,0,0,0,,{\fad(50,50)}it's counterintuitive, you would think,
+Dialogue: 1,0:08:15.19,0:08:17.60,CHS,,0,0,0,,{\fad(50,50)}ok, density, I want it to be closer together.
+Dialogue: 2,0:08:15.19,0:08:17.60,ENG,,0,0,0,,{\fad(50,50)}ok, density, I want it to be closer together.
+Dialogue: 1,0:08:18.15,0:08:22.82,CHS,,0,0,0,,{\fad(50,50)}So what would I do, I wanna create more objects and you wouldn't increase it,
+Dialogue: 2,0:08:18.15,0:08:22.82,ENG,,0,0,0,,{\fad(50,50)}So what would I do, I wanna create more objects and you wouldn't increase it,
+Dialogue: 1,0:08:22.82,0:08:26.78,CHS,,0,0,0,,{\fad(50,50)}but the density actually relies on the distance between those.
+Dialogue: 2,0:08:22.82,0:08:26.78,ENG,,0,0,0,,{\fad(50,50)}but the density actually relies on the distance between those.
+Dialogue: 1,0:08:26.78,0:08:30.01,CHS,,0,0,0,,{\fad(50,50)}So the higher the value the actually more spacing you get.
+Dialogue: 2,0:08:26.78,0:08:30.01,ENG,,0,0,0,,{\fad(50,50)}So the higher the value the actually more spacing you get.
+Dialogue: 1,0:08:30.78,0:08:34.86,CHS,,0,0,0,,{\fad(50,50)}We're gonna come in here as well and change this to 18 on the elevation minimum,
+Dialogue: 2,0:08:30.78,0:08:34.86,ENG,,0,0,0,,{\fad(50,50)}We're gonna come in here as well and change this to 18 on the elevation minimum,
+Dialogue: 1,0:08:35.73,0:08:38.08,CHS,,0,0,0,,{\fad(50,50)}and then we're also going to change the cast shadow
+Dialogue: 2,0:08:35.73,0:08:38.08,ENG,,0,0,0,,{\fad(50,50)}and then we're also going to change the cast shadow
+Dialogue: 1,0:08:38.56,0:08:41.95,CHS,,0,0,0,,{\fad(50,50)}and the receive shadow, we'll keep the min spec set to low.
+Dialogue: 2,0:08:38.56,0:08:41.95,ENG,,0,0,0,,{\fad(50,50)}and the receive shadow, we'll keep the min spec set to low.
+Dialogue: 1,0:08:43.52,0:08:45.48,CHS,,0,0,0,,{\fad(50,50)}So let's save this real quick,
+Dialogue: 2,0:08:43.52,0:08:45.48,ENG,,0,0,0,,{\fad(50,50)}So let's save this real quick,
+Dialogue: 1,0:08:45.60,0:08:51.45,CHS,,0,0,0,,{\fad(50,50)}and then what we're gonna do is right click and distribute the selected vegetation objects and see what we get.
+Dialogue: 2,0:08:45.60,0:08:51.45,ENG,,0,0,0,,{\fad(50,50)}and then what we're gonna do is right click and distribute the selected vegetation objects and see what we get.
+Dialogue: 1,0:08:52.72,0:08:54.50,CHS,,0,0,0,,{\fad(50,50)}So now we have a lot of trees,
+Dialogue: 2,0:08:52.72,0:08:54.50,ENG,,0,0,0,,{\fad(50,50)}So now we have a lot of trees,
+Dialogue: 1,0:08:55.13,0:08:58.63,CHS,,0,0,0,,{\fad(50,50)}all over the place that we just randomly generated,
+Dialogue: 2,0:08:55.13,0:08:58.63,ENG,,0,0,0,,{\fad(50,50)}all over the place that we just randomly generated,
+Dialogue: 1,0:08:58.72,0:09:01.74,CHS,,0,0,0,,{\fad(50,50)}and to be honest it doesn't look that bad,
+Dialogue: 2,0:08:58.72,0:09:01.74,ENG,,0,0,0,,{\fad(50,50)}and to be honest it doesn't look that bad,
+Dialogue: 1,0:09:02.02,0:09:04.40,CHS,,0,0,0,,{\fad(50,50)}it's kind of a little bit too much,
+Dialogue: 2,0:09:02.02,0:09:04.40,ENG,,0,0,0,,{\fad(50,50)}it's kind of a little bit too much,
+Dialogue: 1,0:09:04.56,0:09:06.73,CHS,,0,0,0,,{\fad(50,50)}so maybe I want to go back and change it.
+Dialogue: 2,0:09:04.56,0:09:06.73,ENG,,0,0,0,,{\fad(50,50)}so maybe I want to go back and change it.
+Dialogue: 1,0:09:07.36,0:09:10.43,CHS,,0,0,0,,{\fad(50,50)}Well, there are different options that you have here, we can set our trees,
+Dialogue: 2,0:09:07.36,0:09:10.43,ENG,,0,0,0,,{\fad(50,50)}Well, there are different options that you have here, we can set our trees,
+Dialogue: 1,0:09:10.96,0:09:12.57,CHS,,0,0,0,,{\fad(50,50)}and we can click the erase button,
+Dialogue: 2,0:09:10.96,0:09:12.57,ENG,,0,0,0,,{\fad(50,50)}and we can click the erase button,
+Dialogue: 1,0:09:12.57,0:09:15.55,CHS,,0,0,0,,{\fad(50,50)}and we can start erasing them manually which works quite well.
+Dialogue: 2,0:09:12.57,0:09:15.55,ENG,,0,0,0,,{\fad(50,50)}and we can start erasing them manually which works quite well.
+Dialogue: 1,0:09:16.31,0:09:18.46,CHS,,0,0,0,,{\fad(50,50)}It doesn't matter they were procedurally generated,
+Dialogue: 2,0:09:16.31,0:09:18.46,ENG,,0,0,0,,{\fad(50,50)}It doesn't matter they were procedurally generated,
+Dialogue: 1,0:09:18.46,0:09:21.29,CHS,,0,0,0,,{\fad(50,50)}you can come in and change that all around.
+Dialogue: 2,0:09:18.46,0:09:21.29,ENG,,0,0,0,,{\fad(50,50)}you can come in and change that all around.
+Dialogue: 1,0:09:21.56,0:09:25.40,CHS,,0,0,0,,{\fad(50,50)}You can also have the option to maybe hide the certain species,
+Dialogue: 2,0:09:21.56,0:09:25.40,ENG,,0,0,0,,{\fad(50,50)}You can also have the option to maybe hide the certain species,
+Dialogue: 1,0:09:25.82,0:09:27.32,CHS,,0,0,0,,{\fad(50,50)}so maybe that's what we want.
+Dialogue: 2,0:09:25.82,0:09:27.32,ENG,,0,0,0,,{\fad(50,50)}so maybe that's what we want.
+Dialogue: 1,0:09:27.45,0:09:29.36,CHS,,0,0,0,,{\fad(50,50)}We can do this, maybe hide that,
+Dialogue: 2,0:09:27.45,0:09:29.36,ENG,,0,0,0,,{\fad(50,50)}We can do this, maybe hide that,
+Dialogue: 1,0:09:30.05,0:09:33.68,CHS,,0,0,0,,{\fad(50,50)}and this looks a little bit more manageable as far as what the island is doing.
+Dialogue: 2,0:09:30.05,0:09:33.68,ENG,,0,0,0,,{\fad(50,50)}and this looks a little bit more manageable as far as what the island is doing.
+Dialogue: 1,0:09:35.39,0:09:37.68,CHS,,0,0,0,,{\fad(50,50)}So we have all there trees in place,
+Dialogue: 2,0:09:35.39,0:09:37.68,ENG,,0,0,0,,{\fad(50,50)}So we have all there trees in place,
+Dialogue: 1,0:09:38.93,0:09:41.63,CHS,,0,0,0,,{\fad(50,50)}and we have these other trees that maybe we can just
+Dialogue: 2,0:09:38.93,0:09:41.63,ENG,,0,0,0,,{\fad(50,50)}and we have these other trees that maybe we can just
+Dialogue: 1,0:09:41.82,0:09:43.75,CHS,,0,0,0,,{\fad(50,50)}completely get rid of if we want in.
+Dialogue: 2,0:09:41.82,0:09:43.75,ENG,,0,0,0,,{\fad(50,50)}completely get rid of if we want in.
+Dialogue: 1,0:09:44.05,0:09:45.63,CHS,,0,0,0,,{\fad(50,50)}So we go down to remove,
+Dialogue: 2,0:09:44.05,0:09:45.63,ENG,,0,0,0,,{\fad(50,50)}So we go down to remove,
+Dialogue: 1,0:09:46.06,0:09:47.74,CHS,,0,0,0,,{\fad(50,50)}so now we don't deal with them at all.
+Dialogue: 2,0:09:46.06,0:09:47.74,ENG,,0,0,0,,{\fad(50,50)}so now we don't deal with them at all.
+Dialogue: 1,0:09:48.54,0:09:53.52,CHS,,0,0,0,,{\fad(50,50)}So let's look at this again, what if we want to just change this and distribute some more,
+Dialogue: 2,0:09:48.54,0:09:53.52,ENG,,0,0,0,,{\fad(50,50)}So let's look at this again, what if we want to just change this and distribute some more,
+Dialogue: 1,0:09:53.53,0:09:55.45,CHS,,0,0,0,,{\fad(50,50)}so we can distribute more objects,
+Dialogue: 2,0:09:53.53,0:09:55.45,ENG,,0,0,0,,{\fad(50,50)}so we can distribute more objects,
+Dialogue: 1,0:09:55.86,0:09:58.93,CHS,,0,0,0,,{\fad(50,50)}and this is the nice idea of being able to use like
+Dialogue: 2,0:09:55.86,0:09:58.93,ENG,,0,0,0,,{\fad(50,50)}and this is the nice idea of being able to use like
+Dialogue: 1,0:09:59.12,0:10:02.78,CHS,,0,0,0,,{\fad(50,50)}procedurally or dynamically changeable amounts
+Dialogue: 2,0:09:59.12,0:10:02.78,ENG,,0,0,0,,{\fad(50,50)}procedurally or dynamically changeable amounts
+Dialogue: 1,0:10:02.78,0:10:06.56,CHS,,0,0,0,,{\fad(50,50)}just based on by clicking a button instead of going in and painting,
+Dialogue: 2,0:10:02.78,0:10:06.56,ENG,,0,0,0,,{\fad(50,50)}just based on by clicking a button instead of going in and painting,
+Dialogue: 1,0:10:07.08,0:10:10.21,CHS,,0,0,0,,{\fad(50,50)}and like I said before, we can go in, we can paint the objects as well.
+Dialogue: 2,0:10:07.08,0:10:10.21,ENG,,0,0,0,,{\fad(50,50)}and like I said before, we can go in, we can paint the objects as well.
+Dialogue: 1,0:10:11.01,0:10:15.94,CHS,,0,0,0,,{\fad(50,50)}So the question is what exactly do you want in your trees
+Dialogue: 2,0:10:11.01,0:10:15.94,ENG,,0,0,0,,{\fad(50,50)}So the question is what exactly do you want in your trees
+Dialogue: 1,0:10:15.94,0:10:19.84,CHS,,0,0,0,,{\fad(50,50)}and how exactly do you want them to be dynamically pushed around.
+Dialogue: 2,0:10:15.94,0:10:19.84,ENG,,0,0,0,,{\fad(50,50)}and how exactly do you want them to be dynamically pushed around.
+Dialogue: 1,0:10:21.24,0:10:24.10,CHS,,0,0,0,,{\fad(50,50)}We're gonna go back and we're actually going to do brushes now.
+Dialogue: 2,0:10:21.24,0:10:24.10,ENG,,0,0,0,,{\fad(50,50)}We're gonna go back and we're actually going to do brushes now.
+Dialogue: 1,0:10:24.20,0:10:26.10,CHS,,0,0,0,,{\fad(50,50)}So I'm gonna add some brushes
+Dialogue: 2,0:10:24.20,0:10:26.10,ENG,,0,0,0,,{\fad(50,50)}So I'm gonna add some brushes
+Dialogue: 1,0:10:26.63,0:10:29.00,CHS,,0,0,0,,{\fad(50,50)}and natural brushes,
+Dialogue: 2,0:10:26.63,0:10:29.00,ENG,,0,0,0,,{\fad(50,50)}and natural brushes,
+Dialogue: 1,0:10:29.00,0:10:31.61,CHS,,0,0,0,,{\fad(50,50)}and we're gonna choose greenfernbush.
+Dialogue: 2,0:10:29.00,0:10:31.61,ENG,,0,0,0,,{\fad(50,50)}and we're gonna choose greenfernbush.
+Dialogue: 1,0:10:31.61,0:10:33.61,CHS,,0,0,0,,{\fad(50,50)}We're gonna select all of these,
+Dialogue: 2,0:10:31.61,0:10:33.61,ENG,,0,0,0,,{\fad(50,50)}We're gonna select all of these,
+Dialogue: 1,0:10:34.05,0:10:37.91,CHS,,0,0,0,,{\fad(50,50)}and we're gonna do some of the similar things that we did on the other, point 7,
+Dialogue: 2,0:10:34.05,0:10:37.91,ENG,,0,0,0,,{\fad(50,50)}and we're gonna do some of the similar things that we did on the other, point 7,
+Dialogue: 1,0:10:38.36,0:10:41.12,CHS,,0,0,0,,{\fad(50,50)}rotation, we're gonna set the bending to 1,
+Dialogue: 2,0:10:38.36,0:10:41.12,ENG,,0,0,0,,{\fad(50,50)}rotation, we're gonna set the bending to 1,
+Dialogue: 1,0:10:43.32,0:10:45.43,CHS,,0,0,0,,{\fad(50,50)}we go ahead and move down, let's set the
+Dialogue: 2,0:10:43.32,0:10:45.43,ENG,,0,0,0,,{\fad(50,50)}we go ahead and move down, let's set the
+Dialogue: 1,0:10:45.55,0:10:47.58,CHS,,0,0,0,,{\fad(50,50)}elevation minimum to 18,
+Dialogue: 2,0:10:45.55,0:10:47.58,ENG,,0,0,0,,{\fad(50,50)}elevation minimum to 18,
+Dialogue: 1,0:10:48.08,0:10:50.24,CHS,,0,0,0,,{\fad(50,50)}cast shadow, receive shadow,
+Dialogue: 2,0:10:48.08,0:10:50.24,ENG,,0,0,0,,{\fad(50,50)}cast shadow, receive shadow,
+Dialogue: 1,0:10:53.06,0:10:55.26,CHS,,0,0,0,,{\fad(50,50)}and then for the most part I think will be set
+Dialogue: 2,0:10:53.06,0:10:55.26,ENG,,0,0,0,,{\fad(50,50)}and then for the most part I think will be set
+Dialogue: 1,0:10:55.38,0:10:56.94,CHS,,0,0,0,,{\fad(50,50)}to go ahead and distribute.
+Dialogue: 2,0:10:55.38,0:10:56.94,ENG,,0,0,0,,{\fad(50,50)}to go ahead and distribute.
+Dialogue: 1,0:10:59.66,0:11:00.29,CHS,,0,0,0,,{\fad(50,50)}So,
+Dialogue: 2,0:10:59.66,0:11:00.29,ENG,,0,0,0,,{\fad(50,50)}So,
+Dialogue: 1,0:11:01.28,0:11:06.24,CHS,,0,0,0,,{\fad(50,50)}the one thing that I realized I didn't set right before I click this was I didn't set the density.
+Dialogue: 2,0:11:01.28,0:11:06.24,ENG,,0,0,0,,{\fad(50,50)}the one thing that I realized I didn't set right before I click this was I didn't set the density.
+Dialogue: 1,0:11:06.45,0:11:08.75,CHS,,0,0,0,,{\fad(50,50)}So you can see how much it actually matters.
+Dialogue: 2,0:11:06.45,0:11:08.75,ENG,,0,0,0,,{\fad(50,50)}So you can see how much it actually matters.
+Dialogue: 1,0:11:09.12,0:11:13.54,CHS,,0,0,0,,{\fad(50,50)}With the density that's not declared, we now have brushes everywhere,
+Dialogue: 2,0:11:09.12,0:11:13.54,ENG,,0,0,0,,{\fad(50,50)}With the density that's not declared, we now have brushes everywhere,
+Dialogue: 1,0:11:13.76,0:11:16.92,CHS,,0,0,0,,{\fad(50,50)}which maybe what you wanted, but it's not what we wanted.
+Dialogue: 2,0:11:13.76,0:11:16.92,ENG,,0,0,0,,{\fad(50,50)}which maybe what you wanted, but it's not what we wanted.
+Dialogue: 1,0:11:18.56,0:11:21.78,CHS,,0,0,0,,{\fad(50,50)}So pressing ctrl+z, I can come down into the brushes,
+Dialogue: 2,0:11:18.56,0:11:21.78,ENG,,0,0,0,,{\fad(50,50)}So pressing ctrl+z, I can come down into the brushes,
+Dialogue: 1,0:11:22.13,0:11:24.97,CHS,,0,0,0,,{\fad(50,50)}and I can set the density to something a little more manageable,
+Dialogue: 2,0:11:22.13,0:11:24.97,ENG,,0,0,0,,{\fad(50,50)}and I can set the density to something a little more manageable,
+Dialogue: 1,0:11:24.97,0:11:26.94,CHS,,0,0,0,,{\fad(50,50)}so let's do that to 6
+Dialogue: 2,0:11:24.97,0:11:26.94,ENG,,0,0,0,,{\fad(50,50)}so let's do that to 6
+Dialogue: 1,0:11:27.18,0:11:29.07,CHS,,0,0,0,,{\fad(50,50)}and see what gets laid down.
+Dialogue: 2,0:11:27.18,0:11:29.07,ENG,,0,0,0,,{\fad(50,50)}and see what gets laid down.
+Dialogue: 1,0:11:30.08,0:11:32.88,CHS,,0,0,0,,{\fad(50,50)}So now we can see that we have quite a few more brushes,
+Dialogue: 2,0:11:30.08,0:11:32.88,ENG,,0,0,0,,{\fad(50,50)}So now we can see that we have quite a few more brushes,
+Dialogue: 1,0:11:33.35,0:11:35.12,CHS,,0,0,0,,{\fad(50,50)}but maybe we want to keep adding to them.
+Dialogue: 2,0:11:33.35,0:11:35.12,ENG,,0,0,0,,{\fad(50,50)}but maybe we want to keep adding to them.
+Dialogue: 1,0:11:35.43,0:11:35.95,CHS,,0,0,0,,{\fad(50,50)}So,
+Dialogue: 2,0:11:35.43,0:11:35.95,ENG,,0,0,0,,{\fad(50,50)}So,
+Dialogue: 1,0:11:36.82,0:11:39.41,CHS,,0,0,0,,{\fad(50,50)}we have all these objects that we would be able to use,
+Dialogue: 2,0:11:36.82,0:11:39.41,ENG,,0,0,0,,{\fad(50,50)}we have all these objects that we would be able to use,
+Dialogue: 1,0:11:40.08,0:11:43.81,CHS,,0,0,0,,{\fad(50,50)}and now going into select, I can actually come in and change these too.
+Dialogue: 2,0:11:40.08,0:11:43.81,ENG,,0,0,0,,{\fad(50,50)}and now going into select, I can actually come in and change these too.
+Dialogue: 1,0:11:44.23,0:11:46.81,CHS,,0,0,0,,{\fad(50,50)}So it's just a feature like the paint and remove
+Dialogue: 2,0:11:44.23,0:11:46.81,ENG,,0,0,0,,{\fad(50,50)}So it's just a feature like the paint and remove
+Dialogue: 1,0:11:47.12,0:11:51.21,CHS,,0,0,0,,{\fad(50,50)}that you would be able to select the objects that you're wanting to change,
+Dialogue: 2,0:11:47.12,0:11:51.21,ENG,,0,0,0,,{\fad(50,50)}that you would be able to select the objects that you're wanting to change,
+Dialogue: 1,0:11:51.25,0:11:53.35,CHS,,0,0,0,,{\fad(50,50)}and being able to change them dynamically.
+Dialogue: 2,0:11:51.25,0:11:53.35,ENG,,0,0,0,,{\fad(50,50)}and being able to change them dynamically.
+Dialogue: 1,0:11:53.95,0:11:54.92,CHS,,0,0,0,,{\fad(50,50)}If I want
+Dialogue: 2,0:11:53.95,0:11:54.92,ENG,,0,0,0,,{\fad(50,50)}If I want
+Dialogue: 1,0:11:56.27,0:11:58.51,CHS,,0,0,0,,{\fad(50,50)}all these objects to be able to scale down,
+Dialogue: 2,0:11:56.27,0:11:58.51,ENG,,0,0,0,,{\fad(50,50)}all these objects to be able to scale down,
+Dialogue: 1,0:11:58.98,0:12:00.54,CHS,,0,0,0,,{\fad(50,50)}we have the option to do so.
+Dialogue: 2,0:11:58.98,0:12:00.54,ENG,,0,0,0,,{\fad(50,50)}we have the option to do so.
+Dialogue: 1,0:12:02.18,0:12:05.75,CHS,,0,0,0,,{\fad(50,50)}And like before, we can also go in shrink this down
+Dialogue: 2,0:12:02.18,0:12:05.75,ENG,,0,0,0,,{\fad(50,50)}And like before, we can also go in shrink this down
+Dialogue: 1,0:12:06.10,0:12:08.16,CHS,,0,0,0,,{\fad(50,50)}and maybe remove some species.
+Dialogue: 2,0:12:06.10,0:12:08.16,ENG,,0,0,0,,{\fad(50,50)}and maybe remove some species.
+Dialogue: 1,0:12:09.76,0:12:12.32,CHS,,0,0,0,,{\fad(50,50)}So you never know exactly what you want for something,
+Dialogue: 2,0:12:09.76,0:12:12.32,ENG,,0,0,0,,{\fad(50,50)}So you never know exactly what you want for something,
+Dialogue: 1,0:12:12.71,0:12:15.55,CHS,,0,0,0,,{\fad(50,50)}maybe you want a lot of brushes or maybe you don't.
+Dialogue: 2,0:12:12.71,0:12:15.55,ENG,,0,0,0,,{\fad(50,50)}maybe you want a lot of brushes or maybe you don't.
+Dialogue: 1,0:12:16.73,0:12:18.54,CHS,,0,0,0,,{\fad(50,50)}We go in and we can
+Dialogue: 2,0:12:16.73,0:12:18.54,ENG,,0,0,0,,{\fad(50,50)}We go in and we can
+Dialogue: 1,0:12:20.26,0:12:23.27,CHS,,0,0,0,,{\fad(50,50)}erase objects which we're gonna do in this case.
+Dialogue: 2,0:12:20.26,0:12:23.27,ENG,,0,0,0,,{\fad(50,50)}erase objects which we're gonna do in this case.
+Dialogue: 1,0:12:28.45,0:12:30.80,CHS,,0,0,0,,{\fad(50,50)}We're gonna set something up so we can have like a little
+Dialogue: 2,0:12:28.45,0:12:30.80,ENG,,0,0,0,,{\fad(50,50)}We're gonna set something up so we can have like a little
+Dialogue: 1,0:12:31.44,0:12:33.87,CHS,,0,0,0,,{\fad(50,50)}bridge later, stages of this.
+Dialogue: 2,0:12:31.44,0:12:33.87,ENG,,0,0,0,,{\fad(50,50)}bridge later, stages of this.
+Dialogue: 1,0:12:34.42,0:12:37.04,CHS,,0,0,0,,{\fad(50,50)}But for right now, we have the vegetation, we have just laid it,
+Dialogue: 2,0:12:34.42,0:12:37.04,ENG,,0,0,0,,{\fad(50,50)}But for right now, we have the vegetation, we have just laid it,
+Dialogue: 1,0:12:37.04,0:12:39.04,CHS,,0,0,0,,{\fad(50,50)}and I think I'm gonna end the video there
+Dialogue: 2,0:12:37.04,0:12:39.04,ENG,,0,0,0,,{\fad(50,50)}and I think I'm gonna end the video there
+Dialogue: 1,0:12:39.60,0:12:44.16,CHS,,0,0,0,,{\fad(50,50)}just before we start getting in to the actual global illumination and set in the clouds up,
+Dialogue: 2,0:12:39.60,0:12:44.16,ENG,,0,0,0,,{\fad(50,50)}just before we start getting in to the actual global illumination and set in the clouds up,
+Dialogue: 1,0:12:44.44,0:12:47.56,CHS,,0,0,0,,{\fad(50,50)}and then sticking an object right here and maybe a nice little
+Dialogue: 2,0:12:44.44,0:12:47.56,ENG,,0,0,0,,{\fad(50,50)}and then sticking an object right here and maybe a nice little
+Dialogue: 1,0:12:47.73,0:12:48.59,CHS,,0,0,0,,{\fad(50,50)}em...
+Dialogue: 2,0:12:47.73,0:12:48.59,ENG,,0,0,0,,{\fad(50,50)}em...
+Dialogue: 1,0:12:48.96,0:12:51.62,CHS,,0,0,0,,{\fad(50,50)}dock that we could have out into the ocean, so
+Dialogue: 2,0:12:48.96,0:12:51.62,ENG,,0,0,0,,{\fad(50,50)}dock that we could have out into the ocean, so
+Dialogue: 1,0:12:51.89,0:12:54.23,CHS,,0,0,0,,{\fad(50,50)}this is the vid showing you how to set up the vegetation,
+Dialogue: 2,0:12:51.89,0:12:54.23,ENG,,0,0,0,,{\fad(50,50)}this is the vid showing you how to set up the vegetation,
+Dialogue: 1,0:12:54.23,0:12:56.79,CHS,,0,0,0,,{\fad(50,50)}how to set up everything dynamically
+Dialogue: 2,0:12:54.23,0:12:56.79,ENG,,0,0,0,,{\fad(50,50)}how to set up everything dynamically
+Dialogue: 1,0:12:56.79,0:13:00.54,CHS,,0,0,0,,{\fad(50,50)}and change around the actual parameters on the fly quickly,
+Dialogue: 2,0:12:56.79,0:13:00.54,ENG,,0,0,0,,{\fad(50,50)}and change around the actual parameters on the fly quickly,
+Dialogue: 1,0:13:00.59,0:13:02.10,CHS,,0,0,0,,{\fad(50,50)}which is the most important part.
+Dialogue: 2,0:13:00.59,0:13:02.10,ENG,,0,0,0,,{\fad(50,50)}which is the most important part.
 Dialogue: 3,0:13:02.32,0:13:03.47,CHS,,0,0,0,,
