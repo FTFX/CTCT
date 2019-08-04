@@ -15,8 +15,7 @@ Video File: How to create a level, terrain and terrain texture.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Active Line: 6
-Video Position: 327
+Video Position: 48
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -26,432 +25,432 @@ Style: ENG,Noto Sans,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 1,0:00:01.60,0:00:04.64,CHS,,0,0,0,,{\fad(50,50)}For this video, which is going to be a few different sections
+Dialogue: 1,0:00:01.60,0:00:04.64,CHS,,0,0,0,,{\fad(50,50)}本视频将被分为几个不同部分
 Dialogue: 2,0:00:01.60,0:00:04.64,ENG,,0,0,0,,{\fad(50,50)}For this video, which is going to be a few different sections
-Dialogue: 1,0:00:05.22,0:00:07.32,CHS,,0,0,0,,{\fad(50,50)}will be about creating your first level,
+Dialogue: 1,0:00:05.22,0:00:07.32,CHS,,0,0,0,,{\fad(50,50)}关于创建你的第一个关卡
 Dialogue: 2,0:00:05.22,0:00:07.32,ENG,,0,0,0,,{\fad(50,50)}will be about creating your first level,
-Dialogue: 1,0:00:07.32,0:00:10.42,CHS,,0,0,0,,{\fad(50,50)}in this case, with the first one, we're going to create the level,
+Dialogue: 1,0:00:07.32,0:00:10.42,CHS,,0,0,0,,{\fad(50,50)}本节介绍第一部分 创建关卡
 Dialogue: 2,0:00:07.32,0:00:10.42,ENG,,0,0,0,,{\fad(50,50)}in this case, with the first one, we're going to create the level,
-Dialogue: 1,0:00:10.88,0:00:14.72,CHS,,0,0,0,,{\fad(50,50)}we're going to create the terrain, we're going to paint the terrain,
+Dialogue: 1,0:00:10.88,0:00:14.72,CHS,,0,0,0,,{\fad(50,50)}我们将创建地形 喷涂地表
 Dialogue: 2,0:00:10.88,0:00:14.72,ENG,,0,0,0,,{\fad(50,50)}we're going to create the terrain, we're going to paint the terrain,
-Dialogue: 1,0:00:14.84,0:00:18.70,CHS,,0,0,0,,{\fad(50,50)}and then we're going to apply vegetation, all within this one video.
+Dialogue: 1,0:00:14.84,0:00:18.70,CHS,,0,0,0,,{\fad(50,50)}然后添加植物 全在这个视频中介绍完
 Dialogue: 2,0:00:14.84,0:00:18.70,ENG,,0,0,0,,{\fad(50,50)}and then we're going to apply vegetation, all within this one video.
-Dialogue: 1,0:00:19.08,0:00:22.14,CHS,,0,0,0,,{\fad(50,50)}So, it's only take about 10 minutes, and let's get to it.
+Dialogue: 1,0:00:19.08,0:00:22.14,CHS,,0,0,0,,{\fad(50,50)}所以时长大约10分钟 我们开始吧
 Dialogue: 2,0:00:19.08,0:00:22.14,ENG,,0,0,0,,{\fad(50,50)}So, it's only take about 10 minutes, and let's get to it.
-Dialogue: 1,0:00:23.08,0:00:25.24,CHS,,0,0,0,,{\fad(50,50)}To start, we'll go to File->New,
+Dialogue: 1,0:00:23.08,0:00:25.24,CHS,,0,0,0,,{\fad(50,50)}点File菜单下New以创建关卡
 Dialogue: 2,0:00:23.08,0:00:25.24,ENG,,0,0,0,,{\fad(50,50)}To start, we'll go to File->New,
-Dialogue: 1,0:00:25.44,0:00:33.60,CHS,,0,0,0,,{\fad(50,50)}and we'll call this one training_FirstLVL,
+Dialogue: 1,0:00:25.44,0:00:33.60,CHS,,0,0,0,,{\fad(50,50)}命名为training_FirstLVL
 Dialogue: 2,0:00:25.44,0:00:33.60,ENG,,0,0,0,,{\fad(50,50)}and we'll call this one training_FirstLVL,
-Dialogue: 1,0:00:34.18,0:00:38.58,CHS,,0,0,0,,{\fad(50,50)}and we'll keep in the levels folder, then we're gonna choose a small heightmap resolution,
+Dialogue: 1,0:00:34.18,0:00:38.58,CHS,,0,0,0,,{\fad(50,50)}让它保持在levels文件夹下 然后高度图分辨率调低
 Dialogue: 2,0:00:34.18,0:00:38.58,ENG,,0,0,0,,{\fad(50,50)}and we'll keep in the levels folder, then we're gonna choose a small heightmap resolution,
-Dialogue: 1,0:00:38.86,0:00:43.56,CHS,,0,0,0,,{\fad(50,50)}which means the terrain size will be 128 meters in all directions.
+Dialogue: 1,0:00:38.86,0:00:43.56,CHS,,0,0,0,,{\fad(50,50)}让地形长宽保持在128米
 Dialogue: 2,0:00:38.86,0:00:43.56,ENG,,0,0,0,,{\fad(50,50)}which means the terrain size will be 128 meters in all directions.
-Dialogue: 1,0:00:44.34,0:00:47.36,CHS,,0,0,0,,{\fad(50,50)}We're going to keep the texture dimensions at 4k,
+Dialogue: 1,0:00:44.34,0:00:47.36,CHS,,0,0,0,,{\fad(50,50)}贴图尺寸保持在4k
 Dialogue: 2,0:00:44.34,0:00:47.36,ENG,,0,0,0,,{\fad(50,50)}We're going to keep the texture dimensions at 4k,
-Dialogue: 1,0:00:47.58,0:00:51.00,CHS,,0,0,0,,{\fad(50,50)}and not worry about the other settings, because they have to do with compression,
+Dialogue: 1,0:00:47.58,0:00:51.00,CHS,,0,0,0,,{\fad(50,50)}其他的就不用管了 那些跟压缩有关联
 Dialogue: 2,0:00:47.58,0:00:51.00,ENG,,0,0,0,,{\fad(50,50)}and not worry about the other settings, because they have to do with compression,
-Dialogue: 1,0:00:51.28,0:00:53.22,CHS,,0,0,0,,{\fad(50,50)}and are out of this scope of this video.
+Dialogue: 1,0:00:51.28,0:00:53.22,CHS,,0,0,0,,{\fad(50,50)}也不在本视频讨论范围内
 Dialogue: 2,0:00:51.28,0:00:53.22,ENG,,0,0,0,,{\fad(50,50)}and are out of this scope of this video.
-Dialogue: 1,0:00:53.86,0:00:55.22,CHS,,0,0,0,,{\fad(50,50)}We're gonna click ok,
+Dialogue: 1,0:00:53.86,0:00:55.22,CHS,,0,0,0,,{\fad(50,50)}我们点OK
 Dialogue: 2,0:00:53.86,0:00:55.22,ENG,,0,0,0,,{\fad(50,50)}We're gonna click ok,
-Dialogue: 1,0:01:00.00,0:01:04.08,CHS,,0,0,0,,{\fad(50,50)}and now we're basically have our level which is 128,
+Dialogue: 1,0:01:00.00,0:01:04.08,CHS,,0,0,0,,{\fad(50,50)}现在我们有了128平方米的关卡
 Dialogue: 2,0:01:00.00,0:01:04.08,ENG,,0,0,0,,{\fad(50,50)}and now we're basically have our level which is 128,
-Dialogue: 1,0:01:04.68,0:01:06.78,CHS,,0,0,0,,{\fad(50,50)}and if we come down here, we have our ocean.
+Dialogue: 1,0:01:04.68,0:01:06.78,CHS,,0,0,0,,{\fad(50,50)}我们拉到下面 会看到有海洋
 Dialogue: 2,0:01:04.68,0:01:06.78,ENG,,0,0,0,,{\fad(50,50)}and if we come down here, we have our ocean.
-Dialogue: 1,0:01:07.30,0:01:12.54,CHS,,0,0,0,,{\fad(50,50)}So, what we need to do is we need to define the height of this terrain, so it matches the height of the ocean.
+Dialogue: 1,0:01:07.30,0:01:12.54,CHS,,0,0,0,,{\fad(50,50)}我们需要做的是 定义地形高度 以匹配海洋高度
 Dialogue: 2,0:01:07.30,0:01:12.54,ENG,,0,0,0,,{\fad(50,50)}So, what we need to do is we need to define the height of this terrain, so it matches the height of the ocean.
-Dialogue: 1,0:01:13.14,0:01:19.04,CHS,,0,0,0,,{\fad(50,50)}Let's go into Edit->Set Terrain inside of the Terrain Editor box,
+Dialogue: 1,0:01:13.14,0:01:19.04,CHS,,0,0,0,,{\fad(50,50)}在地形编辑器中进入Edit->Set Terrain
 Dialogue: 2,0:01:13.14,0:01:19.04,ENG,,0,0,0,,{\fad(50,50)}Let's go into Edit->Set Terrain inside of the Terrain Editor box,
-Dialogue: 1,0:01:19.78,0:01:24.36,CHS,,0,0,0,,{\fad(50,50)}and we're gonna go to setting the terrain to something about 50 meters high.
+Dialogue: 1,0:01:19.78,0:01:24.36,CHS,,0,0,0,,{\fad(50,50)}然后设置地形大约50米高
 Dialogue: 2,0:01:19.78,0:01:24.36,ENG,,0,0,0,,{\fad(50,50)}and we're gonna go to setting the terrain to something about 50 meters high.
-Dialogue: 1,0:01:25.56,0:01:30.46,CHS,,0,0,0,,{\fad(50,50)}We'll notice that nothing happened, and this is because we need to actually generate the terrain again.
+Dialogue: 1,0:01:25.56,0:01:30.46,CHS,,0,0,0,,{\fad(50,50)}我们会发现什么也没有发生 因为我们需要重新生成地形
 Dialogue: 2,0:01:25.56,0:01:30.46,ENG,,0,0,0,,{\fad(50,50)}We'll notice that nothing happened, and this is because we need to actually generate the terrain again.
-Dialogue: 1,0:01:31.42,0:01:37.15,CHS,,0,0,0,,{\fad(50,50)}So let's bring the feature size down to about... 3.6 is fine,
+Dialogue: 1,0:01:31.42,0:01:37.15,CHS,,0,0,0,,{\fad(50,50)}我们把特征尺寸调低点 大约3.6
 Dialogue: 2,0:01:31.42,0:01:37.15,ENG,,0,0,0,,{\fad(50,50)}So let's bring the feature size down to about... 3.6 is fine,
-Dialogue: 1,0:01:37.15,0:01:39.15,CHS,,0,0,0,,{\fad(50,50)}we can lower the bumpiness all the way,
+Dialogue: 1,0:01:37.15,0:01:39.15,CHS,,0,0,0,,{\fad(50,50)}崎岖度降到最低
 Dialogue: 2,0:01:37.15,0:01:39.15,ENG,,0,0,0,,{\fad(50,50)}we can lower the bumpiness all the way,
-Dialogue: 1,0:01:39.42,0:01:41.18,CHS,,0,0,0,,{\fad(50,50)}and everything else will keep at basic.
+Dialogue: 1,0:01:39.42,0:01:41.18,CHS,,0,0,0,,{\fad(50,50)}然后其他都保持默认
 Dialogue: 2,0:01:39.42,0:01:41.18,ENG,,0,0,0,,{\fad(50,50)}and everything else will keep at basic.
-Dialogue: 1,0:01:41.39,0:01:42.44,CHS,,0,0,0,,{\fad(50,50)}So if I click ok,
+Dialogue: 1,0:01:41.39,0:01:42.44,CHS,,0,0,0,,{\fad(50,50)}点OK
 Dialogue: 2,0:01:41.39,0:01:42.44,ENG,,0,0,0,,{\fad(50,50)}So if I click ok,
-Dialogue: 1,0:01:42.97,0:01:45.74,CHS,,0,0,0,,{\fad(50,50)}we now have a nice little terrain.
+Dialogue: 1,0:01:42.97,0:01:45.74,CHS,,0,0,0,,{\fad(50,50)}现在我们有了不错的小地形
 Dialogue: 2,0:01:42.97,0:01:45.74,ENG,,0,0,0,,{\fad(50,50)}we now have a nice little terrain.
-Dialogue: 1,0:01:47.31,0:01:52.25,CHS,,0,0,0,,{\fad(50,50)}I think I can actually get something a little better, so you can always go back and generate more,
+Dialogue: 1,0:01:47.31,0:01:52.25,CHS,,0,0,0,,{\fad(50,50)}我觉得这个地形还可以挽救一下 地形总是可以重新生成
 Dialogue: 2,0:01:47.31,0:01:52.25,ENG,,0,0,0,,{\fad(50,50)}I think I can actually get something a little better, so you can always go back and generate more,
-Dialogue: 1,0:01:52.59,0:01:55.63,CHS,,0,0,0,,{\fad(50,50)}over and over again that if you wanna see the variation that you can create.
+Dialogue: 1,0:01:52.59,0:01:55.63,CHS,,0,0,0,,{\fad(50,50)}你可以不断调试变量 重新生成
 Dialogue: 2,0:01:52.59,0:01:55.63,ENG,,0,0,0,,{\fad(50,50)}over and over again that if you wanna see the variation that you can create.
-Dialogue: 1,0:01:56.41,0:01:58.86,CHS,,0,0,0,,{\fad(50,50)}So let's go ahead and see what we can get again.
+Dialogue: 1,0:01:56.41,0:01:58.86,CHS,,0,0,0,,{\fad(50,50)}继续看看我们能得到什么地形
 Dialogue: 2,0:01:56.41,0:01:58.86,ENG,,0,0,0,,{\fad(50,50)}So let's go ahead and see what we can get again.
-Dialogue: 1,0:01:59.90,0:02:02.48,CHS,,0,0,0,,{\fad(50,50)}So we keep getting blobs and blobs,
+Dialogue: 1,0:01:59.90,0:02:02.48,CHS,,0,0,0,,{\fad(50,50)}继续不断调整
 Dialogue: 2,0:01:59.90,0:02:02.48,ENG,,0,0,0,,{\fad(50,50)}So we keep getting blobs and blobs,
-Dialogue: 1,0:02:03.82,0:02:06.86,CHS,,0,0,0,,{\fad(50,50)}eventually, I want them will be about what I'm looking for.
+Dialogue: 1,0:02:03.82,0:02:06.86,CHS,,0,0,0,,{\fad(50,50)}直到获得我们想要的地形
 Dialogue: 2,0:02:03.82,0:02:06.86,ENG,,0,0,0,,{\fad(50,50)}eventually, I want them will be about what I'm looking for.
-Dialogue: 1,0:02:09.76,0:02:15.12,CHS,,0,0,0,,{\fad(50,50)}And, this will do. I kinda just want a more than just one, and kind of relatively small.
+Dialogue: 1,0:02:09.76,0:02:15.12,CHS,,0,0,0,,{\fad(50,50)}这样就好了 两个小山丘
 Dialogue: 2,0:02:09.76,0:02:15.12,ENG,,0,0,0,,{\fad(50,50)}And, this will do. I kinda just want a more than just one, and kind of relatively small.
-Dialogue: 1,0:02:16.03,0:02:20.00,CHS,,0,0,0,,{\fad(50,50)}So now we have our ocean, and we have our island,
+Dialogue: 1,0:02:16.03,0:02:20.00,CHS,,0,0,0,,{\fad(50,50)}现在 我们有海洋 有岛屿
 Dialogue: 2,0:02:16.03,0:02:20.00,ENG,,0,0,0,,{\fad(50,50)}So now we have our ocean, and we have our island,
-Dialogue: 1,0:02:20.00,0:02:24.44,CHS,,0,0,0,,{\fad(50,50)}because that's what we're gonna do, is create a desert island, it's the easiest thing that you can do
+Dialogue: 1,0:02:20.00,0:02:24.44,CHS,,0,0,0,,{\fad(50,50)}因为我们想要建个荒岛 对于新手来说这是最快
 Dialogue: 2,0:02:20.00,0:02:24.44,ENG,,0,0,0,,{\fad(50,50)}because that's what we're gonna do, is create a desert island, it's the easiest thing that you can do
-Dialogue: 1,0:02:24.78,0:02:28.11,CHS,,0,0,0,,{\fad(50,50)}with the most aesthetically pleasing results quickly.
+Dialogue: 1,0:02:24.78,0:02:28.11,CHS,,0,0,0,,{\fad(50,50)}最漂亮 最容易上手的
 Dialogue: 2,0:02:24.78,0:02:28.11,ENG,,0,0,0,,{\fad(50,50)}with the most aesthetically pleasing results quickly.
-Dialogue: 1,0:02:29.93,0:02:34.09,CHS,,0,0,0,,{\fad(50,50)}What I need to do now is get rid of some of these humps, they're just too big.
+Dialogue: 1,0:02:29.93,0:02:34.09,CHS,,0,0,0,,{\fad(50,50)}我现在要做的是降低这些隆起 它们太大了
 Dialogue: 2,0:02:29.93,0:02:34.09,ENG,,0,0,0,,{\fad(50,50)}What I need to do now is get rid of some of these humps, they're just too big.
-Dialogue: 1,0:02:34.75,0:02:38.94,CHS,,0,0,0,,{\fad(50,50)}So, inside of the terrain editor, I can go to sculpt, and then we're choose Flantten,
+Dialogue: 1,0:02:34.75,0:02:38.94,CHS,,0,0,0,,{\fad(50,50)}在地形编辑器里 雕刻工具中 选Flatten
 Dialogue: 2,0:02:34.75,0:02:38.94,ENG,,0,0,0,,{\fad(50,50)}So, inside of the terrain editor, I can go to sculpt, and then we're choose Flantten,
-Dialogue: 1,0:02:39.63,0:02:41.68,CHS,,0,0,0,,{\fad(50,50)}and if I were to just start painting,
+Dialogue: 1,0:02:39.63,0:02:41.68,CHS,,0,0,0,,{\fad(50,50)}我若开始涂抹
 Dialogue: 2,0:02:39.63,0:02:41.68,ENG,,0,0,0,,{\fad(50,50)}and if I were to just start painting,
-Dialogue: 1,0:02:42.06,0:02:44.27,CHS,,0,0,0,,{\fad(50,50)}it would be kind of random and that's not what we want.
+Dialogue: 1,0:02:42.06,0:02:44.27,CHS,,0,0,0,,{\fad(50,50)}它会显得有点随机 那不是理想效果
 Dialogue: 2,0:02:42.06,0:02:44.27,ENG,,0,0,0,,{\fad(50,50)}it would be kind of random and that's not what we want.
-Dialogue: 1,0:02:45.05,0:02:49.58,CHS,,0,0,0,,{\fad(50,50)}We're going to do is lower this down to 10 on the radius, and you'll see down here in the height,
+Dialogue: 1,0:02:45.05,0:02:49.58,CHS,,0,0,0,,{\fad(50,50)}我们把半径降低到10 然后在高度这里
 Dialogue: 2,0:02:45.05,0:02:49.58,ENG,,0,0,0,,{\fad(50,50)}We're going to do is lower this down to 10 on the radius, and you'll see down here in the height,
-Dialogue: 1,0:02:50.20,0:02:52.12,CHS,,0,0,0,,{\fad(50,50)}we can actually have the option to pick.
+Dialogue: 1,0:02:50.20,0:02:52.12,CHS,,0,0,0,,{\fad(50,50)}我们可以选取高度
 Dialogue: 2,0:02:50.20,0:02:52.12,ENG,,0,0,0,,{\fad(50,50)}we can actually have the option to pick.
-Dialogue: 1,0:02:52.46,0:02:57.05,CHS,,0,0,0,,{\fad(50,50)}What we're actually going to do is to pick it dynamically by holding down the Ctrl key.
+Dialogue: 1,0:02:52.46,0:02:57.05,CHS,,0,0,0,,{\fad(50,50)}我们可以按住Ctrl键以动态选取高度
 Dialogue: 2,0:02:52.46,0:02:57.05,ENG,,0,0,0,,{\fad(50,50)}What we're actually going to do is to pick it dynamically by holding down the Ctrl key.
-Dialogue: 1,0:02:57.36,0:03:01.44,CHS,,0,0,0,,{\fad(50,50)}So if we keep our eyes peeled on this, so we click down here on the edge.
+Dialogue: 1,0:02:57.36,0:03:01.44,CHS,,0,0,0,,{\fad(50,50)}我们盯着这个地方 找个边缘选取高度
 Dialogue: 2,0:02:57.36,0:03:01.44,ENG,,0,0,0,,{\fad(50,50)}So if we keep our eyes peeled on this, so we click down here on the edge.
-Dialogue: 1,0:03:01.96,0:03:06.72,CHS,,0,0,0,,{\fad(50,50)}Maybe right there, we can see that it's switching based on where we click.
+Dialogue: 1,0:03:01.96,0:03:06.72,CHS,,0,0,0,,{\fad(50,50)}可以看见数值变成了所点的地方的高度
 Dialogue: 2,0:03:01.96,0:03:06.72,ENG,,0,0,0,,{\fad(50,50)}Maybe right there, we can see that it's switching based on where we click.
-Dialogue: 1,0:03:07.60,0:03:10.28,CHS,,0,0,0,,{\fad(50,50)}So let's keep that up about 18.6,
+Dialogue: 1,0:03:07.60,0:03:10.28,CHS,,0,0,0,,{\fad(50,50)}把它设置在大约18.6
 Dialogue: 2,0:03:07.60,0:03:10.28,ENG,,0,0,0,,{\fad(50,50)}So let's keep that up about 18.6,
-Dialogue: 1,0:03:10.56,0:03:14.41,CHS,,0,0,0,,{\fad(50,50)}what we can do now is we can come in here and know that wherever we sculpt,
+Dialogue: 1,0:03:10.56,0:03:14.41,CHS,,0,0,0,,{\fad(50,50)}拉近点 可以看见无论我们怎么雕刻
 Dialogue: 2,0:03:10.56,0:03:14.41,ENG,,0,0,0,,{\fad(50,50)}what we can do now is we can come in here and know that wherever we sculpt,
-Dialogue: 1,0:03:14.96,0:03:17.45,CHS,,0,0,0,,{\fad(50,50)}it's not gonna be below that level.
+Dialogue: 1,0:03:14.96,0:03:17.45,CHS,,0,0,0,,{\fad(50,50)}高度都不会低于这个数值
 Dialogue: 2,0:03:14.96,0:03:17.45,ENG,,0,0,0,,{\fad(50,50)}it's not gonna be below that level.
-Dialogue: 1,0:03:19.50,0:03:22.12,CHS,,0,0,0,,{\fad(50,50)}So we keep that, maybe do some over here,
+Dialogue: 1,0:03:19.50,0:03:22.12,CHS,,0,0,0,,{\fad(50,50)}所以可以大胆雕刻
 Dialogue: 2,0:03:19.50,0:03:22.12,ENG,,0,0,0,,{\fad(50,50)}So we keep that, maybe do some over here,
-Dialogue: 1,0:03:22.54,0:03:25.12,CHS,,0,0,0,,{\fad(50,50)}but now what if we want to actually smooth this out.
+Dialogue: 1,0:03:22.54,0:03:25.12,CHS,,0,0,0,,{\fad(50,50)}现在我们想要平滑这些凸起
 Dialogue: 2,0:03:22.54,0:03:25.12,ENG,,0,0,0,,{\fad(50,50)}but now what if we want to actually smooth this out.
-Dialogue: 1,0:03:25.23,0:03:27.79,CHS,,0,0,0,,{\fad(50,50)}So we can press the Shift key,
+Dialogue: 1,0:03:25.23,0:03:27.79,CHS,,0,0,0,,{\fad(50,50)}我们可以按Shift键
 Dialogue: 2,0:03:25.23,0:03:27.79,ENG,,0,0,0,,{\fad(50,50)}So we can press the Shift key,
-Dialogue: 1,0:03:28.00,0:03:33.64,CHS,,0,0,0,,{\fad(50,50)}we now have the ability to smooth it out on everything we just sculpted.
+Dialogue: 1,0:03:28.00,0:03:33.64,CHS,,0,0,0,,{\fad(50,50)}现在我们可以平滑刚才雕刻过的地方
 Dialogue: 2,0:03:28.00,0:03:33.64,ENG,,0,0,0,,{\fad(50,50)}we now have the ability to smooth it out on everything we just sculpted.
-Dialogue: 1,0:03:33.88,0:03:37.04,CHS,,0,0,0,,{\fad(50,50)}So maybe we wanna smooth everything down,
+Dialogue: 1,0:03:33.88,0:03:37.04,CHS,,0,0,0,,{\fad(50,50)}或者平滑所有地方
 Dialogue: 2,0:03:33.88,0:03:37.04,ENG,,0,0,0,,{\fad(50,50)}So maybe we wanna smooth everything down,
-Dialogue: 1,0:03:37.10,0:03:42.51,CHS,,0,0,0,,{\fad(50,50)}we can kinda have something that's a little bit better flattened that way we have a better beach.
-Dialogue: 2,0:03:37.10,0:03:42.51,ENG,,0,0,0,,{\fad(50,50)}we can kinda have something that's a little bit better flattened that way we have a better beach.
-Dialogue: 1,0:03:43.05,0:03:46.76,CHS,,0,0,0,,{\fad(50,50)}So now that we have basically our landmass declared,
+Dialogue: 1,0:03:37.10,0:03:42.51,CHS,,0,0,0,,{\fad(50,50)}现在我们有了更好的平面 更好的海滩
+Dialogue: 2,0:03:37.10,0:03:42.51,ENG,,0,0,0,,{\fad(50,50)}we can kinda have something that's a little bit better flattened, that way, we have a better beach.
+Dialogue: 1,0:03:43.05,0:03:46.76,CHS,,0,0,0,,{\fad(50,50)}现在 我们就创建好了陆地
 Dialogue: 2,0:03:43.05,0:03:46.76,ENG,,0,0,0,,{\fad(50,50)}So now that we have basically our landmass declared,
-Dialogue: 1,0:03:46.76,0:03:50.09,CHS,,0,0,0,,{\fad(50,50)}we need to create a terrain texture to cover it, because right now
+Dialogue: 1,0:03:46.76,0:03:50.09,CHS,,0,0,0,,{\fad(50,50)}我们需要创建地表贴图 因为现在
 Dialogue: 2,0:03:46.76,0:03:50.09,ENG,,0,0,0,,{\fad(50,50)}we need to create a terrain texture to cover it, because right now
-Dialogue: 1,0:03:50.38,0:03:52.68,CHS,,0,0,0,,{\fad(50,50)}the checkerboard look just isn't working.
+Dialogue: 1,0:03:50.38,0:03:52.68,CHS,,0,0,0,,{\fad(50,50)}棋盘格只是默认贴图
 Dialogue: 2,0:03:50.38,0:03:52.68,ENG,,0,0,0,,{\fad(50,50)}the checkerboard look just isn't working.
-Dialogue: 1,0:03:53.31,0:03:57.04,CHS,,0,0,0,,{\fad(50,50)}So we go to paint, and I right click and create a layer,
+Dialogue: 1,0:03:53.31,0:03:57.04,CHS,,0,0,0,,{\fad(50,50)}我们进入绘涂工具 右键新建图层
 Dialogue: 2,0:03:53.31,0:03:57.04,ENG,,0,0,0,,{\fad(50,50)}So we go to paint, and I right click and create a layer,
-Dialogue: 1,0:03:57.04,0:04:02.78,CHS,,0,0,0,,{\fad(50,50)}let's call this one sandDry.
+Dialogue: 1,0:03:57.04,0:04:02.78,CHS,,0,0,0,,{\fad(50,50)}命名为sandDry 干沙滩
 Dialogue: 2,0:03:57.04,0:04:02.78,ENG,,0,0,0,,{\fad(50,50)}let's call this one sandDry.
-Dialogue: 1,0:04:03.02,0:04:09.36,CHS,,0,0,0,,{\fad(50,50)}And we're gonna choose the texture to be Textures/defaults, so we're just gonna choose white,
+Dialogue: 1,0:04:03.02,0:04:09.36,CHS,,0,0,0,,{\fad(50,50)}贴图选择为Textures/defaults下的white
 Dialogue: 2,0:04:03.02,0:04:09.36,ENG,,0,0,0,,{\fad(50,50)}And we're gonna choose the texture to be Textures/defaults, so we're just gonna choose white,
-Dialogue: 1,0:04:09.38,0:04:11.84,CHS,,0,0,0,,{\fad(50,50)}because we want to paint the actual texture of sand.
+Dialogue: 1,0:04:09.38,0:04:11.84,CHS,,0,0,0,,{\fad(50,50)}因为我们要喷涂沙子的贴图
 Dialogue: 2,0:04:09.38,0:04:11.84,ENG,,0,0,0,,{\fad(50,50)}because we want to paint the actual texture of sand.
-Dialogue: 1,0:04:12.38,0:04:14.48,CHS,,0,0,0,,{\fad(50,50)}So we need to choose a material now,
+Dialogue: 1,0:04:12.38,0:04:14.48,CHS,,0,0,0,,{\fad(50,50)}所以我们打开材质
 Dialogue: 2,0:04:12.38,0:04:14.48,ENG,,0,0,0,,{\fad(50,50)}So we need to choose a material now,
-Dialogue: 1,0:04:15.30,0:04:19.80,CHS,,0,0,0,,{\fad(50,50)}and what we're gonna do is go to materials/terrain and choose beach_white_sand.
+Dialogue: 1,0:04:15.30,0:04:19.80,CHS,,0,0,0,,{\fad(50,50)}选择materials/terrain下的beach_white_sand
 Dialogue: 2,0:04:15.30,0:04:19.80,ENG,,0,0,0,,{\fad(50,50)}and what we're gonna do is go to materials/terrain and choose beach_white_sand.
-Dialogue: 1,0:04:21.42,0:04:24.44,CHS,,0,0,0,,{\fad(50,50)}And what we can do is we can paint this in if we want,
+Dialogue: 1,0:04:21.42,0:04:24.44,CHS,,0,0,0,,{\fad(50,50)}然后便可以在地表上涂抹
 Dialogue: 2,0:04:21.42,0:04:24.44,ENG,,0,0,0,,{\fad(50,50)}And what we can do is we can paint this in if we want,
-Dialogue: 1,0:04:24.44,0:04:29.60,CHS,,0,0,0,,{\fad(50,50)}so if we start painting, you'll notice right away, we get a lot of sand everywhere,
+Dialogue: 1,0:04:24.44,0:04:29.60,CHS,,0,0,0,,{\fad(50,50)}你会注意到 喷涂之处会有很多沙子
 Dialogue: 2,0:04:24.44,0:04:29.60,ENG,,0,0,0,,{\fad(50,50)}so if we start painting, you'll notice right away, we get a lot of sand everywhere,
-Dialogue: 1,0:04:29.60,0:04:31.68,CHS,,0,0,0,,{\fad(50,50)}and we can actually even change the color of it,
+Dialogue: 1,0:04:29.60,0:04:31.68,CHS,,0,0,0,,{\fad(50,50)}我们还可以改变沙子的颜色
 Dialogue: 2,0:04:29.60,0:04:31.68,ENG,,0,0,0,,{\fad(50,50)}and we can actually even change the color of it,
-Dialogue: 1,0:04:32.29,0:04:35.85,CHS,,0,0,0,,{\fad(50,50)}drop it down and just grayscale, and you'll notice it's darker,
+Dialogue: 1,0:04:32.29,0:04:35.85,CHS,,0,0,0,,{\fad(50,50)}降低灰度 会使贴图变暗
 Dialogue: 2,0:04:32.29,0:04:35.85,ENG,,0,0,0,,{\fad(50,50)}drop it down and just grayscale, and you'll notice it's darker,
-Dialogue: 1,0:04:36.48,0:04:37.89,CHS,,0,0,0,,{\fad(50,50)}so maybe that's what we want.
+Dialogue: 1,0:04:36.48,0:04:37.89,CHS,,0,0,0,,{\fad(50,50)}这也是我想要的效果
 Dialogue: 2,0:04:36.48,0:04:37.89,ENG,,0,0,0,,{\fad(50,50)}so maybe that's what we want.
-Dialogue: 1,0:04:38.14,0:04:40.13,CHS,,0,0,0,,{\fad(50,50)}And this doesn't look bad actually.
+Dialogue: 1,0:04:38.14,0:04:40.13,CHS,,0,0,0,,{\fad(50,50)}效果看起来还不错
 Dialogue: 2,0:04:38.14,0:04:40.13,ENG,,0,0,0,,{\fad(50,50)}And this doesn't look bad actually.
-Dialogue: 1,0:04:40.22,0:04:43.62,CHS,,0,0,0,,{\fad(50,50)}So, instead of painting everything, we can actually cheat.
+Dialogue: 1,0:04:40.22,0:04:43.62,CHS,,0,0,0,,{\fad(50,50)}我们不必一点点喷涂 其实有更省力的方法
 Dialogue: 2,0:04:40.22,0:04:43.62,ENG,,0,0,0,,{\fad(50,50)}So, instead of painting everything, we can actually cheat.
-Dialogue: 1,0:04:43.86,0:04:47.50,CHS,,0,0,0,,{\fad(50,50)}We can right click this layer, and say Flood Layer,
+Dialogue: 1,0:04:43.86,0:04:47.50,CHS,,0,0,0,,{\fad(50,50)}我们可以右键图层 选Flood Layer
 Dialogue: 2,0:04:43.86,0:04:47.50,ENG,,0,0,0,,{\fad(50,50)}We can right click this layer, and say Flood Layer,
-Dialogue: 1,0:04:47.72,0:04:50.25,CHS,,0,0,0,,{\fad(50,50)}and then automatically we have sand everywhere
+Dialogue: 1,0:04:47.72,0:04:50.25,CHS,,0,0,0,,{\fad(50,50)}整个地形便自动应用
 Dialogue: 2,0:04:47.72,0:04:50.25,ENG,,0,0,0,,{\fad(50,50)}and then automatically we have sand everywhere
-Dialogue: 1,0:04:50.78,0:04:52.25,CHS,,0,0,0,,{\fad(50,50)}which works pretty well.
+Dialogue: 1,0:04:50.78,0:04:52.25,CHS,,0,0,0,,{\fad(50,50)}效果还不错
 Dialogue: 2,0:04:50.78,0:04:52.25,ENG,,0,0,0,,{\fad(50,50)}which works pretty well.
-Dialogue: 1,0:04:52.54,0:04:56.89,CHS,,0,0,0,,{\fad(50,50)}The one thing that I don't have is, I want to have a wet sand.
+Dialogue: 1,0:04:52.54,0:04:56.89,CHS,,0,0,0,,{\fad(50,50)}美中不足的是 我还需要湿沙子
 Dialogue: 2,0:04:52.54,0:04:56.89,ENG,,0,0,0,,{\fad(50,50)}The one thing that I don't have is, I want to have a wet sand.
-Dialogue: 1,0:04:56.98,0:04:59.94,CHS,,0,0,0,,{\fad(50,50)}It doesn't look exactly right when we see some shadowing
+Dialogue: 1,0:04:56.98,0:04:59.94,CHS,,0,0,0,,{\fad(50,50)}这里阴影看起来不太对
 Dialogue: 2,0:04:56.98,0:04:59.94,ENG,,0,0,0,,{\fad(50,50)}It doesn't look exactly right when we see some shadowing
-Dialogue: 1,0:04:59.95,0:05:03.48,CHS,,0,0,0,,{\fad(50,50)}but we don't see any change in how the sand kind of washes away.
+Dialogue: 1,0:04:59.95,0:05:03.48,CHS,,0,0,0,,{\fad(50,50)}沙子被冲走的效果也没有
 Dialogue: 2,0:04:59.95,0:05:03.48,ENG,,0,0,0,,{\fad(50,50)}but we don't see any change in how the sand kind of washes away.
-Dialogue: 1,0:05:04.04,0:05:06.73,CHS,,0,0,0,,{\fad(50,50)}So what we can do is create another layer,
+Dialogue: 1,0:05:04.04,0:05:06.73,CHS,,0,0,0,,{\fad(50,50)}所以我们需要另创建个图层
 Dialogue: 2,0:05:04.04,0:05:06.73,ENG,,0,0,0,,{\fad(50,50)}So what we can do is create another layer,
-Dialogue: 1,0:05:06.82,0:05:08.73,CHS,,0,0,0,,{\fad(50,50)}and call this one sandWet.
+Dialogue: 1,0:05:06.82,0:05:08.73,CHS,,0,0,0,,{\fad(50,50)}命名为sandWet 湿沙子
 Dialogue: 2,0:05:06.82,0:05:08.73,ENG,,0,0,0,,{\fad(50,50)}and call this one sandWet.
-Dialogue: 1,0:05:10.82,0:05:17.48,CHS,,0,0,0,,{\fad(50,50)}And we can change the texture again, to be Textures/defaults/white again.
+Dialogue: 1,0:05:10.82,0:05:17.48,CHS,,0,0,0,,{\fad(50,50)}贴图改为Textures/defaults/white
 Dialogue: 2,0:05:10.82,0:05:17.48,ENG,,0,0,0,,{\fad(50,50)}And we can change the texture again, to be Textures/defaults/white again.
-Dialogue: 1,0:05:19.64,0:05:22.08,CHS,,0,0,0,,{\fad(50,50)}And then this time we're gonna choose a different material.
+Dialogue: 1,0:05:19.64,0:05:22.08,CHS,,0,0,0,,{\fad(50,50)}这次我们选个不同的材质
 Dialogue: 2,0:05:19.64,0:05:22.08,ENG,,0,0,0,,{\fad(50,50)}And then this time we're gonna choose a different material.
-Dialogue: 1,0:05:22.84,0:05:25.65,CHS,,0,0,0,,{\fad(50,50)}So we go to materials/terrain
+Dialogue: 1,0:05:22.84,0:05:25.65,CHS,,0,0,0,,{\fad(50,50)}我们进入materials/terrain
 Dialogue: 2,0:05:22.84,0:05:25.65,ENG,,0,0,0,,{\fad(50,50)}So we go to materials/terrain
-Dialogue: 1,0:05:25.96,0:05:27.89,CHS,,0,0,0,,{\fad(50,50)}and choose beach_white_sand_wet.
+Dialogue: 1,0:05:25.96,0:05:27.89,CHS,,0,0,0,,{\fad(50,50)}然后选择beach_white_sand_wet
 Dialogue: 2,0:05:25.96,0:05:27.89,ENG,,0,0,0,,{\fad(50,50)}and choose beach_white_sand_wet.
-Dialogue: 1,0:05:28.84,0:05:31.34,CHS,,0,0,0,,{\fad(50,50)}We can go ahead and start painting this.
+Dialogue: 1,0:05:28.84,0:05:31.34,CHS,,0,0,0,,{\fad(50,50)}然后我们可以喷涂
 Dialogue: 2,0:05:28.84,0:05:31.34,ENG,,0,0,0,,{\fad(50,50)}We can go ahead and start painting this.
-Dialogue: 1,0:05:32.09,0:05:36.61,CHS,,0,0,0,,{\fad(50,50)}So what I'ma do is I'm going to paint it in so we can see what we have,
+Dialogue: 1,0:05:32.09,0:05:36.61,CHS,,0,0,0,,{\fad(50,50)}我要做的是喷涂上去 看看效果
 Dialogue: 2,0:05:32.09,0:05:36.61,ENG,,0,0,0,,{\fad(50,50)}So what I'ma do is I'm going to paint it in so we can see what we have,
-Dialogue: 1,0:05:36.77,0:05:39.40,CHS,,0,0,0,,{\fad(50,50)}it's a little bright, so if I can control it back,
+Dialogue: 1,0:05:36.77,0:05:39.40,CHS,,0,0,0,,{\fad(50,50)}有点太亮了 回去调整
 Dialogue: 2,0:05:36.77,0:05:39.40,ENG,,0,0,0,,{\fad(50,50)}it's a little bright, so if I can control it back,
-Dialogue: 1,0:05:40.25,0:05:42.01,CHS,,0,0,0,,{\fad(50,50)}drop it like we did to the other,
+Dialogue: 1,0:05:40.25,0:05:42.01,CHS,,0,0,0,,{\fad(50,50)}想刚才那样降低明度
 Dialogue: 2,0:05:40.25,0:05:42.01,ENG,,0,0,0,,{\fad(50,50)}drop it like we did to the other,
-Dialogue: 1,0:05:42.76,0:05:44.42,CHS,,0,0,0,,{\fad(50,50)}and that'll work.
+Dialogue: 1,0:05:42.76,0:05:44.42,CHS,,0,0,0,,{\fad(50,50)}这样就好了
 Dialogue: 2,0:05:42.76,0:05:44.42,ENG,,0,0,0,,{\fad(50,50)}and that'll work.
-Dialogue: 1,0:05:45.16,0:05:46.64,CHS,,0,0,0,,{\fad(50,50)}So all I did was calibrate it,
+Dialogue: 1,0:05:45.16,0:05:46.64,CHS,,0,0,0,,{\fad(50,50)}我刚才所做的只是校准
 Dialogue: 2,0:05:45.16,0:05:46.64,ENG,,0,0,0,,{\fad(50,50)}So all I did was calibrate it,
-Dialogue: 1,0:05:46.64,0:05:49.84,CHS,,0,0,0,,{\fad(50,50)}because we're actually going to do a constraints procedurally painted.
+Dialogue: 1,0:05:46.64,0:05:49.84,CHS,,0,0,0,,{\fad(50,50)}因为接下来我们要约束性程序化喷涂
 Dialogue: 2,0:05:46.64,0:05:49.84,ENG,,0,0,0,,{\fad(50,50)}because we're actually going to do a constraints procedurally painted.
-Dialogue: 1,0:05:51.14,0:05:54.72,CHS,,0,0,0,,{\fad(50,50)}Like before, with the sculpt, we can go back and we can flatten,
+Dialogue: 1,0:05:51.14,0:05:54.72,CHS,,0,0,0,,{\fad(50,50)}回到雕刻工具 选择平化工具
 Dialogue: 2,0:05:51.14,0:05:54.72,ENG,,0,0,0,,{\fad(50,50)}Like before, with the sculpt, we can go back and we can flatten,
-Dialogue: 1,0:05:55.22,0:06:00.74,CHS,,0,0,0,,{\fad(50,50)}but the key thing understand this is we're actually going to pick the height of how far it influences.
+Dialogue: 1,0:05:55.22,0:06:00.74,CHS,,0,0,0,,{\fad(50,50)}但关键在于我们要选取水位线浮动的高度
 Dialogue: 2,0:05:55.22,0:06:00.74,ENG,,0,0,0,,{\fad(50,50)}but the key thing understand this is we're actually going to pick the height of how far it influences.
-Dialogue: 1,0:06:01.40,0:06:05.88,CHS,,0,0,0,,{\fad(50,50)}So the water is here, let's say we influence up to this point here.
+Dialogue: 1,0:06:01.40,0:06:05.88,CHS,,0,0,0,,{\fad(50,50)}水位在这个高度 假定它最高能浮动到这
 Dialogue: 2,0:06:01.40,0:06:05.88,ENG,,0,0,0,,{\fad(50,50)}So the water is here, let's say we influence up to this point here.
-Dialogue: 1,0:06:09.02,0:06:11.16,CHS,,0,0,0,,{\fad(50,50)}So let's try 16.5,
+Dialogue: 1,0:06:09.02,0:06:11.16,CHS,,0,0,0,,{\fad(50,50)}大约16.5
 Dialogue: 2,0:06:09.02,0:06:11.16,ENG,,0,0,0,,{\fad(50,50)}So let's try 16.5,
-Dialogue: 1,0:06:11.64,0:06:13.29,CHS,,0,0,0,,{\fad(50,50)}so going back to sandWet,
+Dialogue: 1,0:06:11.64,0:06:13.29,CHS,,0,0,0,,{\fad(50,50)}回到sandWet图层
 Dialogue: 2,0:06:11.64,0:06:13.29,ENG,,0,0,0,,{\fad(50,50)}so going back to sandWet,
-Dialogue: 1,0:06:13.73,0:06:16.88,CHS,,0,0,0,,{\fad(50,50)}we can set the minimum height with the maximum height.
+Dialogue: 1,0:06:13.73,0:06:16.88,CHS,,0,0,0,,{\fad(50,50)}我们可以设置最低高度和最高高度
 Dialogue: 2,0:06:13.73,0:06:16.88,ENG,,0,0,0,,{\fad(50,50)}we can set the minimum height with the maximum height.
-Dialogue: 1,0:06:17.34,0:06:20.44,CHS,,0,0,0,,{\fad(50,50)}Let's go ahead and put this to 16.5 at the maximum height,
+Dialogue: 1,0:06:17.34,0:06:20.44,CHS,,0,0,0,,{\fad(50,50)}我们在最高高度里填16.5
 Dialogue: 2,0:06:17.34,0:06:20.44,ENG,,0,0,0,,{\fad(50,50)}Let's go ahead and put this to 16.5 at the maximum height,
-Dialogue: 1,0:06:20.76,0:06:22.61,CHS,,0,0,0,,{\fad(50,50)}and we leave the min height at zero.
+Dialogue: 1,0:06:20.76,0:06:22.61,CHS,,0,0,0,,{\fad(50,50)}最低高度保持为0
 Dialogue: 2,0:06:20.76,0:06:22.61,ENG,,0,0,0,,{\fad(50,50)}and we leave the min height at zero.
-Dialogue: 1,0:06:23.25,0:06:25.78,CHS,,0,0,0,,{\fad(50,50)}So if I right click this now and flood layer,
+Dialogue: 1,0:06:23.25,0:06:25.78,CHS,,0,0,0,,{\fad(50,50)}然后右键图层选Flood Layer
 Dialogue: 2,0:06:23.25,0:06:25.78,ENG,,0,0,0,,{\fad(50,50)}So if I right click this now and flood layer,
-Dialogue: 1,0:06:26.12,0:06:31.94,CHS,,0,0,0,,{\fad(50,50)}you'll notice that it's painted all around the edge of the actual ocean.
+Dialogue: 1,0:06:26.12,0:06:31.94,CHS,,0,0,0,,{\fad(50,50)}会发现其被涂抹在所有边缘上
 Dialogue: 2,0:06:26.12,0:06:31.94,ENG,,0,0,0,,{\fad(50,50)}you'll notice that it's painted all around the edge of the actual ocean.
-Dialogue: 1,0:06:31.94,0:06:35.54,CHS,,0,0,0,,{\fad(50,50)}Alright, I mean, you couldn't get any better because we're
+Dialogue: 1,0:06:31.94,0:06:35.54,CHS,,0,0,0,,{\fad(50,50)}这个结果就已经很好了
 Dialogue: 2,0:06:31.94,0:06:35.54,ENG,,0,0,0,,{\fad(50,50)}Alright, I mean, you couldn't get any better because we're
-Dialogue: 1,0:06:35.64,0:06:38.45,CHS,,0,0,0,,{\fad(50,50)}able to paint whatever we what along the edges
+Dialogue: 1,0:06:35.64,0:06:38.45,CHS,,0,0,0,,{\fad(50,50)}因为我们还可以拿笔刷自己修饰
 Dialogue: 2,0:06:35.64,0:06:38.45,ENG,,0,0,0,,{\fad(50,50)}able to paint whatever we what along the edges
-Dialogue: 1,0:06:38.77,0:06:41.20,CHS,,0,0,0,,{\fad(50,50)}and not have to worry about whether or not it works,
+Dialogue: 1,0:06:38.77,0:06:41.20,CHS,,0,0,0,,{\fad(50,50)}且不必担心有遗漏的地方
 Dialogue: 2,0:06:38.77,0:06:41.20,ENG,,0,0,0,,{\fad(50,50)}and not have to worry about whether or not it works,
-Dialogue: 1,0:06:41.25,0:06:43.96,CHS,,0,0,0,,{\fad(50,50)}because we procedurally generated it based on a height.
+Dialogue: 1,0:06:41.25,0:06:43.96,CHS,,0,0,0,,{\fad(50,50)}因为我们已经基于高度自动生成了
 Dialogue: 2,0:06:41.25,0:06:43.96,ENG,,0,0,0,,{\fad(50,50)}because we procedurally generated it based on a height.
-Dialogue: 1,0:06:45.93,0:06:47.46,CHS,,0,0,0,,{\fad(50,50)}So now we've done that,
+Dialogue: 1,0:06:45.93,0:06:47.46,CHS,,0,0,0,,{\fad(50,50)}现在贴图就完成了
 Dialogue: 2,0:06:45.93,0:06:47.46,ENG,,0,0,0,,{\fad(50,50)}So now we've done that,
-Dialogue: 1,0:06:47.61,0:06:51.13,CHS,,0,0,0,,{\fad(50,50)}we're ready go in and create some vegetation like we said.
+Dialogue: 1,0:06:47.61,0:06:51.13,CHS,,0,0,0,,{\fad(50,50)}我们准备创建一些植被
 Dialogue: 2,0:06:47.61,0:06:51.13,ENG,,0,0,0,,{\fad(50,50)}we're ready go in and create some vegetation like we said.
-Dialogue: 1,0:06:52.48,0:06:55.32,CHS,,0,0,0,,{\fad(50,50)}So this right here is gonna require us to go to tools,
+Dialogue: 1,0:06:52.48,0:06:55.32,CHS,,0,0,0,,{\fad(50,50)}这则需要我们进入Tools
 Dialogue: 2,0:06:52.48,0:06:55.32,ENG,,0,0,0,,{\fad(50,50)}So this right here is gonna require us to go to tools,
-Dialogue: 1,0:06:55.32,0:06:57.32,CHS,,0,0,0,,{\fad(50,50)}and we'll go to the vegetation editor,
+Dialogue: 1,0:06:55.32,0:06:57.32,CHS,,0,0,0,,{\fad(50,50)}选择Vegataion Editor
 Dialogue: 2,0:06:55.32,0:06:57.32,ENG,,0,0,0,,{\fad(50,50)}and we'll go to the vegetation editor,
-Dialogue: 1,0:06:57.62,0:07:00.24,CHS,,0,0,0,,{\fad(50,50)}and let's snap this over the other editor,
+Dialogue: 1,0:06:57.62,0:07:00.24,CHS,,0,0,0,,{\fad(50,50)}把这个拖到其它编辑器上方
 Dialogue: 2,0:06:57.62,0:07:00.24,ENG,,0,0,0,,{\fad(50,50)}and let's snap this over the other editor,
-Dialogue: 1,0:07:01.49,0:07:04.64,CHS,,0,0,0,,{\fad(50,50)}so I'm gonna bring this out a little bit, we're gonna create some groups.
+Dialogue: 1,0:07:01.49,0:07:04.64,CHS,,0,0,0,,{\fad(50,50)}边缘往外拉点 我们要创建一些组
 Dialogue: 2,0:07:01.49,0:07:04.64,ENG,,0,0,0,,{\fad(50,50)}so I'm gonna bring this out a little bit, we're gonna create some groups.
-Dialogue: 1,0:07:05.26,0:07:08.32,CHS,,0,0,0,,{\fad(50,50)}The first group I'm gonna do is I'm gonna add the trees group.
+Dialogue: 1,0:07:05.26,0:07:08.32,CHS,,0,0,0,,{\fad(50,50)}第一组我要添加树木组
 Dialogue: 2,0:07:05.26,0:07:08.32,ENG,,0,0,0,,{\fad(50,50)}The first group I'm gonna do is I'm gonna add the trees group.
-Dialogue: 1,0:07:08.57,0:07:10.52,CHS,,0,0,0,,{\fad(50,50)}This is gonna be the easiest one to do,
+Dialogue: 1,0:07:08.57,0:07:10.52,CHS,,0,0,0,,{\fad(50,50)}这个是最简单的
 Dialogue: 2,0:07:08.57,0:07:10.52,ENG,,0,0,0,,{\fad(50,50)}This is gonna be the easiest one to do,
-Dialogue: 1,0:07:11.01,0:07:14.13,CHS,,0,0,0,,{\fad(50,50)}and probably the most densely populated one,
+Dialogue: 1,0:07:11.01,0:07:14.13,CHS,,0,0,0,,{\fad(50,50)}也是最常见的
 Dialogue: 2,0:07:11.01,0:07:14.13,ENG,,0,0,0,,{\fad(50,50)}and probably the most densely populated one,
-Dialogue: 1,0:07:14.24,0:07:17.68,CHS,,0,0,0,,{\fad(50,50)}and then we're gonna do another group called bushes,
-Dialogue: 2,0:07:14.24,0:07:17.68,ENG,,0,0,0,,{\fad(50,50)}and then we're gonna do another group called bushes,
-Dialogue: 1,0:07:18.26,0:07:19.54,CHS,,0,0,0,,{\fad(50,50)}and that'll be the lower.
+Dialogue: 1,0:07:14.24,0:07:17.68,CHS,,0,0,0,,{\fad(50,50)}然后我们建另一个组叫Bushes
+Dialogue: 2,0:07:14.24,0:07:17.68,ENG,,0,0,0,,{\fad(50,50)}and then we're gonna do another group called Bushes,
+Dialogue: 1,0:07:18.26,0:07:19.54,CHS,,0,0,0,,{\fad(50,50)}放在下面
 Dialogue: 2,0:07:18.26,0:07:19.54,ENG,,0,0,0,,{\fad(50,50)}and that'll be the lower.
-Dialogue: 1,0:07:20.29,0:07:21.86,CHS,,0,0,0,,{\fad(50,50)}So if we go into this trees,
+Dialogue: 1,0:07:20.29,0:07:21.86,CHS,,0,0,0,,{\fad(50,50)}我们进入树木组
 Dialogue: 2,0:07:20.29,0:07:21.86,ENG,,0,0,0,,{\fad(50,50)}So if we go into this trees,
-Dialogue: 1,0:07:22.42,0:07:25.76,CHS,,0,0,0,,{\fad(50,50)}we're gonna actually click up here, these are the same icons that we had before,
+Dialogue: 1,0:07:22.42,0:07:25.76,CHS,,0,0,0,,{\fad(50,50)}点击上面这里 这些图标和旧版本中的相同
 Dialogue: 2,0:07:22.42,0:07:25.76,ENG,,0,0,0,,{\fad(50,50)}we're gonna actually click up here, these are the same icons that we had before,
-Dialogue: 1,0:07:26.50,0:07:29.00,CHS,,0,0,0,,{\fad(50,50)}and we can click and add the actual trees we want.
+Dialogue: 1,0:07:26.50,0:07:29.00,CHS,,0,0,0,,{\fad(50,50)}然后添加想要的树木
 Dialogue: 2,0:07:26.50,0:07:29.00,ENG,,0,0,0,,{\fad(50,50)}and we can click and add the actual trees we want.
-Dialogue: 1,0:07:29.44,0:07:32.37,CHS,,0,0,0,,{\fad(50,50)}So what I want is I wanna have a palm tree,
+Dialogue: 1,0:07:29.44,0:07:32.37,CHS,,0,0,0,,{\fad(50,50)}这里我想要梧桐树
 Dialogue: 2,0:07:29.44,0:07:32.37,ENG,,0,0,0,,{\fad(50,50)}So what I want is I wanna have a palm tree,
-Dialogue: 1,0:07:32.56,0:07:35.92,CHS,,0,0,0,,{\fad(50,50)}and I'm gonna select all the palm trees in this group.
+Dialogue: 1,0:07:32.56,0:07:35.92,CHS,,0,0,0,,{\fad(50,50)}我选择所有这些梧桐树 添加到组
 Dialogue: 2,0:07:32.56,0:07:35.92,ENG,,0,0,0,,{\fad(50,50)}and I'm gonna select all the palm trees in this group.
-Dialogue: 1,0:07:37.48,0:07:40.20,CHS,,0,0,0,,{\fad(50,50)}And if I scroll this open, we can see all of them,
+Dialogue: 1,0:07:37.48,0:07:40.20,CHS,,0,0,0,,{\fad(50,50)}展开组 可以看见这些树
 Dialogue: 2,0:07:37.48,0:07:40.20,ENG,,0,0,0,,{\fad(50,50)}And if I scroll this open, we can see all of them,
-Dialogue: 1,0:07:40.20,0:07:42.89,CHS,,0,0,0,,{\fad(50,50)}and you would have the same selections on all the trees,
+Dialogue: 1,0:07:40.20,0:07:42.89,CHS,,0,0,0,,{\fad(50,50)}这些树木都有相同的选项
 Dialogue: 2,0:07:40.20,0:07:42.89,ENG,,0,0,0,,{\fad(50,50)}and you would have the same selections on all the trees,
-Dialogue: 1,0:07:43.44,0:07:45.32,CHS,,0,0,0,,{\fad(50,50)}but this time I'm actually gonna select the group,
+Dialogue: 1,0:07:43.44,0:07:45.32,CHS,,0,0,0,,{\fad(50,50)}但这里我要选择组
 Dialogue: 2,0:07:43.44,0:07:45.32,ENG,,0,0,0,,{\fad(50,50)}but this time I'm actually gonna select the group,
-Dialogue: 1,0:07:45.32,0:07:48.72,CHS,,0,0,0,,{\fad(50,50)}and you can influence all the children of the parent group.
+Dialogue: 1,0:07:45.32,0:07:48.72,CHS,,0,0,0,,{\fad(50,50)}这样可以影响组中所有的项目
 Dialogue: 2,0:07:45.32,0:07:48.72,ENG,,0,0,0,,{\fad(50,50)}and you can influence all the children of the parent group.
-Dialogue: 1,0:07:49.76,0:07:54.65,CHS,,0,0,0,,{\fad(50,50)}I'm going to change the size variation to be about point seven pass the size,
+Dialogue: 1,0:07:49.76,0:07:54.65,CHS,,0,0,0,,{\fad(50,50)}我们把尺寸变化率设为0.7
 Dialogue: 2,0:07:49.76,0:07:54.65,ENG,,0,0,0,,{\fad(50,50)}I'm going to change the size variation to be about point seven pass the size,
-Dialogue: 1,0:07:54.94,0:07:56.69,CHS,,0,0,0,,{\fad(50,50)}we'll do random rotation,
+Dialogue: 1,0:07:54.94,0:07:56.69,CHS,,0,0,0,,{\fad(50,50)}勾选旋转随机化
 Dialogue: 2,0:07:54.94,0:07:56.69,ENG,,0,0,0,,{\fad(50,50)}we'll do random rotation,
-Dialogue: 1,0:07:57.12,0:07:59.94,CHS,,0,0,0,,{\fad(50,50)}and then in the bending, we're just gonna set that to 1,
+Dialogue: 1,0:07:57.12,0:07:59.94,CHS,,0,0,0,,{\fad(50,50)}倾斜率设为1
 Dialogue: 2,0:07:57.12,0:07:59.94,ENG,,0,0,0,,{\fad(50,50)}and then in the bending, we're just gonna set that to 1,
-Dialogue: 1,0:08:01.48,0:08:06.60,CHS,,0,0,0,,{\fad(50,50)}we're gonna come down to the density and we're gonna change this to about 7 or so.
+Dialogue: 1,0:08:01.48,0:08:06.60,CHS,,0,0,0,,{\fad(50,50)}拉到下面 在密度中 设置为7
 Dialogue: 2,0:08:01.48,0:08:06.60,ENG,,0,0,0,,{\fad(50,50)}we're gonna come down to the density and we're gonna change this to about 7 or so.
-Dialogue: 1,0:08:06.76,0:08:10.80,CHS,,0,0,0,,{\fad(50,50)}Keep in mind this is the density between the actual instances,
+Dialogue: 1,0:08:06.76,0:08:10.80,CHS,,0,0,0,,{\fad(50,50)}记住 这是树木之间的密度
 Dialogue: 2,0:08:06.76,0:08:10.80,ENG,,0,0,0,,{\fad(50,50)}Keep in mind this is the density between the actual instances,
-Dialogue: 1,0:08:10.82,0:08:13.38,CHS,,0,0,0,,{\fad(50,50)}so the lower of the actual level,
+Dialogue: 1,0:08:10.82,0:08:13.38,CHS,,0,0,0,,{\fad(50,50)}所以数值越低密度越高
 Dialogue: 2,0:08:10.82,0:08:13.38,ENG,,0,0,0,,{\fad(50,50)}so the lower of the actual level,
-Dialogue: 1,0:08:13.38,0:08:15.03,CHS,,0,0,0,,{\fad(50,50)}it's counterintuitive, you would think,
+Dialogue: 1,0:08:13.38,0:08:15.03,CHS,,0,0,0,,{\fad(50,50)}这很反常 你会想
 Dialogue: 2,0:08:13.38,0:08:15.03,ENG,,0,0,0,,{\fad(50,50)}it's counterintuitive, you would think,
-Dialogue: 1,0:08:15.19,0:08:17.60,CHS,,0,0,0,,{\fad(50,50)}ok, density, I want it to be closer together.
+Dialogue: 1,0:08:15.19,0:08:17.60,CHS,,0,0,0,,{\fad(50,50)}哦 密度 我想让密度更高
 Dialogue: 2,0:08:15.19,0:08:17.60,ENG,,0,0,0,,{\fad(50,50)}ok, density, I want it to be closer together.
-Dialogue: 1,0:08:18.15,0:08:22.82,CHS,,0,0,0,,{\fad(50,50)}So what would I do, I wanna create more objects and you wouldn't increase it,
+Dialogue: 1,0:08:18.15,0:08:22.82,CHS,,0,0,0,,{\fad(50,50)}所以我会提升这个值以创建更多物体 而不是降低
 Dialogue: 2,0:08:18.15,0:08:22.82,ENG,,0,0,0,,{\fad(50,50)}So what would I do, I wanna create more objects and you wouldn't increase it,
-Dialogue: 1,0:08:22.82,0:08:26.78,CHS,,0,0,0,,{\fad(50,50)}but the density actually relies on the distance between those.
+Dialogue: 1,0:08:22.82,0:08:26.78,CHS,,0,0,0,,{\fad(50,50)}但实际上 这里的密度是指 物体之间的距离
 Dialogue: 2,0:08:22.82,0:08:26.78,ENG,,0,0,0,,{\fad(50,50)}but the density actually relies on the distance between those.
-Dialogue: 1,0:08:26.78,0:08:30.01,CHS,,0,0,0,,{\fad(50,50)}So the higher the value the actually more spacing you get.
+Dialogue: 1,0:08:26.78,0:08:30.01,CHS,,0,0,0,,{\fad(50,50)}所以更高的值反而会使物体互相远离
 Dialogue: 2,0:08:26.78,0:08:30.01,ENG,,0,0,0,,{\fad(50,50)}So the higher the value the actually more spacing you get.
-Dialogue: 1,0:08:30.78,0:08:34.86,CHS,,0,0,0,,{\fad(50,50)}We're gonna come in here as well and change this to 18 on the elevation minimum,
+Dialogue: 1,0:08:30.78,0:08:34.86,CHS,,0,0,0,,{\fad(50,50)}接下来最小高度设为18
 Dialogue: 2,0:08:30.78,0:08:34.86,ENG,,0,0,0,,{\fad(50,50)}We're gonna come in here as well and change this to 18 on the elevation minimum,
-Dialogue: 1,0:08:35.73,0:08:38.08,CHS,,0,0,0,,{\fad(50,50)}and then we're also going to change the cast shadow
+Dialogue: 1,0:08:35.73,0:08:38.08,CHS,,0,0,0,,{\fad(50,50)}我们勾选投影
 Dialogue: 2,0:08:35.73,0:08:38.08,ENG,,0,0,0,,{\fad(50,50)}and then we're also going to change the cast shadow
-Dialogue: 1,0:08:38.56,0:08:41.95,CHS,,0,0,0,,{\fad(50,50)}and the receive shadow, we'll keep the min spec set to low.
+Dialogue: 1,0:08:38.56,0:08:41.95,CHS,,0,0,0,,{\fad(50,50)}勾选接收阴影 投影最小规格保持为低
 Dialogue: 2,0:08:38.56,0:08:41.95,ENG,,0,0,0,,{\fad(50,50)}and the receive shadow, we'll keep the min spec set to low.
-Dialogue: 1,0:08:43.52,0:08:45.48,CHS,,0,0,0,,{\fad(50,50)}So let's save this real quick,
+Dialogue: 1,0:08:43.52,0:08:45.48,CHS,,0,0,0,,{\fad(50,50)}然后我们保存下关卡
 Dialogue: 2,0:08:43.52,0:08:45.48,ENG,,0,0,0,,{\fad(50,50)}So let's save this real quick,
-Dialogue: 1,0:08:45.60,0:08:51.45,CHS,,0,0,0,,{\fad(50,50)}and then what we're gonna do is right click and distribute the selected vegetation objects and see what we get.
+Dialogue: 1,0:08:45.60,0:08:51.45,CHS,,0,0,0,,{\fad(50,50)}接下来我们右键 选择分布选定植被对象 然后看看效果
 Dialogue: 2,0:08:45.60,0:08:51.45,ENG,,0,0,0,,{\fad(50,50)}and then what we're gonna do is right click and distribute the selected vegetation objects and see what we get.
-Dialogue: 1,0:08:52.72,0:08:54.50,CHS,,0,0,0,,{\fad(50,50)}So now we have a lot of trees,
+Dialogue: 1,0:08:52.72,0:08:54.50,CHS,,0,0,0,,{\fad(50,50)}现在我们有很多树
 Dialogue: 2,0:08:52.72,0:08:54.50,ENG,,0,0,0,,{\fad(50,50)}So now we have a lot of trees,
-Dialogue: 1,0:08:55.13,0:08:58.63,CHS,,0,0,0,,{\fad(50,50)}all over the place that we just randomly generated,
+Dialogue: 1,0:08:55.13,0:08:58.63,CHS,,0,0,0,,{\fad(50,50)}随机生成得到处都是
 Dialogue: 2,0:08:55.13,0:08:58.63,ENG,,0,0,0,,{\fad(50,50)}all over the place that we just randomly generated,
-Dialogue: 1,0:08:58.72,0:09:01.74,CHS,,0,0,0,,{\fad(50,50)}and to be honest it doesn't look that bad,
+Dialogue: 1,0:08:58.72,0:09:01.74,CHS,,0,0,0,,{\fad(50,50)}看起来效果并不太糟
 Dialogue: 2,0:08:58.72,0:09:01.74,ENG,,0,0,0,,{\fad(50,50)}and to be honest it doesn't look that bad,
-Dialogue: 1,0:09:02.02,0:09:04.40,CHS,,0,0,0,,{\fad(50,50)}it's kind of a little bit too much,
+Dialogue: 1,0:09:02.02,0:09:04.40,CHS,,0,0,0,,{\fad(50,50)}只是有点太多了
 Dialogue: 2,0:09:02.02,0:09:04.40,ENG,,0,0,0,,{\fad(50,50)}it's kind of a little bit too much,
-Dialogue: 1,0:09:04.56,0:09:06.73,CHS,,0,0,0,,{\fad(50,50)}so maybe I want to go back and change it.
+Dialogue: 1,0:09:04.56,0:09:06.73,CHS,,0,0,0,,{\fad(50,50)}所以我调整下
 Dialogue: 2,0:09:04.56,0:09:06.73,ENG,,0,0,0,,{\fad(50,50)}so maybe I want to go back and change it.
-Dialogue: 1,0:09:07.36,0:09:10.43,CHS,,0,0,0,,{\fad(50,50)}Well, there are different options that you have here, we can set our trees,
+Dialogue: 1,0:09:07.36,0:09:10.43,CHS,,0,0,0,,{\fad(50,50)}这里有不同的选项 选择我们的树
 Dialogue: 2,0:09:07.36,0:09:10.43,ENG,,0,0,0,,{\fad(50,50)}Well, there are different options that you have here, we can set our trees,
-Dialogue: 1,0:09:10.96,0:09:12.57,CHS,,0,0,0,,{\fad(50,50)}and we can click the erase button,
+Dialogue: 1,0:09:10.96,0:09:12.57,CHS,,0,0,0,,{\fad(50,50)}点击擦除按钮
 Dialogue: 2,0:09:10.96,0:09:12.57,ENG,,0,0,0,,{\fad(50,50)}and we can click the erase button,
-Dialogue: 1,0:09:12.57,0:09:15.55,CHS,,0,0,0,,{\fad(50,50)}and we can start erasing them manually which works quite well.
+Dialogue: 1,0:09:12.57,0:09:15.55,CHS,,0,0,0,,{\fad(50,50)}便可手动擦除 效果也不错
 Dialogue: 2,0:09:12.57,0:09:15.55,ENG,,0,0,0,,{\fad(50,50)}and we can start erasing them manually which works quite well.
-Dialogue: 1,0:09:16.31,0:09:18.46,CHS,,0,0,0,,{\fad(50,50)}It doesn't matter they were procedurally generated,
+Dialogue: 1,0:09:16.31,0:09:18.46,CHS,,0,0,0,,{\fad(50,50)}无论它是不是程序化生成的
 Dialogue: 2,0:09:16.31,0:09:18.46,ENG,,0,0,0,,{\fad(50,50)}It doesn't matter they were procedurally generated,
-Dialogue: 1,0:09:18.46,0:09:21.29,CHS,,0,0,0,,{\fad(50,50)}you can come in and change that all around.
+Dialogue: 1,0:09:18.46,0:09:21.29,CHS,,0,0,0,,{\fad(50,50)}你都可以手动修改
 Dialogue: 2,0:09:18.46,0:09:21.29,ENG,,0,0,0,,{\fad(50,50)}you can come in and change that all around.
-Dialogue: 1,0:09:21.56,0:09:25.40,CHS,,0,0,0,,{\fad(50,50)}You can also have the option to maybe hide the certain species,
+Dialogue: 1,0:09:21.56,0:09:25.40,CHS,,0,0,0,,{\fad(50,50)}你也可以隐藏特定物种
 Dialogue: 2,0:09:21.56,0:09:25.40,ENG,,0,0,0,,{\fad(50,50)}You can also have the option to maybe hide the certain species,
-Dialogue: 1,0:09:25.82,0:09:27.32,CHS,,0,0,0,,{\fad(50,50)}so maybe that's what we want.
+Dialogue: 1,0:09:25.82,0:09:27.32,CHS,,0,0,0,,{\fad(50,50)}或许这就是我要的效果
 Dialogue: 2,0:09:25.82,0:09:27.32,ENG,,0,0,0,,{\fad(50,50)}so maybe that's what we want.
-Dialogue: 1,0:09:27.45,0:09:29.36,CHS,,0,0,0,,{\fad(50,50)}We can do this, maybe hide that,
+Dialogue: 1,0:09:27.45,0:09:29.36,CHS,,0,0,0,,{\fad(50,50)}我们可以显示这个 隐藏那个
 Dialogue: 2,0:09:27.45,0:09:29.36,ENG,,0,0,0,,{\fad(50,50)}We can do this, maybe hide that,
-Dialogue: 1,0:09:30.05,0:09:33.68,CHS,,0,0,0,,{\fad(50,50)}and this looks a little bit more manageable as far as what the island is doing.
+Dialogue: 1,0:09:30.05,0:09:33.68,CHS,,0,0,0,,{\fad(50,50)}对于岛屿来说 这样看起来更可管理
 Dialogue: 2,0:09:30.05,0:09:33.68,ENG,,0,0,0,,{\fad(50,50)}and this looks a little bit more manageable as far as what the island is doing.
-Dialogue: 1,0:09:35.39,0:09:37.68,CHS,,0,0,0,,{\fad(50,50)}So we have all there trees in place,
+Dialogue: 1,0:09:35.39,0:09:37.68,CHS,,0,0,0,,{\fad(50,50)}所以现在我们有了树
 Dialogue: 2,0:09:35.39,0:09:37.68,ENG,,0,0,0,,{\fad(50,50)}So we have all there trees in place,
-Dialogue: 1,0:09:38.93,0:09:41.63,CHS,,0,0,0,,{\fad(50,50)}and we have these other trees that maybe we can just
+Dialogue: 1,0:09:38.93,0:09:41.63,CHS,,0,0,0,,{\fad(50,50)}这里不用的树 我们可以
 Dialogue: 2,0:09:38.93,0:09:41.63,ENG,,0,0,0,,{\fad(50,50)}and we have these other trees that maybe we can just
-Dialogue: 1,0:09:41.82,0:09:43.75,CHS,,0,0,0,,{\fad(50,50)}completely get rid of if we want in.
+Dialogue: 1,0:09:41.82,0:09:43.75,CHS,,0,0,0,,{\fad(50,50)}完全移除它们
 Dialogue: 2,0:09:41.82,0:09:43.75,ENG,,0,0,0,,{\fad(50,50)}completely get rid of if we want in.
-Dialogue: 1,0:09:44.05,0:09:45.63,CHS,,0,0,0,,{\fad(50,50)}So we go down to remove,
+Dialogue: 1,0:09:44.05,0:09:45.63,CHS,,0,0,0,,{\fad(50,50)}所以我们选下面的Remove
 Dialogue: 2,0:09:44.05,0:09:45.63,ENG,,0,0,0,,{\fad(50,50)}So we go down to remove,
-Dialogue: 1,0:09:46.06,0:09:47.74,CHS,,0,0,0,,{\fad(50,50)}so now we don't deal with them at all.
+Dialogue: 1,0:09:46.06,0:09:47.74,CHS,,0,0,0,,{\fad(50,50)}这样我们就不用处理它们
 Dialogue: 2,0:09:46.06,0:09:47.74,ENG,,0,0,0,,{\fad(50,50)}so now we don't deal with them at all.
-Dialogue: 1,0:09:48.54,0:09:53.52,CHS,,0,0,0,,{\fad(50,50)}So let's look at this again, what if we want to just change this and distribute some more,
+Dialogue: 1,0:09:48.54,0:09:53.52,CHS,,0,0,0,,{\fad(50,50)}回过头来 我们若想修改效果并分布更多植被
 Dialogue: 2,0:09:48.54,0:09:53.52,ENG,,0,0,0,,{\fad(50,50)}So let's look at this again, what if we want to just change this and distribute some more,
-Dialogue: 1,0:09:53.53,0:09:55.45,CHS,,0,0,0,,{\fad(50,50)}so we can distribute more objects,
+Dialogue: 1,0:09:53.53,0:09:55.45,CHS,,0,0,0,,{\fad(50,50)}我们可以再点分布物体
 Dialogue: 2,0:09:53.53,0:09:55.45,ENG,,0,0,0,,{\fad(50,50)}so we can distribute more objects,
-Dialogue: 1,0:09:55.86,0:09:58.93,CHS,,0,0,0,,{\fad(50,50)}and this is the nice idea of being able to use like
+Dialogue: 1,0:09:55.86,0:09:58.93,CHS,,0,0,0,,{\fad(50,50)}这是很好的主意 只需一键就能
 Dialogue: 2,0:09:55.86,0:09:58.93,ENG,,0,0,0,,{\fad(50,50)}and this is the nice idea of being able to use like
-Dialogue: 1,0:09:59.12,0:10:02.78,CHS,,0,0,0,,{\fad(50,50)}procedurally or dynamically changeable amounts
+Dialogue: 1,0:09:59.12,0:10:02.78,CHS,,0,0,0,,{\fad(50,50)}程序化或动态可变数量的生成
 Dialogue: 2,0:09:59.12,0:10:02.78,ENG,,0,0,0,,{\fad(50,50)}procedurally or dynamically changeable amounts
-Dialogue: 1,0:10:02.78,0:10:06.56,CHS,,0,0,0,,{\fad(50,50)}just based on by clicking a button instead of going in and painting,
+Dialogue: 1,0:10:02.78,0:10:06.56,CHS,,0,0,0,,{\fad(50,50)}而不用自己一点点喷涂
 Dialogue: 2,0:10:02.78,0:10:06.56,ENG,,0,0,0,,{\fad(50,50)}just based on by clicking a button instead of going in and painting,
-Dialogue: 1,0:10:07.08,0:10:10.21,CHS,,0,0,0,,{\fad(50,50)}and like I said before, we can go in, we can paint the objects as well.
+Dialogue: 1,0:10:07.08,0:10:10.21,CHS,,0,0,0,,{\fad(50,50)}像之前所说 我们也可以手动喷涂
 Dialogue: 2,0:10:07.08,0:10:10.21,ENG,,0,0,0,,{\fad(50,50)}and like I said before, we can go in, we can paint the objects as well.
-Dialogue: 1,0:10:11.01,0:10:15.94,CHS,,0,0,0,,{\fad(50,50)}So the question is what exactly do you want in your trees
+Dialogue: 1,0:10:11.01,0:10:15.94,CHS,,0,0,0,,{\fad(50,50)}所以问题是 你想要什么样的树
 Dialogue: 2,0:10:11.01,0:10:15.94,ENG,,0,0,0,,{\fad(50,50)}So the question is what exactly do you want in your trees
-Dialogue: 1,0:10:15.94,0:10:19.84,CHS,,0,0,0,,{\fad(50,50)}and how exactly do you want them to be dynamically pushed around.
+Dialogue: 1,0:10:15.94,0:10:19.84,CHS,,0,0,0,,{\fad(50,50)}以及你想如何动态分布它们
 Dialogue: 2,0:10:15.94,0:10:19.84,ENG,,0,0,0,,{\fad(50,50)}and how exactly do you want them to be dynamically pushed around.
-Dialogue: 1,0:10:21.24,0:10:24.10,CHS,,0,0,0,,{\fad(50,50)}We're gonna go back and we're actually going to do brushes now.
-Dialogue: 2,0:10:21.24,0:10:24.10,ENG,,0,0,0,,{\fad(50,50)}We're gonna go back and we're actually going to do brushes now.
-Dialogue: 1,0:10:24.20,0:10:26.10,CHS,,0,0,0,,{\fad(50,50)}So I'm gonna add some brushes
-Dialogue: 2,0:10:24.20,0:10:26.10,ENG,,0,0,0,,{\fad(50,50)}So I'm gonna add some brushes
-Dialogue: 1,0:10:26.63,0:10:29.00,CHS,,0,0,0,,{\fad(50,50)}and natural brushes,
-Dialogue: 2,0:10:26.63,0:10:29.00,ENG,,0,0,0,,{\fad(50,50)}and natural brushes,
-Dialogue: 1,0:10:29.00,0:10:31.61,CHS,,0,0,0,,{\fad(50,50)}and we're gonna choose greenfernbush.
+Dialogue: 1,0:10:21.24,0:10:24.10,CHS,,0,0,0,,{\fad(50,50)}现在我们准备刷灌木了
+Dialogue: 2,0:10:21.24,0:10:24.10,ENG,,0,0,0,,{\fad(50,50)}We're gonna go back and we're actually going to do bushes now.
+Dialogue: 1,0:10:24.20,0:10:26.10,CHS,,0,0,0,,{\fad(50,50)}我添加一些灌木
+Dialogue: 2,0:10:24.20,0:10:26.10,ENG,,0,0,0,,{\fad(50,50)}So I'm gonna add some bushes
+Dialogue: 1,0:10:26.63,0:10:29.00,CHS,,0,0,0,,{\fad(50,50)}进入natural下的bushes
+Dialogue: 2,0:10:26.63,0:10:29.00,ENG,,0,0,0,,{\fad(50,50)}and natural/bushes,
+Dialogue: 1,0:10:29.00,0:10:31.61,CHS,,0,0,0,,{\fad(50,50)}选择greenfernbush
 Dialogue: 2,0:10:29.00,0:10:31.61,ENG,,0,0,0,,{\fad(50,50)}and we're gonna choose greenfernbush.
-Dialogue: 1,0:10:31.61,0:10:33.61,CHS,,0,0,0,,{\fad(50,50)}We're gonna select all of these,
+Dialogue: 1,0:10:31.61,0:10:33.61,CHS,,0,0,0,,{\fad(50,50)}我们选择所有这些
 Dialogue: 2,0:10:31.61,0:10:33.61,ENG,,0,0,0,,{\fad(50,50)}We're gonna select all of these,
-Dialogue: 1,0:10:34.05,0:10:37.91,CHS,,0,0,0,,{\fad(50,50)}and we're gonna do some of the similar things that we did on the other, point 7,
+Dialogue: 1,0:10:34.05,0:10:37.91,CHS,,0,0,0,,{\fad(50,50)}做些跟之前类似的事情 设成0.7
 Dialogue: 2,0:10:34.05,0:10:37.91,ENG,,0,0,0,,{\fad(50,50)}and we're gonna do some of the similar things that we did on the other, point 7,
-Dialogue: 1,0:10:38.36,0:10:41.12,CHS,,0,0,0,,{\fad(50,50)}rotation, we're gonna set the bending to 1,
+Dialogue: 1,0:10:38.36,0:10:41.12,CHS,,0,0,0,,{\fad(50,50)}旋转 倾斜率为1
 Dialogue: 2,0:10:38.36,0:10:41.12,ENG,,0,0,0,,{\fad(50,50)}rotation, we're gonna set the bending to 1,
-Dialogue: 1,0:10:43.32,0:10:45.43,CHS,,0,0,0,,{\fad(50,50)}we go ahead and move down, let's set the
+Dialogue: 1,0:10:43.32,0:10:45.43,CHS,,0,0,0,,{\fad(50,50)}拉到下面 我们设置
 Dialogue: 2,0:10:43.32,0:10:45.43,ENG,,0,0,0,,{\fad(50,50)}we go ahead and move down, let's set the
-Dialogue: 1,0:10:45.55,0:10:47.58,CHS,,0,0,0,,{\fad(50,50)}elevation minimum to 18,
+Dialogue: 1,0:10:45.55,0:10:47.58,CHS,,0,0,0,,{\fad(50,50)}最低高度为18
 Dialogue: 2,0:10:45.55,0:10:47.58,ENG,,0,0,0,,{\fad(50,50)}elevation minimum to 18,
-Dialogue: 1,0:10:48.08,0:10:50.24,CHS,,0,0,0,,{\fad(50,50)}cast shadow, receive shadow,
+Dialogue: 1,0:10:48.08,0:10:50.24,CHS,,0,0,0,,{\fad(50,50)}勾选投影 接受阴影
 Dialogue: 2,0:10:48.08,0:10:50.24,ENG,,0,0,0,,{\fad(50,50)}cast shadow, receive shadow,
-Dialogue: 1,0:10:53.06,0:10:55.26,CHS,,0,0,0,,{\fad(50,50)}and then for the most part I think will be set
+Dialogue: 1,0:10:53.06,0:10:55.26,CHS,,0,0,0,,{\fad(50,50)}这样基本就设置好了
 Dialogue: 2,0:10:53.06,0:10:55.26,ENG,,0,0,0,,{\fad(50,50)}and then for the most part I think will be set
-Dialogue: 1,0:10:55.38,0:10:56.94,CHS,,0,0,0,,{\fad(50,50)}to go ahead and distribute.
+Dialogue: 1,0:10:55.38,0:10:56.94,CHS,,0,0,0,,{\fad(50,50)}接下来 分布植被
 Dialogue: 2,0:10:55.38,0:10:56.94,ENG,,0,0,0,,{\fad(50,50)}to go ahead and distribute.
-Dialogue: 1,0:10:59.66,0:11:00.29,CHS,,0,0,0,,{\fad(50,50)}So,
+Dialogue: 1,0:10:59.66,0:11:00.29,CHS,,0,0,0,,{\fad(50,50)}那么
 Dialogue: 2,0:10:59.66,0:11:00.29,ENG,,0,0,0,,{\fad(50,50)}So,
-Dialogue: 1,0:11:01.28,0:11:06.24,CHS,,0,0,0,,{\fad(50,50)}the one thing that I realized I didn't set right before I click this was I didn't set the density.
+Dialogue: 1,0:11:01.28,0:11:06.24,CHS,,0,0,0,,{\fad(50,50)}我发现密度我忘设了
 Dialogue: 2,0:11:01.28,0:11:06.24,ENG,,0,0,0,,{\fad(50,50)}the one thing that I realized I didn't set right before I click this was I didn't set the density.
-Dialogue: 1,0:11:06.45,0:11:08.75,CHS,,0,0,0,,{\fad(50,50)}So you can see how much it actually matters.
+Dialogue: 1,0:11:06.45,0:11:08.75,CHS,,0,0,0,,{\fad(50,50)}所以你看 密度有多重要
 Dialogue: 2,0:11:06.45,0:11:08.75,ENG,,0,0,0,,{\fad(50,50)}So you can see how much it actually matters.
-Dialogue: 1,0:11:09.12,0:11:13.54,CHS,,0,0,0,,{\fad(50,50)}With the density that's not declared, we now have brushes everywhere,
-Dialogue: 2,0:11:09.12,0:11:13.54,ENG,,0,0,0,,{\fad(50,50)}With the density that's not declared, we now have brushes everywhere,
-Dialogue: 1,0:11:13.76,0:11:16.92,CHS,,0,0,0,,{\fad(50,50)}which maybe what you wanted, but it's not what we wanted.
+Dialogue: 1,0:11:09.12,0:11:13.54,CHS,,0,0,0,,{\fad(50,50)}在密度未明确下 植被到处都是
+Dialogue: 2,0:11:09.12,0:11:13.54,ENG,,0,0,0,,{\fad(50,50)}With the density that's not declared, we now have bushes everywhere,
+Dialogue: 1,0:11:13.76,0:11:16.92,CHS,,0,0,0,,{\fad(50,50)}或许你想要这种效果 但这不是我想要的
 Dialogue: 2,0:11:13.76,0:11:16.92,ENG,,0,0,0,,{\fad(50,50)}which maybe what you wanted, but it's not what we wanted.
-Dialogue: 1,0:11:18.56,0:11:21.78,CHS,,0,0,0,,{\fad(50,50)}So pressing ctrl+z, I can come down into the brushes,
-Dialogue: 2,0:11:18.56,0:11:21.78,ENG,,0,0,0,,{\fad(50,50)}So pressing ctrl+z, I can come down into the brushes,
-Dialogue: 1,0:11:22.13,0:11:24.97,CHS,,0,0,0,,{\fad(50,50)}and I can set the density to something a little more manageable,
+Dialogue: 1,0:11:18.56,0:11:21.78,CHS,,0,0,0,,{\fad(50,50)}Ctrl+Z撤销 我们往下拉
+Dialogue: 2,0:11:18.56,0:11:21.78,ENG,,0,0,0,,{\fad(50,50)}So pressing ctrl+z, I can come down into the bushes,
+Dialogue: 1,0:11:22.13,0:11:24.97,CHS,,0,0,0,,{\fad(50,50)}设置密度到可控范围内
 Dialogue: 2,0:11:22.13,0:11:24.97,ENG,,0,0,0,,{\fad(50,50)}and I can set the density to something a little more manageable,
-Dialogue: 1,0:11:24.97,0:11:26.94,CHS,,0,0,0,,{\fad(50,50)}so let's do that to 6
+Dialogue: 1,0:11:24.97,0:11:26.94,CHS,,0,0,0,,{\fad(50,50)}我们就设成6
 Dialogue: 2,0:11:24.97,0:11:26.94,ENG,,0,0,0,,{\fad(50,50)}so let's do that to 6
-Dialogue: 1,0:11:27.18,0:11:29.07,CHS,,0,0,0,,{\fad(50,50)}and see what gets laid down.
+Dialogue: 1,0:11:27.18,0:11:29.07,CHS,,0,0,0,,{\fad(50,50)}然后看看效果
 Dialogue: 2,0:11:27.18,0:11:29.07,ENG,,0,0,0,,{\fad(50,50)}and see what gets laid down.
-Dialogue: 1,0:11:30.08,0:11:32.88,CHS,,0,0,0,,{\fad(50,50)}So now we can see that we have quite a few more brushes,
-Dialogue: 2,0:11:30.08,0:11:32.88,ENG,,0,0,0,,{\fad(50,50)}So now we can see that we have quite a few more brushes,
-Dialogue: 1,0:11:33.35,0:11:35.12,CHS,,0,0,0,,{\fad(50,50)}but maybe we want to keep adding to them.
+Dialogue: 1,0:11:30.08,0:11:32.88,CHS,,0,0,0,,{\fad(50,50)}现在我们有了少许灌木
+Dialogue: 2,0:11:30.08,0:11:32.88,ENG,,0,0,0,,{\fad(50,50)}So now we can see that we have quite a few more bushes,
+Dialogue: 1,0:11:33.35,0:11:35.12,CHS,,0,0,0,,{\fad(50,50)}但我想继续添加
 Dialogue: 2,0:11:33.35,0:11:35.12,ENG,,0,0,0,,{\fad(50,50)}but maybe we want to keep adding to them.
-Dialogue: 1,0:11:35.43,0:11:35.95,CHS,,0,0,0,,{\fad(50,50)}So,
+Dialogue: 1,0:11:35.43,0:11:35.95,CHS,,0,0,0,,{\fad(50,50)}这样
 Dialogue: 2,0:11:35.43,0:11:35.95,ENG,,0,0,0,,{\fad(50,50)}So,
-Dialogue: 1,0:11:36.82,0:11:39.41,CHS,,0,0,0,,{\fad(50,50)}we have all these objects that we would be able to use,
+Dialogue: 1,0:11:36.82,0:11:39.41,CHS,,0,0,0,,{\fad(50,50)}我们有这些可用的对象
 Dialogue: 2,0:11:36.82,0:11:39.41,ENG,,0,0,0,,{\fad(50,50)}we have all these objects that we would be able to use,
-Dialogue: 1,0:11:40.08,0:11:43.81,CHS,,0,0,0,,{\fad(50,50)}and now going into select, I can actually come in and change these too.
+Dialogue: 1,0:11:40.08,0:11:43.81,CHS,,0,0,0,,{\fad(50,50)}我还可以选择对象并修改
 Dialogue: 2,0:11:40.08,0:11:43.81,ENG,,0,0,0,,{\fad(50,50)}and now going into select, I can actually come in and change these too.
-Dialogue: 1,0:11:44.23,0:11:46.81,CHS,,0,0,0,,{\fad(50,50)}So it's just a feature like the paint and remove
+Dialogue: 1,0:11:44.23,0:11:46.81,CHS,,0,0,0,,{\fad(50,50)}这是个功能 就像喷涂和移除
 Dialogue: 2,0:11:44.23,0:11:46.81,ENG,,0,0,0,,{\fad(50,50)}So it's just a feature like the paint and remove
-Dialogue: 1,0:11:47.12,0:11:51.21,CHS,,0,0,0,,{\fad(50,50)}that you would be able to select the objects that you're wanting to change,
+Dialogue: 1,0:11:47.12,0:11:51.21,CHS,,0,0,0,,{\fad(50,50)}你可以选择对象 并改变它们
 Dialogue: 2,0:11:47.12,0:11:51.21,ENG,,0,0,0,,{\fad(50,50)}that you would be able to select the objects that you're wanting to change,
-Dialogue: 1,0:11:51.25,0:11:53.35,CHS,,0,0,0,,{\fad(50,50)}and being able to change them dynamically.
+Dialogue: 1,0:11:51.25,0:11:53.35,CHS,,0,0,0,,{\fad(50,50)}还可以动态的修改
 Dialogue: 2,0:11:51.25,0:11:53.35,ENG,,0,0,0,,{\fad(50,50)}and being able to change them dynamically.
-Dialogue: 1,0:11:53.95,0:11:54.92,CHS,,0,0,0,,{\fad(50,50)}If I want
+Dialogue: 1,0:11:53.95,0:11:54.92,CHS,,0,0,0,,{\fad(50,50)}若我想要
 Dialogue: 2,0:11:53.95,0:11:54.92,ENG,,0,0,0,,{\fad(50,50)}If I want
-Dialogue: 1,0:11:56.27,0:11:58.51,CHS,,0,0,0,,{\fad(50,50)}all these objects to be able to scale down,
+Dialogue: 1,0:11:56.27,0:11:58.51,CHS,,0,0,0,,{\fad(50,50)}所有这些对象都缩小
 Dialogue: 2,0:11:56.27,0:11:58.51,ENG,,0,0,0,,{\fad(50,50)}all these objects to be able to scale down,
-Dialogue: 1,0:11:58.98,0:12:00.54,CHS,,0,0,0,,{\fad(50,50)}we have the option to do so.
+Dialogue: 1,0:11:58.98,0:12:00.54,CHS,,0,0,0,,{\fad(50,50)}我们也有方法可以做到
 Dialogue: 2,0:11:58.98,0:12:00.54,ENG,,0,0,0,,{\fad(50,50)}we have the option to do so.
-Dialogue: 1,0:12:02.18,0:12:05.75,CHS,,0,0,0,,{\fad(50,50)}And like before, we can also go in shrink this down
+Dialogue: 1,0:12:02.18,0:12:05.75,CHS,,0,0,0,,{\fad(50,50)}像之前那样 我们可以缩减数量
 Dialogue: 2,0:12:02.18,0:12:05.75,ENG,,0,0,0,,{\fad(50,50)}And like before, we can also go in shrink this down
-Dialogue: 1,0:12:06.10,0:12:08.16,CHS,,0,0,0,,{\fad(50,50)}and maybe remove some species.
+Dialogue: 1,0:12:06.10,0:12:08.16,CHS,,0,0,0,,{\fad(50,50)}移除一些物种
 Dialogue: 2,0:12:06.10,0:12:08.16,ENG,,0,0,0,,{\fad(50,50)}and maybe remove some species.
-Dialogue: 1,0:12:09.76,0:12:12.32,CHS,,0,0,0,,{\fad(50,50)}So you never know exactly what you want for something,
+Dialogue: 1,0:12:09.76,0:12:12.32,CHS,,0,0,0,,{\fad(50,50)}所以你通常拿不准你想要什么
 Dialogue: 2,0:12:09.76,0:12:12.32,ENG,,0,0,0,,{\fad(50,50)}So you never know exactly what you want for something,
-Dialogue: 1,0:12:12.71,0:12:15.55,CHS,,0,0,0,,{\fad(50,50)}maybe you want a lot of brushes or maybe you don't.
-Dialogue: 2,0:12:12.71,0:12:15.55,ENG,,0,0,0,,{\fad(50,50)}maybe you want a lot of brushes or maybe you don't.
-Dialogue: 1,0:12:16.73,0:12:18.54,CHS,,0,0,0,,{\fad(50,50)}We go in and we can
+Dialogue: 1,0:12:12.71,0:12:15.55,CHS,,0,0,0,,{\fad(50,50)}也许你想要灌木 也许不
+Dialogue: 2,0:12:12.71,0:12:15.55,ENG,,0,0,0,,{\fad(50,50)}maybe you want a lot of bushes or maybe you don't.
+Dialogue: 1,0:12:16.73,0:12:18.54,CHS,,0,0,0,,{\fad(50,50)}我们拉近点
 Dialogue: 2,0:12:16.73,0:12:18.54,ENG,,0,0,0,,{\fad(50,50)}We go in and we can
-Dialogue: 1,0:12:20.26,0:12:23.27,CHS,,0,0,0,,{\fad(50,50)}erase objects which we're gonna do in this case.
+Dialogue: 1,0:12:20.26,0:12:23.27,CHS,,0,0,0,,{\fad(50,50)}这里我们擦除一些对象
 Dialogue: 2,0:12:20.26,0:12:23.27,ENG,,0,0,0,,{\fad(50,50)}erase objects which we're gonna do in this case.
-Dialogue: 1,0:12:28.45,0:12:30.80,CHS,,0,0,0,,{\fad(50,50)}We're gonna set something up so we can have like a little
+Dialogue: 1,0:12:28.45,0:12:30.80,CHS,,0,0,0,,{\fad(50,50)}以后我们要放一些东西
 Dialogue: 2,0:12:28.45,0:12:30.80,ENG,,0,0,0,,{\fad(50,50)}We're gonna set something up so we can have like a little
-Dialogue: 1,0:12:31.44,0:12:33.87,CHS,,0,0,0,,{\fad(50,50)}bridge later, stages of this.
+Dialogue: 1,0:12:31.44,0:12:33.87,CHS,,0,0,0,,{\fad(50,50)}放一些桥 台阶之类的
 Dialogue: 2,0:12:31.44,0:12:33.87,ENG,,0,0,0,,{\fad(50,50)}bridge later, stages of this.
-Dialogue: 1,0:12:34.42,0:12:37.04,CHS,,0,0,0,,{\fad(50,50)}But for right now, we have the vegetation, we have just laid it,
+Dialogue: 1,0:12:34.42,0:12:37.04,CHS,,0,0,0,,{\fad(50,50)}目前为止 我们有刚放好的植被
 Dialogue: 2,0:12:34.42,0:12:37.04,ENG,,0,0,0,,{\fad(50,50)}But for right now, we have the vegetation, we have just laid it,
-Dialogue: 1,0:12:37.04,0:12:39.04,CHS,,0,0,0,,{\fad(50,50)}and I think I'm gonna end the video there
+Dialogue: 1,0:12:37.04,0:12:39.04,CHS,,0,0,0,,{\fad(50,50)}我想视频到这就结束了
 Dialogue: 2,0:12:37.04,0:12:39.04,ENG,,0,0,0,,{\fad(50,50)}and I think I'm gonna end the video there
-Dialogue: 1,0:12:39.60,0:12:44.16,CHS,,0,0,0,,{\fad(50,50)}just before we start getting in to the actual global illumination and set in the clouds up,
+Dialogue: 1,0:12:39.60,0:12:44.16,CHS,,0,0,0,,{\fad(50,50)}接下来我们要介绍全局光照 设置好云
 Dialogue: 2,0:12:39.60,0:12:44.16,ENG,,0,0,0,,{\fad(50,50)}just before we start getting in to the actual global illumination and set in the clouds up,
-Dialogue: 1,0:12:44.44,0:12:47.56,CHS,,0,0,0,,{\fad(50,50)}and then sticking an object right here and maybe a nice little
+Dialogue: 1,0:12:44.44,0:12:47.56,CHS,,0,0,0,,{\fad(50,50)}然后放置一些对象 也许放个小
 Dialogue: 2,0:12:44.44,0:12:47.56,ENG,,0,0,0,,{\fad(50,50)}and then sticking an object right here and maybe a nice little
 Dialogue: 1,0:12:47.73,0:12:48.59,CHS,,0,0,0,,{\fad(50,50)}em...
 Dialogue: 2,0:12:47.73,0:12:48.59,ENG,,0,0,0,,{\fad(50,50)}em...
-Dialogue: 1,0:12:48.96,0:12:51.62,CHS,,0,0,0,,{\fad(50,50)}dock that we could have out into the ocean, so
+Dialogue: 1,0:12:48.96,0:12:51.62,CHS,,0,0,0,,{\fad(50,50)}船坞 可以进出海
 Dialogue: 2,0:12:48.96,0:12:51.62,ENG,,0,0,0,,{\fad(50,50)}dock that we could have out into the ocean, so
-Dialogue: 1,0:12:51.89,0:12:54.23,CHS,,0,0,0,,{\fad(50,50)}this is the vid showing you how to set up the vegetation,
-Dialogue: 2,0:12:51.89,0:12:54.23,ENG,,0,0,0,,{\fad(50,50)}this is the vid showing you how to set up the vegetation,
-Dialogue: 1,0:12:54.23,0:12:56.79,CHS,,0,0,0,,{\fad(50,50)}how to set up everything dynamically
+Dialogue: 1,0:12:51.89,0:12:54.23,CHS,,0,0,0,,{\fad(50,50)}这期视频介绍了如何创建植被
+Dialogue: 2,0:12:51.89,0:12:54.23,ENG,,0,0,0,,{\fad(50,50)}this is a video showing you how to set up the vegetation,
+Dialogue: 1,0:12:54.23,0:12:56.79,CHS,,0,0,0,,{\fad(50,50)}如何动态的创建
 Dialogue: 2,0:12:54.23,0:12:56.79,ENG,,0,0,0,,{\fad(50,50)}how to set up everything dynamically
-Dialogue: 1,0:12:56.79,0:13:00.54,CHS,,0,0,0,,{\fad(50,50)}and change around the actual parameters on the fly quickly,
+Dialogue: 1,0:12:56.79,0:13:00.54,CHS,,0,0,0,,{\fad(50,50)}以及现场快速调整参数
 Dialogue: 2,0:12:56.79,0:13:00.54,ENG,,0,0,0,,{\fad(50,50)}and change around the actual parameters on the fly quickly,
-Dialogue: 1,0:13:00.59,0:13:02.10,CHS,,0,0,0,,{\fad(50,50)}which is the most important part.
+Dialogue: 1,0:13:00.59,0:13:02.10,CHS,,0,0,0,,{\fad(50,50)}这也是最重要的部分
 Dialogue: 2,0:13:00.59,0:13:02.10,ENG,,0,0,0,,{\fad(50,50)}which is the most important part.
-Dialogue: 3,0:13:02.32,0:13:03.47,CHS,,0,0,0,,
+Dialogue: 3,0:13:02.32,0:13:03.47,CHS,,0,0,0,,翻译：他出院了
