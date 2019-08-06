@@ -2,4 +2,14 @@
 2. How to setup a project in the CRYENGINE Launcher [DONE]
 3. How to import existing projects and assets [DONE]
 4. How to customize the CRYENGINE User Interface [DONE]
-5. How to create a level, terrain and terrain texture
+5. How to create a level, terrain and terrain texture [DONE]
+6. How to place objects, entities & AI in a level
+7. How to create materials in CRYENGINE
+8. How to move, rotate and scale objects in CRYENGINE
+9. How to utilize object snapping for precise control
+10. How to group and link objects in CRYENGINE
+11. How to change level lighting and create clouds
+12. How to create and use Level Layers in CRYENGINE
+13. How to use Debug View Modes in CRYENGINE
+14. How to install CryTools
+15. How to extract files from unencrypted PAK files
