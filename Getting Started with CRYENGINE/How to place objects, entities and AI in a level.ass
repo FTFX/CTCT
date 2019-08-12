@@ -10,13 +10,13 @@ PlayResX: 1280
 PlayResY: 720
 
 [Aegisub Project Garbage]
-Audio File: D:/Tutorial/CRYENGINE/Getting Started with CRYENGINE/How to place objects, entities and AI in a level.mp4
-Video File: D:/Tutorial/CRYENGINE/Getting Started with CRYENGINE/How to place objects, entities and AI in a level.mp4
+Audio File: How to place objects, entities and AI in a level.mp4
+Video File: How to place objects, entities and AI in a level.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
-Video Zoom Percent: 0.500000
+Video Zoom Percent: 0.750000
 Scroll Position: 120
-Active Line: 135
+Active Line: 136
 Video Position: 15369
 
 [V4+ Styles]
@@ -27,139 +27,140 @@ Style: ENG,Noto Sans,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:01.38,0:00:05.34,Default,,0,0,0,,
-Dialogue: 0,0:00:05.66,0:00:08.42,Default,,0,0,0,,
-Dialogue: 0,0:00:09.01,0:00:11.94,Default,,0,0,0,,
-Dialogue: 0,0:00:12.00,0:00:16.52,Default,,0,0,0,,
-Dialogue: 0,0:00:17.29,0:00:22.44,Default,,0,0,0,,
-Dialogue: 0,0:00:22.49,0:00:27.64,Default,,0,0,0,,
-Dialogue: 0,0:00:28.42,0:00:32.21,Default,,0,0,0,,
-Dialogue: 0,0:00:32.86,0:00:36.34,Default,,0,0,0,,
-Dialogue: 0,0:00:36.69,0:00:40.52,Default,,0,0,0,,
-Dialogue: 0,0:00:42.97,0:00:46.05,Default,,0,0,0,,
-Dialogue: 0,0:00:46.05,0:00:47.42,Default,,0,0,0,,
-Dialogue: 0,0:00:49.49,0:00:51.89,Default,,0,0,0,,
-Dialogue: 0,0:00:52.88,0:00:54.28,Default,,0,0,0,,
-Dialogue: 0,0:00:55.14,0:01:00.08,Default,,0,0,0,,
-Dialogue: 0,0:01:01.09,0:01:05.46,Default,,0,0,0,,
-Dialogue: 0,0:01:05.90,0:01:08.21,Default,,0,0,0,,
-Dialogue: 0,0:01:08.72,0:01:11.00,Default,,0,0,0,,
-Dialogue: 0,0:01:11.90,0:01:15.12,Default,,0,0,0,,
-Dialogue: 0,0:01:17.20,0:01:18.94,Default,,0,0,0,,
-Dialogue: 0,0:01:19.06,0:01:21.70,Default,,0,0,0,,
-Dialogue: 0,0:01:22.30,0:01:25.29,Default,,0,0,0,,
-Dialogue: 0,0:01:25.90,0:01:29.34,Default,,0,0,0,,
-Dialogue: 0,0:01:30.58,0:01:33.72,Default,,0,0,0,,
-Dialogue: 0,0:01:34.40,0:01:36.18,Default,,0,0,0,,
-Dialogue: 0,0:01:36.41,0:01:38.56,Default,,0,0,0,,
-Dialogue: 0,0:01:39.08,0:01:40.56,Default,,0,0,0,,
-Dialogue: 0,0:01:42.50,0:01:45.22,Default,,0,0,0,,
-Dialogue: 0,0:01:48.08,0:01:51.53,Default,,0,0,0,,
-Dialogue: 0,0:01:51.90,0:01:52.96,Default,,0,0,0,,
-Dialogue: 0,0:01:55.61,0:01:59.68,Default,,0,0,0,,
-Dialogue: 0,0:02:00.00,0:02:01.52,Default,,0,0,0,,
-Dialogue: 0,0:02:01.78,0:02:04.94,Default,,0,0,0,,
-Dialogue: 0,0:02:05.04,0:02:07.50,Default,,0,0,0,,
-Dialogue: 0,0:02:08.17,0:02:11.80,Default,,0,0,0,,
-Dialogue: 0,0:02:12.13,0:02:15.45,Default,,0,0,0,,
-Dialogue: 0,0:02:15.94,0:02:18.97,Default,,0,0,0,,
-Dialogue: 0,0:02:19.53,0:02:21.50,Default,,0,0,0,,
-Dialogue: 0,0:02:22.28,0:02:24.78,Default,,0,0,0,,
-Dialogue: 0,0:02:26.18,0:02:27.24,Default,,0,0,0,,
-Dialogue: 0,0:02:27.58,0:02:30.69,Default,,0,0,0,,
-Dialogue: 0,0:02:31.06,0:02:34.22,Default,,0,0,0,,
-Dialogue: 0,0:02:37.48,0:02:39.14,Default,,0,0,0,,
-Dialogue: 0,0:02:40.81,0:02:42.74,Default,,0,0,0,,
-Dialogue: 0,0:02:43.09,0:02:44.58,Default,,0,0,0,,
-Dialogue: 0,0:02:45.49,0:02:47.82,Default,,0,0,0,,
-Dialogue: 0,0:02:47.89,0:02:50.32,Default,,0,0,0,,
-Dialogue: 0,0:02:50.96,0:02:53.86,Default,,0,0,0,,
-Dialogue: 0,0:02:54.06,0:02:57.04,Default,,0,0,0,,
-Dialogue: 0,0:02:57.76,0:03:01.25,Default,,0,0,0,,
-Dialogue: 0,0:03:01.77,0:03:04.10,Default,,0,0,0,,
-Dialogue: 0,0:03:05.96,0:03:08.90,Default,,0,0,0,,
-Dialogue: 0,0:03:09.34,0:03:11.48,Default,,0,0,0,,
-Dialogue: 0,0:03:15.65,0:03:17.58,Default,,0,0,0,,
-Dialogue: 0,0:03:17.58,0:03:21.02,Default,,0,0,0,,
-Dialogue: 0,0:03:21.42,0:03:24.92,Default,,0,0,0,,
-Dialogue: 0,0:03:25.08,0:03:28.28,Default,,0,0,0,,
-Dialogue: 0,0:03:28.46,0:03:32.94,Default,,0,0,0,,
-Dialogue: 0,0:03:33.62,0:03:37.90,Default,,0,0,0,,
-Dialogue: 0,0:03:38.06,0:03:39.60,Default,,0,0,0,,
-Dialogue: 0,0:03:40.57,0:03:42.48,Default,,0,0,0,,
-Dialogue: 0,0:03:43.53,0:03:47.68,Default,,0,0,0,,
-Dialogue: 0,0:03:48.20,0:03:49.82,Default,,0,0,0,,
-Dialogue: 0,0:03:50.29,0:03:52.29,Default,,0,0,0,,
-Dialogue: 0,0:03:53.42,0:03:55.61,Default,,0,0,0,,
-Dialogue: 0,0:03:55.88,0:03:58.40,Default,,0,0,0,,
-Dialogue: 0,0:03:58.88,0:04:01.48,Default,,0,0,0,,
-Dialogue: 0,0:04:02.36,0:04:05.61,Default,,0,0,0,,
-Dialogue: 0,0:04:08.72,0:04:10.21,Default,,0,0,0,,
-Dialogue: 0,0:04:10.45,0:04:13.33,Default,,0,0,0,,
-Dialogue: 0,0:04:14.69,0:04:18.33,Default,,0,0,0,,
-Dialogue: 0,0:04:18.44,0:04:20.50,Default,,0,0,0,,
-Dialogue: 0,0:04:21.98,0:04:23.26,Default,,0,0,0,,
-Dialogue: 0,0:04:23.36,0:04:25.78,Default,,0,0,0,,
-Dialogue: 0,0:04:26.84,0:04:29.10,Default,,0,0,0,,
-Dialogue: 0,0:04:29.76,0:04:36.33,Default,,0,0,0,,
-Dialogue: 0,0:04:38.46,0:04:41.48,Default,,0,0,0,,
-Dialogue: 0,0:04:41.62,0:04:45.66,Default,,0,0,0,,
-Dialogue: 0,0:04:46.00,0:04:51.18,Default,,0,0,0,,
-Dialogue: 0,0:04:51.24,0:04:53.36,Default,,0,0,0,,
-Dialogue: 0,0:04:53.80,0:04:55.36,Default,,0,0,0,,
-Dialogue: 0,0:04:55.78,0:05:00.64,Default,,0,0,0,,
-Dialogue: 0,0:05:02.78,0:05:05.36,Default,,0,0,0,,
-Dialogue: 0,0:05:05.36,0:05:07.36,Default,,0,0,0,,
-Dialogue: 0,0:05:08.21,0:05:09.41,Default,,0,0,0,,
-Dialogue: 0,0:05:09.84,0:05:13.29,Default,,0,0,0,,
-Dialogue: 0,0:05:13.38,0:05:16.44,Default,,0,0,0,,
-Dialogue: 0,0:05:16.53,0:05:19.52,Default,,0,0,0,,
-Dialogue: 0,0:05:20.17,0:05:22.92,Default,,0,0,0,,
-Dialogue: 0,0:05:24.48,0:05:25.70,Default,,0,0,0,,
-Dialogue: 0,0:05:26.32,0:05:27.42,Default,,0,0,0,,
-Dialogue: 0,0:05:28.50,0:05:30.84,Default,,0,0,0,,
-Dialogue: 0,0:05:33.00,0:05:35.48,Default,,0,0,0,,
-Dialogue: 0,0:05:35.56,0:05:38.41,Default,,0,0,0,,
-Dialogue: 0,0:05:39.34,0:05:42.68,Default,,0,0,0,,
-Dialogue: 0,0:05:42.92,0:05:45.86,Default,,0,0,0,,
-Dialogue: 0,0:05:46.42,0:05:50.01,Default,,0,0,0,,
-Dialogue: 0,0:05:50.37,0:05:53.08,Default,,0,0,0,,
-Dialogue: 0,0:05:54.05,0:05:58.44,Default,,0,0,0,,
-Dialogue: 0,0:06:01.89,0:06:06.30,Default,,0,0,0,,
-Dialogue: 0,0:06:07.88,0:06:12.24,Default,,0,0,0,,
-Dialogue: 0,0:06:12.90,0:06:17.34,Default,,0,0,0,,
-Dialogue: 0,0:06:18.57,0:06:22.17,Default,,0,0,0,,
-Dialogue: 0,0:06:22.62,0:06:24.50,Default,,0,0,0,,
-Dialogue: 0,0:06:24.54,0:06:26.56,Default,,0,0,0,,
-Dialogue: 0,0:06:26.60,0:06:29.97,Default,,0,0,0,,
-Dialogue: 0,0:06:32.30,0:06:34.54,Default,,0,0,0,,
-Dialogue: 0,0:06:34.76,0:06:38.45,Default,,0,0,0,,
-Dialogue: 0,0:06:39.05,0:06:41.25,Default,,0,0,0,,
-Dialogue: 0,0:06:42.62,0:06:43.93,Default,,0,0,0,,
-Dialogue: 0,0:06:46.04,0:06:49.76,Default,,0,0,0,,
-Dialogue: 0,0:06:49.98,0:06:52.21,Default,,0,0,0,,
-Dialogue: 0,0:06:55.56,0:06:58.66,Default,,0,0,0,,
-Dialogue: 0,0:07:01.53,0:07:04.21,Default,,0,0,0,,
-Dialogue: 0,0:07:07.25,0:07:10.05,Default,,0,0,0,,
-Dialogue: 0,0:07:10.17,0:07:13.40,Default,,0,0,0,,
-Dialogue: 0,0:07:16.42,0:07:22.61,Default,,0,0,0,,
-Dialogue: 0,0:07:25.36,0:07:27.38,Default,,0,0,0,,
-Dialogue: 0,0:07:27.82,0:07:30.09,Default,,0,0,0,,
-Dialogue: 0,0:07:30.58,0:07:33.64,Default,,0,0,0,,
-Dialogue: 0,0:07:34.16,0:07:36.30,Default,,0,0,0,,
-Dialogue: 0,0:07:37.32,0:07:40.90,Default,,0,0,0,,
-Dialogue: 0,0:07:40.90,0:07:44.26,Default,,0,0,0,,
-Dialogue: 0,0:07:49.26,0:07:50.49,Default,,0,0,0,,
-Dialogue: 0,0:07:51.01,0:07:54.49,Default,,0,0,0,,
-Dialogue: 0,0:07:55.44,0:07:59.81,Default,,0,0,0,,
-Dialogue: 0,0:08:00.16,0:08:03.08,Default,,0,0,0,,
-Dialogue: 0,0:08:03.08,0:08:05.52,Default,,0,0,0,,
-Dialogue: 0,0:08:05.54,0:08:08.09,Default,,0,0,0,,
-Dialogue: 0,0:08:08.10,0:08:13.28,Default,,0,0,0,,
-Dialogue: 0,0:08:13.32,0:08:16.20,Default,,0,0,0,,
-Dialogue: 0,0:08:17.17,0:08:19.05,Default,,0,0,0,,
-Dialogue: 0,0:08:19.05,0:08:21.44,Default,,0,0,0,,
-Dialogue: 0,0:08:21.76,0:08:25.20,Default,,0,0,0,,
-Dialogue: 0,0:08:25.61,0:08:28.05,Default,,0,0,0,,
-Dialogue: 0,0:08:28.05,0:08:32.25,Default,,0,0,0,,
-Dialogue: 0,0:08:32.30,0:08:32.65,Default,,0,0,0,,
+Dialogue: 0,0:00:01.38,0:00:05.34,Default,,0,0,0,,For this final video in the series, we're gonna cover some placement of objects,
+Dialogue: 0,0:00:01.38,0:00:05.34,Default,,0,0,0,,For this final video in the series, we're gonna cover some placement of objects,
+Dialogue: 0,0:00:05.66,0:00:08.42,Default,,0,0,0,,and then we're also going to cover maybe
+Dialogue: 0,0:00:09.01,0:00:11.94,Default,,0,0,0,,placing an AI character inside the level,
+Dialogue: 0,0:00:12.00,0:00:16.52,Default,,0,0,0,,and also dragging out a navmesh to be able to give it interaction.
+Dialogue: 0,0:00:17.29,0:00:22.44,Default,,0,0,0,,So to begin, what we can do is we can focus on the idea of placing a hut,
+Dialogue: 0,0:00:22.49,0:00:27.64,Default,,0,0,0,,because this was what, I guess if I lived on an island, I figured that I would be building a hut.
+Dialogue: 0,0:00:28.42,0:00:32.21,Default,,0,0,0,,So we go to the create objects tab and let's go to architecture,
+Dialogue: 0,0:00:32.86,0:00:36.34,Default,,0,0,0,,buildings and we can go to the forest_cabin.
+Dialogue: 0,0:00:36.69,0:00:40.52,Default,,0,0,0,,Let's double click this and bring this out into our level.
+Dialogue: 0,0:00:42.97,0:00:46.05,Default,,0,0,0,,Now, I don't know exactly which side the door is on,
+Dialogue: 0,0:00:46.05,0:00:47.42,Default,,0,0,0,,obviously this one,
+Dialogue: 0,0:00:49.49,0:00:51.89,Default,,0,0,0,,and we can pull this back into
+Dialogue: 0,0:00:52.88,0:00:54.28,Default,,0,0,0,,the actual woods.
+Dialogue: 0,0:00:55.14,0:01:00.08,Default,,0,0,0,,Now this would be one of those cases where you need to cull wherever the vegetation is,
+Dialogue: 0,0:01:01.09,0:01:05.46,Default,,0,0,0,,so let's go ahead and close material editor, level settings,
+Dialogue: 0,0:01:05.90,0:01:08.21,Default,,0,0,0,,when go back to the vegetation editor,
+Dialogue: 0,0:01:08.72,0:01:11.00,Default,,0,0,0,,and let's find the actual bush.
+Dialogue: 0,0:01:11.90,0:01:15.12,Default,,0,0,0,,So maybe we just get rid it of bush, so it's out of the way quickly.
+Dialogue: 0,0:01:17.20,0:01:18.94,Default,,0,0,0,,So now we have a nice little cabin,
+Dialogue: 0,0:01:19.06,0:01:21.70,Default,,0,0,0,,and I think that we would like a nice little dock,
+Dialogue: 0,0:01:22.30,0:01:25.29,Default,,0,0,0,,not exactly sure where it is, inside of this,
+Dialogue: 0,0:01:25.90,0:01:29.34,Default,,0,0,0,,so maybe we can type it in, plus we can search.
+Dialogue: 0,0:01:30.58,0:01:33.72,Default,,0,0,0,,We open the assets/objects/props/
+Dialogue: 0,0:01:34.40,0:01:36.18,Default,,0,0,0,,maritime/wooden_dock,
+Dialogue: 0,0:01:36.41,0:01:38.56,Default,,0,0,0,,So, that's cool, we have a nice little dock,
+Dialogue: 0,0:01:39.08,0:01:40.56,Default,,0,0,0,,and we can click and add,
+Dialogue: 0,0:01:42.50,0:01:45.22,Default,,0,0,0,,so let's click the 2 key, we can add that.
+Dialogue: 0,0:01:48.08,0:01:51.53,Default,,0,0,0,,And let's keep in mind one other thing is we can actually duplicate this dock,
+Dialogue: 0,0:01:51.90,0:01:52.96,Default,,0,0,0,,we duplicate it
+Dialogue: 0,0:01:55.61,0:01:59.68,Default,,0,0,0,,can open up this, let's change the vegetation editor,
+Dialogue: 0,0:02:00.00,0:02:01.52,Default,,0,0,0,,just go ahead and close all these.
+Dialogue: 0,0:02:01.78,0:02:04.94,Default,,0,0,0,,And now we can change the dock inside of here,
+Dialogue: 0,0:02:05.04,0:02:07.50,Default,,0,0,0,,maybe it's something else that we would like.
+Dialogue: 0,0:02:08.17,0:02:11.80,Default,,0,0,0,,Let's go ahead and change one more, you can quickly test things
+Dialogue: 0,0:02:12.13,0:02:15.45,Default,,0,0,0,,that otherwise you may not have an idea of what it is.
+Dialogue: 0,0:02:15.94,0:02:18.97,Default,,0,0,0,,So I like this right here, this dock and maybe
+Dialogue: 0,0:02:19.53,0:02:21.50,Default,,0,0,0,,we can use this one as the end piece.
+Dialogue: 0,0:02:22.28,0:02:24.78,Default,,0,0,0,,This other one looks kind of big, so
+Dialogue: 0,0:02:26.18,0:02:27.24,Default,,0,0,0,,to start out
+Dialogue: 0,0:02:27.58,0:02:30.69,Default,,0,0,0,,I know that this will probably be the end, just because
+Dialogue: 0,0:02:31.06,0:02:34.22,Default,,0,0,0,,of how it set up, and then this is going to be the beginning.
+Dialogue: 0,0:02:37.48,0:02:39.14,Default,,0,0,0,,If we snap these together,
+Dialogue: 0,0:02:40.81,0:02:42.74,Default,,0,0,0,,leave a height discrepancy,
+Dialogue: 0,0:02:43.09,0:02:44.58,Default,,0,0,0,,we can pull this up
+Dialogue: 0,0:02:45.49,0:02:47.82,Default,,0,0,0,,and now they're all one.
+Dialogue: 0,0:02:47.89,0:02:50.32,Default,,0,0,0,,So if I control click and select both of them,
+Dialogue: 0,0:02:50.96,0:02:53.86,Default,,0,0,0,,I can go into my Level->Group,
+Dialogue: 0,0:02:54.06,0:02:57.04,Default,,0,0,0,,and we're gonna group these objects, we call this dock.
+Dialogue: 0,0:02:57.76,0:03:01.25,Default,,0,0,0,,The reason we did this is because now we can select both of them together
+Dialogue: 0,0:03:01.77,0:03:04.10,Default,,0,0,0,,and they'll scale as they should.
+Dialogue: 0,0:03:05.96,0:03:08.90,Default,,0,0,0,,So it's a nice little way of how to set up everything
+Dialogue: 0,0:03:09.34,0:03:11.48,Default,,0,0,0,,to work for you and not against you.
+Dialogue: 0,0:03:15.65,0:03:17.58,Default,,0,0,0,,So now we have the dock right here,
+Dialogue: 0,0:03:17.58,0:03:21.02,Default,,0,0,0,,but maybe it's not exactly set up for a little path.
+Dialogue: 0,0:03:21.42,0:03:24.92,Default,,0,0,0,,So what we can do is go back to our create object,
+Dialogue: 0,0:03:25.08,0:03:28.28,Default,,0,0,0,,we can go to miscellaneous, let's choose road,
+Dialogue: 0,0:03:28.46,0:03:32.94,Default,,0,0,0,,but before I do that, I want to make sure that I have terrain snapping on.
+Dialogue: 0,0:03:33.62,0:03:37.90,Default,,0,0,0,,I can turn off the grid snapping as well, this won't matter as much.
+Dialogue: 0,0:03:38.06,0:03:39.60,Default,,0,0,0,,So I'm gonna click the road
+Dialogue: 0,0:03:40.57,0:03:42.48,Default,,0,0,0,,and I'm click here in front of the door,
+Dialogue: 0,0:03:43.53,0:03:47.68,Default,,0,0,0,,click here and we'll end it there.
+Dialogue: 0,0:03:48.20,0:03:49.82,Default,,0,0,0,,So let's turn on helpers,
+Dialogue: 0,0:03:50.29,0:03:52.29,Default,,0,0,0,,so we can see where the road is,
+Dialogue: 0,0:03:53.42,0:03:55.61,Default,,0,0,0,,you notice that they got kind of twisted up,
+Dialogue: 0,0:03:55.88,0:03:58.40,Default,,0,0,0,,that's probably because I didn't have it selected properly.
+Dialogue: 0,0:03:58.88,0:04:01.48,Default,,0,0,0,,Let's go ahead and do geometry anyways,
+Dialogue: 0,0:04:02.36,0:04:05.61,Default,,0,0,0,,so with that selected, we can click the forest road,
+Dialogue: 0,0:04:08.72,0:04:10.21,Default,,0,0,0,,it's going to be very short,
+Dialogue: 0,0:04:10.45,0:04:13.33,Default,,0,0,0,,we can go in and we can change the width to maybe 2,
+Dialogue: 0,0:04:14.69,0:04:18.33,Default,,0,0,0,,and what we need to do now is we need to actually select the material.
+Dialogue: 0,0:04:18.44,0:04:20.50,Default,,0,0,0,,So if we click in the override material,
+Dialogue: 0,0:04:21.98,0:04:23.26,Default,,0,0,0,,we're gonna wait for it to boot up,
+Dialogue: 0,0:04:23.36,0:04:25.78,Default,,0,0,0,,we go to the materials/roads,
+Dialogue: 0,0:04:26.84,0:04:29.10,Default,,0,0,0,,and let's go ahead and do
+Dialogue: 0,0:04:29.76,0:04:36.33,Default,,0,0,0,,probably a road... a road_gravel,
+Dialogue: 0,0:04:38.46,0:04:41.48,Default,,0,0,0,,So now we have a gravel road which...
+Dialogue: 0,0:04:41.62,0:04:45.66,Default,,0,0,0,,here's something that is very interesting regarding roads is you can align them,
+Dialogue: 0,0:04:46.00,0:04:51.18,Default,,0,0,0,,so if I take off my align to terrain
+Dialogue: 0,0:04:51.24,0:04:53.36,Default,,0,0,0,,and I push this down just a little bit,
+Dialogue: 0,0:04:53.80,0:04:55.36,Default,,0,0,0,,and align the height map,
+Dialogue: 0,0:04:55.78,0:05:00.64,Default,,0,0,0,,now we have a custom height map that drops with it from the actual door.
+Dialogue: 0,0:05:02.78,0:05:05.36,Default,,0,0,0,,So now we've created the house, we've created the path,
+Dialogue: 0,0:05:05.36,0:05:07.36,Default,,0,0,0,,we have grouped the dock together,
+Dialogue: 0,0:05:08.21,0:05:09.41,Default,,0,0,0,,what else can be done?
+Dialogue: 0,0:05:09.84,0:05:13.29,Default,,0,0,0,,Well, we said that we wanted to add an AI character to this,
+Dialogue: 0,0:05:13.38,0:05:16.44,Default,,0,0,0,,so if I go back to my entities
+Dialogue: 0,0:05:16.53,0:05:19.52,Default,,0,0,0,,and I choose AI, we'll choose a character here,
+Dialogue: 0,0:05:20.17,0:05:22.92,Default,,0,0,0,,and we will make sure that we have align to
+Dialogue: 0,0:05:24.48,0:05:25.70,Default,,0,0,0,,geometry on.
+Dialogue: 0,0:05:26.32,0:05:27.42,Default,,0,0,0,,By double click,
+Dialogue: 0,0:05:28.50,0:05:30.84,Default,,0,0,0,,and we'll hold... bring him into the scene.
+Dialogue: 0,0:05:33.00,0:05:35.48,Default,,0,0,0,,So we have our AI character here, 
+Dialogue: 0,0:05:35.56,0:05:38.41,Default,,0,0,0,,and if we were to click play,
+Dialogue: 0,0:05:39.34,0:05:42.68,Default,,0,0,0,,he would drop down and you would see him kind of walk around,
+Dialogue: 0,0:05:42.92,0:05:45.86,Default,,0,0,0,,it doesn't really walk yet, because he needs a navmesh, but he...
+Dialogue: 0,0:05:46.42,0:05:50.01,Default,,0,0,0,,he will play some animation, an idle animation, where he's just standing there,
+Dialogue: 0,0:05:50.37,0:05:53.08,Default,,0,0,0,,but we can turn around though, so we can see what he's doing.
+Dialogue: 0,0:05:54.05,0:05:58.44,Default,,0,0,0,,So now we have our AI character which we can put him on this path, I guess,
+Dialogue: 0,0:06:01.89,0:06:06.30,Default,,0,0,0,,and what we need to do now is actually give him a valid navmesh to navigate around him.
+Dialogue: 0,0:06:07.88,0:06:12.24,Default,,0,0,0,,So in order to do this, I'm actually going to change something,
+Dialogue: 0,0:06:12.90,0:06:17.34,Default,,0,0,0,,I'm going to go into the display, and I'm going to choose to hide the ocean.
+Dialogue: 0,0:06:18.57,0:06:22.17,Default,,0,0,0,,So in hiding the ocean, I can actually see the border or the boundary
+Dialogue: 0,0:06:22.62,0:06:24.50,Default,,0,0,0,,of where exactly the terrain is,
+Dialogue: 0,0:06:24.54,0:06:26.56,Default,,0,0,0,,because as we remember,
+Dialogue: 0,0:06:26.60,0:06:29.97,Default,,0,0,0,,it's not very big and navmash is going to require this,
+Dialogue: 0,0:06:32.30,0:06:34.54,Default,,0,0,0,,so what we wanna do now is go back,
+Dialogue: 0,0:06:34.76,0:06:38.45,Default,,0,0,0,,we'll go to AI, we're gonna choose navigation area,
+Dialogue: 0,0:06:39.05,0:06:41.25,Default,,0,0,0,,we'll make sure that we have snap to
+Dialogue: 0,0:06:42.62,0:06:43.93,Default,,0,0,0,,geometry on,
+Dialogue: 0,0:06:46.04,0:06:49.76,Default,,0,0,0,,we'll click navigation area and we will begin drawing it out, so
+Dialogue: 0,0:06:49.98,0:06:52.21,Default,,0,0,0,,it's just going to look for points,
+Dialogue: 0,0:06:55.56,0:06:58.66,Default,,0,0,0,,and we'll drag it around this area.
+Dialogue: 0,0:07:01.53,0:07:04.21,Default,,0,0,0,,We'll see that it's processing the navigation mesh,
+Dialogue: 0,0:07:07.25,0:07:10.05,Default,,0,0,0,,and what we need to do is actually move it upward,
+Dialogue: 0,0:07:10.17,0:07:13.40,Default,,0,0,0,,because right now, the navigation mesh is a little low.
+Dialogue: 0,0:07:16.42,0:07:22.61,Default,,0,0,0,,So we'll let it process once again and you can see the actual terrain of where the navigation mesh is being drawn.
+Dialogue: 0,0:07:25.36,0:07:27.38,Default,,0,0,0,,So we're still a little too low,
+Dialogue: 0,0:07:27.82,0:07:30.09,Default,,0,0,0,,I'm gonna go back to displaying the ocean,
+Dialogue: 0,0:07:30.58,0:07:33.64,Default,,0,0,0,,and you can see it's just kind of a guess and check game,
+Dialogue: 0,0:07:34.16,0:07:36.30,Default,,0,0,0,,we're eventually... we're gonna get to the point where
+Dialogue: 0,0:07:37.32,0:07:40.90,Default,,0,0,0,,we're not actually drawing the navigation mesh into the ocean,
+Dialogue: 0,0:07:40.90,0:07:44.26,Default,,0,0,0,,but we still can get it on the dock and surround the areas.
+Dialogue: 0,0:07:49.26,0:07:50.49,Default,,0,0,0,,Ok, so...
+Dialogue: 0,0:07:51.01,0:07:54.49,Default,,0,0,0,,now we have a navigation mesh that's been drawn out in our level,
+Dialogue: 0,0:07:55.44,0:07:59.81,Default,,0,0,0,,we have an AI within it and this AI can actually operate wherever he is,
+Dialogue: 0,0:08:00.16,0:08:03.08,Default,,0,0,0,,and he can even come down to the dock and that's what's nice about this,
+Dialogue: 0,0:08:03.08,0:08:05.52,Default,,0,0,0,,and keep in mind maybe you need to change it
+Dialogue: 0,0:08:05.54,0:08:08.09,Default,,0,0,0,,and the navmesh will update accordingly,
+Dialogue: 0,0:08:08.10,0:08:13.28,Default,,0,0,0,,so it's not like it's completely dependent on this and it only generates and then you're stuck with that,
+Dialogue: 0,0:08:13.32,0:08:16.20,Default,,0,0,0,,so it's just something that you need to remember as far as generation.
+Dialogue: 0,0:08:17.17,0:08:19.05,Default,,0,0,0,,So I think I'm gonna end the video right here,
+Dialogue: 0,0:08:19.05,0:08:21.44,Default,,0,0,0,,and what we've done is we've laid down a dock, we've
+Dialogue: 0,0:08:21.76,0:08:25.20,Default,,0,0,0,,laid down a road for a path, we've stuck the building there,
+Dialogue: 0,0:08:25.61,0:08:28.05,Default,,0,0,0,,we've actually stuck an AI in there,
+Dialogue: 0,0:08:28.05,0:08:32.25,Default,,0,0,0,,we've generated a navmesh inside of our island that the AI can operate in.
+Dialogue: 0,0:08:32.30,0:08:32.65,Default,,0,0,0,,翻译：他出院了
