@@ -6,8 +6,8 @@ ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
 YCbCr Matrix: TV.601
-PlayResX: 1280
-PlayResY: 720
+PlayResX: 1920
+PlayResY: 1080
 
 [Aegisub Project Garbage]
 Audio File: How to place objects, entities and AI in a level.mp4
@@ -21,9 +21,8 @@ Video Position: 15369
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Arial,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.33333,1.33333,2,7,7,7,1
-Style: CHS,Noto Sans CJK SC Regular,47,&H00FFFFFF,&H000000FF,&H64F79274,&H50543E34,0,0,0,0,100,100,0,0,1,1.05691,1.33333,2,7,7,67,1
-Style: ENG,Noto Sans,23,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0.611709,0,1,1.33333,1.33333,2,7,7,47,1
+Style: CHS,Noto Sans CJK SC Regular,70,&H00FFFFFF,&H000000FF,&H64F79274,&H50543E34,0,0,0,0,100,100,0,0,1,1.58537,2,2,10,10,100,1
+Style: ENG,Noto Sans,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0.917563,0,1,2,2,2,10,10,70,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
