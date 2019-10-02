@@ -3,8 +3,8 @@
 3. How to import existing projects and assets [DONE]
 4. How to customize the CRYENGINE User Interface [DONE]
 5. How to create a level, terrain and terrain texture [DONE]
-6. How to place objects, entities & AI in a level
-7. How to create materials in CRYENGINE
+6. How to place objects, entities & AI in a level [DONE]
+7. How to create materials in CRYENGINE [DONE]
 8. How to move, rotate and scale objects in CRYENGINE
 9. How to utilize object snapping for precise control
 10. How to group and link objects in CRYENGINE
