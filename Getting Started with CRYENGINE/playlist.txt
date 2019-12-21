@@ -6,7 +6,7 @@
 6. How to place objects, entities & AI in a level [DONE]
 7. How to create materials in CRYENGINE [DONE]
 8. How to move, rotate and scale objects in CRYENGINE [DONE]
-9. How to utilize object snapping for precise control
+9. How to utilize object snapping for precise control [DONE]
 10. How to group and link objects in CRYENGINE
 11. How to change level lighting and create clouds
 12. How to create and use Level Layers in CRYENGINE
